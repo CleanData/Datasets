@@ -1,0 +1,45 @@
+[
+	{
+		"model":"data_connections.Organization",
+		"pk":null,
+		"fields":{
+			"name":"Mayor's Office of Long-Term Planning and Sustainability, NYC",
+			"url":"http://www.nyc.gov/html/planyc2030/html/about/who-we-are.shtml"
+		}
+	},
+	{
+		"model":"data_connections.Organization",
+		"pk":null,
+		"fields":{
+			"name":"Department of Citywide Administrative Services (DCAS), NYC",
+			"url":"http://www.nyc.gov/html/dcas/html/home/home.shtml"
+		}
+	},
+	
+	{
+		"model":"data_connections.Organization",
+		"pk":null,
+		"fields":{
+			"name":"Department of Education (DOE), NYC",
+			"url":"http://schools.nyc.gov/default.htm"
+		}
+	},
+	{
+		"model":"data_connections.Organization",
+		"pk":null,
+		"fields":{
+			"name":"Department of Buildings, NYC",
+			"url":"http://www.nyc.gov/html/dob/html/home/home.shtml"
+		}
+	},
+	{
+		"model":"data_connections.Organization",
+		"pk":null,
+		"fields":{
+			"name":"Modi Research Group, Columbia University",
+			"url":"http://modi.mech.columbia.edu/"
+		}
+	}
+]
+
+

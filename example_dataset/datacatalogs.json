@@ -1,9 +1,11 @@
-[
+[	// list of containing catalogs
 	{
-		"model":"",
-		"pk":,
+		"model":"data_connections.DataRelation",
+		"pk":null,
 		"fields":{
-			"":"",
+			"name":"Example",
+			"manager":["<firstname>","<lastname>","<profile_url>"],
+			"managing_organization":["name"]
 		}
-	},
+	}
 ]

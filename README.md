@@ -18,8 +18,8 @@ Names of organizations should be unique - so instead of 'Department of Education
 
 Note that the primary keys here are null. This allows the site to auto-assign a primary key when adding your organizatins to the app.
 
-#### datascientists.json
-If a dataset has a specific datascientist responsible for it, add a new datascientist entry here. This requires a first name (must be there, can't be blank), a last name (can be blank, but try not to), and a profile_url (can be blank, but helps with disambiguation). All three of these fields are used when refering to a datascientist from the dataset. 
+#### scientists.json
+If a dataset has a specific scientist responsible for it, add a new scientist entry here. This requires a first name (must be there, can't be blank), a last name (can be blank, but try not to), and a profile_url (can be blank, but helps with disambiguation). All three of these fields are used when refering to a scientist from the dataset. 
 
 #### datacatalogs.json
 This is a list of catalogs. Each has a name. It can also have a manager and/or a managing organization. These can be null. The name must be unique, and is used as the natural key to reference the catalog. Datasets can have a datacatalog, but do not need to (and most won't).

@@ -1,11 +1,11 @@
-[	// list of containing catalogs
+[
 	{
-		"model":"data_connections.DataRelation",
+		"model":"data_connections.DataCatalog",
 		"pk":null,
 		"fields":{
-			"name":"Example",
-			"manager":["<firstname>","<lastname>","<profile_url>"],
-			"managing_organization":["name"]
+			"name":"2010 US Census",
+			"manager":null,
+			"managing_organization":["U.S. Census Bureau"]
 		}
 	}
 ]

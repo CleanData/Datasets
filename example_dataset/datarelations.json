@@ -1,13 +1,74 @@
-[	// The list of relation objects
+[
 	{
-		"model":"data_connections.DataRelation", 	// we're always adding a DataRelation object
-		"pk":null,									// auto-increment the primary key
-		"fields":{									// the fields - two foreign keys and a string
+		"model":"data_connections.DataRelation",
+		"pk":null,
+		"fields":{
             "how_data_was_processed" : "Combined the zipcode data with tax lot information to create an interactive map of NYC energy use.",
-            // the datasets are referenced using the unique combination ["url","name"]. These *must* match
-            // the names and urls in your datasets.json or another datasets.json file.
 			"source" : ["https://data.cityofnewyork.us/Environment/Electric-Consumption-by-ZIP-Code-2010/74cu-ncm4","Electric Consumption by ZIP Code - 2010"],
 			"derivative" : ["http://a.tiles.mapbox.com/v3/modilabs.map-6v5hnfw2/mm.html#13/40.7400/-73.9180","NYC Energy Map"]
+		}
+	},
+	{
+		"model":"data_connections.DataRelation",
+		"pk":null,
+		"fields":{
+            "how_data_was_processed" : "Used the script <a href='https://github.com/jonroberts/zipcodegrid/blob/master/TSV2JSON.py'>TSV2JSON.py</a> to connect the TSV data to a JSON keyed to the city's zipcodes.",
+			"source" : ["https://github.com/jonroberts/zipcodegrid/tree/master/data","Energy Zip - processed data"],
+			"derivative" : ["https://github.com/jonroberts/zipcodegrid/blob/master/static/data/ZipCodeElecPop.js","Energy Zip - JSONed data for app"]
+		}
+	},
+	{
+		"model":"data_connections.DataRelation",
+		"pk":null,
+		"fields":{
+            "how_data_was_processed" : "Merged the 2010 electricity consumption with median income and other zipcode level data. Calculated means and rank in the city's zipcodes. Worked to figure out why some zipcodes have non-zero population, but zero electricity use.",
+			"source" : ["https://data.cityofnewyork.us/Environment/Electric-Consumption-by-ZIP-Code-2010/74cu-ncm4","Electric Consumption by ZIP Code - 2010"],
+			"derivative" : ["https://github.com/jonroberts/zipcodegrid/tree/master/data","Energy Zip - processed data"]
+		}
+	},
+	{
+		"model":"data_connections.DataRelation",
+		"pk":null,
+		"fields":{
+            "how_data_was_processed" : "",
+			"source" : ["http://nycdata.pediacities.com/dataset/nyc-zip-code-tabulation-areas/resource/2afec1b8-a23e-4d9f-b0b5-d212b1dad11c","NYC Zipcode Tabulation Areas"],
+			"derivative" : ["https://github.com/jonroberts/zipcodegrid/blob/master/static/data/ZipCodeElecPop.js","Energy Zip - JSONed data for app"]
+		}
+	},
+	{
+		"model":"data_connections.DataRelation",
+		"pk":null,
+		"fields":{
+            "how_data_was_processed" : "Converted from Shapefile to GeoJSON by Pediacities.",
+			"source" : ["http://nycdata.pediacities.com/dataset/nyc-zip-code-tabulation-areas/resource/d9cb29e8-6858-4ea0-a4b0-181716a3a005","NYC Zipcode Tabulation Areas"],
+			"derivative" : ["http://nycdata.pediacities.com/dataset/nyc-zip-code-tabulation-areas/resource/2afec1b8-a23e-4d9f-b0b5-d212b1dad11c","NYC Zipcode Tabulation Areas"]
+		}
+	},
+	{
+		"model":"data_connections.DataRelation",
+		"pk":null,
+		"fields":{
+            "how_data_was_processed" : "Downloaded, stripped back and collated into a TSV file with other relevant NYC Census data and the Electric Consumption data from NYC",
+			"source" : ["http://factfinder2.census.gov/bkmk/table/1.0/en/ACS/11_5YR/B25077/0400000US36.86000P","Median Value of Owner Occupied Housing Units, NYC"],
+			"derivative" : ["https://github.com/jonroberts/zipcodegrid/tree/master/data","Energy Zip - processed data"]
+		}
+	},
+	{
+		"model":"data_connections.DataRelation",
+		"pk":null,
+		"fields":{
+            "how_data_was_processed" : "Downloaded, stripped back and collated into a TSV file with other relevant NYC Census data and the Electric Consumption data from NYC",
+			"source" : ["http://factfinder2.census.gov/bkmk/table/1.0/en/DEC/10_SF1/QTP11/0400000US36.86000P","Households and Families: 2010 Census Summary File 1, NYC"],
+			"derivative" : ["https://github.com/jonroberts/zipcodegrid/tree/master/data","Energy Zip - processed data"]
+		}
+	},
+	{
+		"model":"data_connections.DataRelation",
+		"pk":null,
+		"fields":{
+            "how_data_was_processed" : "Downloaded, stripped back and collated into a TSV file with other relevant NYC Census data and the Electric Consumption data from NYC",
+			"source" : ["http://factfinder2.census.gov/bkmk/table/1.0/en/ACS/11_5YR/S1903/0400000US36.86000P","Median Income In The Past 12 Months, NYC"],
+			"derivative" : ["https://github.com/jonroberts/zipcodegrid/tree/master/data","Energy Zip - processed data"]
 		}
 	}
 ]

@@ -39,6 +39,30 @@
 			"name":"Modi Research Group, Columbia University",
 			"url":"http://modi.mech.columbia.edu/"
 		}
+	},
+	{
+		"model":"data_connections.Organization",
+		"pk":null,
+		"fields":{
+			"name":"Pediacities",
+			"url":"http://nycdata.pediacities.com/"
+		}
+	},
+	{
+		"model":"data_connections.Organization",
+		"pk":null,
+		"fields":{
+			"name":"Department of City Planning (DCP), NYC",
+			"url":"http://www.nyc.gov/html/dcp/"
+		}
+	},
+	{
+		"model":"data_connections.Organization",
+		"pk":null,
+		"fields":{
+			"name":"U.S. Census Bureau",
+			"url":"http://www.census.gov/"
+		}
 	}
 ]
 

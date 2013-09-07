@@ -1,0 +1,119 @@
+[
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "OpenData", 
+            "profile_url": "https://data.cityofnewyork.us/profile/NYC-OpenData/5fuc-pqz2", 
+            "firstname": "NYC"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "J.", 
+            "profile_url": "https://data.cityofnewyork.us/profile/Jorge-J-/rnig-m3uj", 
+            "firstname": "Jorge"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Nicklin", 
+            "profile_url": "https://data.cityofnewyork.us/profile/Andrew-Nicklin/x539-akqs", 
+            "firstname": "Andrew"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Webber", 
+            "profile_url": "https://data.cityofnewyork.us/profile/Albert-Webber/txun-eb7e", 
+            "firstname": "Albert"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Metcalf", 
+            "profile_url": "https://data.cityofnewyork.us/profile/Chris-Metcalf/i7d8-sc4w", 
+            "firstname": "Chris"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "profile_url": "https://data.cityofnewyork.us/profile/DanH/rnna-m2z3", 
+            "firstname": "DanH"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "A", 
+            "profile_url": "https://data.cityofnewyork.us/profile/Gary-A/k2fz-tf56", 
+            "firstname": "Gary"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Stavish", 
+            "profile_url": "https://data.cityofnewyork.us/profile/Todd-Stavish/b9n8-g9sn", 
+            "firstname": "Todd"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "S.", 
+            "profile_url": "https://data.cityofnewyork.us/profile/Ram-S-/8b43-zkvh", 
+            "firstname": "Ram"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Dalwani", 
+            "profile_url": "https://data.cityofnewyork.us/profile/Aakash-Dalwani/ya7g-926w", 
+            "firstname": "Aakash"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "profile_url": "https://data.cityofnewyork.us/profile/Tejas-Patel/iacr-duv5", 
+            "firstname": "Tejas.Patel"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Pathria", 
+            "profile_url": "https://data.cityofnewyork.us/profile/Harish-Pathria/ci6y-i73t", 
+            "firstname": "Harish"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Vasudeva", 
+            "profile_url": "https://data.cityofnewyork.us/profile/Sudhir-Vasudeva/syvn-4vgv", 
+            "firstname": "Sudhir"
+        }
+    }
+]

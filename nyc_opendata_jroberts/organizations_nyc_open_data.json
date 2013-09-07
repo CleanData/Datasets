@@ -1,0 +1,570 @@
+[
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "311"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Mayor&#x27;s Office of Long-Term Planning and Sustainability (OLTPS)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Education (DOE)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Mayor&#x27;s Office of Media And Entertainment (MOME)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Queens Library (QBPL)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Youth and Community Development (DYCD)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Downtown Alliance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Sanitation (DSNY)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Transportation (DOT)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "(none)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Times Square Alliance (TSA)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Buildings (DOB)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Citywide Administrative Services (DCAS)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Mayor&#x27;s Office of Operations (OPS)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Consumer Affairs (DCA)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Mayor&#x27;s Office of Operations (Ops)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Information Technology &amp; Telecommunications (DoITT)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Office of Citywide Event Coordination and Management (CECM)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Health and Mental Hygiene (DOHMH)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Fire Department of New York City (FDNY)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "NYC Service (NYCSERVICE)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Taxi and Limousine Commission (TLC)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Health and Hospitals Corporation (HHC)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Brooklyn Public Library (BPL)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "City Council (NYCC)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Records and Information Services (RECORDS)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Campaign Finance Board (CFB)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Correction (DOC)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Commission on Women&#x27;s Issues (CWI)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Cultural Affairs (DCLA)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "School Construction Authority (SCA)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Union Square Partnership (USP)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Office of Management and Budget (OMB)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of City Planning (DCP)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Grand Street BID"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Parks and Recreation (DPR)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Finance (DOF)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department for the Aging (DFTA)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Civilian Complaint Review Board (CCRB)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Environmental Protection (DEP)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Grand Central Partnership (GCP)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Business Integrity Commission (BIC)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Latin Media &amp; Entertainment Commission (LMEC)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Fulton Mall Improvement Association"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Office of Film, Theatre, and Broadcasting (FILM)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Downtown Brooklyn Partnership (DBP)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Village Alliance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "New York Public Library (NYPL)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Columbus Avenue BID"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Jamaica Center BID"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Lincoln Square BID"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Office of Citywide Health Insurance Access (HIA)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Fashion Center BID"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Design and Construction (DDC)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Montague Street Business Improvement District (BID)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "New York City Tax Commission (TAXCOMM)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "New York City Housing Authority (NYCHA)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Homeless Services (DHS)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Law Department (LAW)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Board of Elections (BOENY)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Mayor&#x27;s Office of Data Analytics (MODA)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Small Business Services (SBS)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Office of Emergency Management (OEM)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Office of the Mayor (OTM)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Human Resources Administration (HRA)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Administration for Children&#x27;s Services (ACS)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Department of Probation (DOP)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Mayor&#x27;s Office of Adult Education (ADULTED)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Mayor&#x27;s Office to Combat Domestic Violence (OCDV)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Office of Administrative Trials and Hearings (OATH)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": "Police Pension Fund (NYCPPF)"
+        }
+    }
+]

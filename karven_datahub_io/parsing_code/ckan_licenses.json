@@ -1,0 +1,92 @@
+[
+    {
+        "fields": {
+            "url": "", 
+            "name": "License Not Specified"
+        }
+    }, 
+    {
+        "fields": {
+            "url": "http://www.opendefinition.org/licenses/odc-pddl", 
+            "name": "Open Data Commons Public Domain Dedication and Licence (PDDL)"
+        }
+    }, 
+    {
+        "fields": {
+            "url": "http://www.opendefinition.org/licenses/odc-odbl", 
+            "name": "Open Data Commons Open Database License (ODbL)"
+        }
+    }, 
+    {
+        "fields": {
+            "url": "http://www.opendefinition.org/licenses/odc-by", 
+            "name": "Open Data Commons Attribution License"
+        }
+    }, 
+    {
+        "fields": {
+            "url": "http://www.opendefinition.org/licenses/cc-zero", 
+            "name": "Creative Commons CCZero"
+        }
+    }, 
+    {
+        "fields": {
+            "url": "http://www.opendefinition.org/licenses/cc-by", 
+            "name": "Creative Commons Attribution"
+        }
+    }, 
+    {
+        "fields": {
+            "url": "http://www.opendefinition.org/licenses/cc-by-sa", 
+            "name": "Creative Commons Attribution Share-Alike"
+        }
+    }, 
+    {
+        "fields": {
+            "url": "http://www.opendefinition.org/licenses/gfdl", 
+            "name": "GNU Free Documentation License"
+        }
+    }, 
+    {
+        "fields": {
+            "url": "", 
+            "name": "Other (Open)"
+        }
+    }, 
+    {
+        "fields": {
+            "url": "", 
+            "name": "Other (Public Domain)"
+        }
+    }, 
+    {
+        "fields": {
+            "url": "", 
+            "name": "Other (Attribution)"
+        }
+    }, 
+    {
+        "fields": {
+            "url": "http://reference.data.gov.uk/id/open-government-licence", 
+            "name": "UK Open Government Licence (OGL)"
+        }
+    }, 
+    {
+        "fields": {
+            "url": "http://creativecommons.org/licenses/by-nc/2.0/", 
+            "name": "Creative Commons Non-Commercial (Any)"
+        }
+    }, 
+    {
+        "fields": {
+            "url": "", 
+            "name": "Other (Non-Commercial)"
+        }
+    }, 
+    {
+        "fields": {
+            "url": "", 
+            "name": "Other (Not Open)"
+        }
+    }
+]

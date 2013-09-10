@@ -1,0 +1,130 @@
+[	
+	{
+		"model":"data_connections.License",
+		"pk":1,
+		"fields":{
+			"name":"Public Domain Dedication and License (PDDL)",
+			"url":"http://opendatacommons.org/licenses/pddl/"
+		}
+	},
+	{
+		"model":"data_connections.License",
+		"pk":2,
+		"fields":{
+			"name":"Open Data Commons Attribution License (ODC-By)",
+			"url":"http://opendatacommons.org/licenses/by/"
+		}
+	},
+	{
+		"model":"data_connections.License",
+		"pk":3,
+		"fields":{
+			"name":"Open Data Commons Open Database License (ODC-ODbL)",
+			"url":"http://opendatacommons.org/licenses/odbl/"
+		}
+	},
+	{
+		"model":"data_connections.License",
+		"pk":4,
+		"fields":{
+			"name":"CC0",
+			"url":"http://wiki.creativecommons.org/CC0"
+		}
+	},
+	{
+		"model":"data_connections.License",
+		"pk":5,
+		"fields":{
+			"name":"public domain",
+			"url":"http://en.wikipedia.org/wiki/Public_domain"
+		}
+	},
+	{
+		"model":"data_connections.License",
+		"pk":6,
+		"fields":{
+			"name":"GNU General Public License (GPL)",
+			"url":"http://www.gnu.org/licenses/gpl.html"
+		}
+	},
+	{
+		"model":"data_connections.License",
+		"pk":7,
+		"fields":{
+			"name":"MIT",
+			"url":"http://opensource.org/licenses/MIT"
+		}
+	},
+	{
+		"model":"data_connections.License",
+		"pk":8,
+		"fields":{
+			"name":"Apache 2.0",
+			"url":"http://opensource.org/licenses/Apache-2.0"
+		}
+	},
+	{
+		"model":"data_connections.License",
+		"pk":9,
+		"fields":{
+			"name":"BSD 3-Clause License",
+			"url":"http://opensource.org/licenses/BSD-3-Clause"
+		}
+	},
+	{
+		"model":"data_connections.License",
+		"pk":10,
+		"fields":{
+			"name":"BSD 2-Clause License",
+			"url":"http://opensource.org/licenses/BSD-2-Clause"
+		}
+	},
+	{
+		"model":"data_connections.License",
+		"pk":11,
+		"fields":{
+			"name":"GNU Lesser Public License v3.0",
+			"url":"http://opensource.org/licenses/LGPL-3.0"
+		}
+	},
+	{
+		"model":"data_connections.License",
+		"pk":12,
+		"fields":{
+			"name":"Mozilla Public License v2.0",
+			"url":"http://opensource.org/licenses/MPL-2.0"
+		}
+	},
+	{
+		"model":"data_connections.License",
+		"pk":13,
+		"fields":{
+			"name":"Common Development and Distribution License 1.0",
+			"url":"http://opensource.org/licenses/CDDL-1.0"
+		}
+	},
+	{
+		"model":"data_connections.License",
+		"pk":14,
+		"fields":{
+			"name":"Eclipse Public License",
+			"url":"http://opensource.org/licenses/EPL-1.0"
+		}
+	},
+	{
+		"model":"data_connections.License",
+		"pk":15,
+		"fields":{
+			"name":"Unknown",
+			"url":""
+		}
+	},
+	{
+		"model":"data_connections.License",
+		"pk":16,
+		"fields":{
+			"name":"Copyright",
+			"url":"http://en.wikipedia.org/wiki/Copyright"
+		}
+	}
+]

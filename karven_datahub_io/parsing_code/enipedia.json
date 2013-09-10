@@ -1,0 +1,279 @@
+{
+    "help": "Return the metadata of a dataset (package) and its resources.\n\n    :param id: the id or name of the dataset\n    :type id: string\n\n    :rtype: dictionary\n\n    ", 
+    "success": true, 
+    "result": {
+        "license_title": "Open Data Commons Public Domain Dedication and Licence (PDDL)", 
+        "maintainer": "Chris Davis and Alfredas Chmieliauskas", 
+        "relationships_as_object": [], 
+        "private": false, 
+        "maintainer_email": "c.b.davis@tudelft.nl, a.chmieliauskas@tudelft.nl", 
+        "revision_timestamp": "2013-07-10T13:21:08.290922", 
+        "id": "9da16c4f-32a1-43ac-ae6b-c3378c6e7e9f", 
+        "metadata_created": "2011-03-25T20:54:45.839757", 
+        "metadata_modified": "2013-07-10T13:21:08.290922", 
+        "author": "Enipedia Team @ Energy and Industry Section, TBM, Delft University of Technology", 
+        "author_email": "c.b.davis@tudelft.nl", 
+        "state": "active", 
+        "version": "", 
+        "license_id": "odc-pddl", 
+        "type": "dataset", 
+        "resources": [
+            {
+                "mimetype": "text/html", 
+                "cache_url": null, 
+                "hash": "", 
+                "description": "Sparql endpoint", 
+                "name": "", 
+                "format": "api/sparql", 
+                "url": "http://enipedia.tudelft.nl/sparql", 
+                "cache_last_updated": null, 
+                "state": "active", 
+                "webstore_url": null, 
+                "revision_timestamp": "2012-11-22T10:04:54.941937", 
+                "tracking_summary": {
+                    "total": 0, 
+                    "recent": 0
+                }, 
+                "mimetype_inner": "", 
+                "webstore_last_updated": null, 
+                "last_modified": "2012-11-22T04:04:54.754872", 
+                "position": 0, 
+                "resource_group_id": "d2e47b75-d386-4adb-8026-4ab2db77231c", 
+                "revision_id": "4af49ed1-8cc2-4384-8d26-7888639ce911", 
+                "id": "f4e0f840-4655-4564-b2d9-2b4f7996cfcb", 
+                "resource_type": "file", 
+                "size": "20"
+            }, 
+            {
+                "mimetype": "", 
+                "cache_url": null, 
+                "hash": "", 
+                "description": "weblog", 
+                "name": "", 
+                "format": "weblog", 
+                "url": "http://enipedia.tudelft.nl/blog", 
+                "cache_last_updated": null, 
+                "state": "active", 
+                "webstore_url": null, 
+                "revision_timestamp": "2012-11-22T10:04:51.390727", 
+                "tracking_summary": {
+                    "total": 5, 
+                    "recent": 3
+                }, 
+                "mimetype_inner": "", 
+                "webstore_last_updated": null, 
+                "last_modified": null, 
+                "position": 1, 
+                "resource_group_id": "d2e47b75-d386-4adb-8026-4ab2db77231c", 
+                "revision_id": "3b281607-d814-45e4-b184-721ceb98120a", 
+                "id": "cacadb00-53be-4b3d-8a19-48b6fcec9e54", 
+                "resource_type": "file", 
+                "size": null
+            }, 
+            {
+                "mimetype": "", 
+                "cache_url": null, 
+                "hash": "", 
+                "description": "Example resource", 
+                "name": "", 
+                "format": "example/rdf+xml", 
+                "url": "http://enipedia.tudelft.nl/wiki/Special:ExportRDF/Navajo_Powerplant", 
+                "cache_last_updated": null, 
+                "state": "active", 
+                "webstore_url": null, 
+                "revision_timestamp": "2012-11-22T10:04:51.390727", 
+                "tracking_summary": {
+                    "total": 11, 
+                    "recent": 3
+                }, 
+                "mimetype_inner": "", 
+                "webstore_last_updated": null, 
+                "last_modified": null, 
+                "position": 2, 
+                "resource_group_id": "d2e47b75-d386-4adb-8026-4ab2db77231c", 
+                "revision_id": "3b281607-d814-45e4-b184-721ceb98120a", 
+                "id": "0f4a2739-16ce-4474-875e-1c8d7f3bd618", 
+                "resource_type": "file", 
+                "size": null
+            }, 
+            {
+                "mimetype": "", 
+                "cache_url": null, 
+                "hash": "", 
+                "description": "Downloads (RDF/XML)", 
+                "name": "", 
+                "format": "application/rdf+xml", 
+                "url": "http://enipedia.tudelft.nl/downloads/enipedia.rdf", 
+                "cache_last_updated": null, 
+                "state": "active", 
+                "webstore_url": null, 
+                "revision_timestamp": "2012-11-22T10:04:51.390727", 
+                "tracking_summary": {
+                    "total": 21, 
+                    "recent": 3
+                }, 
+                "mimetype_inner": "", 
+                "webstore_last_updated": null, 
+                "last_modified": null, 
+                "position": 3, 
+                "resource_group_id": "d2e47b75-d386-4adb-8026-4ab2db77231c", 
+                "revision_id": "3b281607-d814-45e4-b184-721ceb98120a", 
+                "id": "97b59543-477b-4e62-b4d2-2a9cd5da3298", 
+                "resource_type": "file", 
+                "size": null
+            }
+        ], 
+        "num_resources": 4, 
+        "tags": [
+            {
+                "vocabulary_id": null, 
+                "display_name": "crossdomain", 
+                "name": "crossdomain", 
+                "revision_timestamp": "2011-08-14T20:49:47.638947", 
+                "state": "active", 
+                "id": "833848ee-ef06-4283-bb26-164f6c3474b4"
+            }, 
+            {
+                "vocabulary_id": null, 
+                "display_name": "energy", 
+                "name": "energy", 
+                "revision_timestamp": "2011-03-25T20:54:45.839757", 
+                "state": "active", 
+                "id": "647743a6-b647-42f7-9550-aea87160c624"
+            }, 
+            {
+                "vocabulary_id": null, 
+                "display_name": "format-wiki", 
+                "name": "format-wiki", 
+                "revision_timestamp": "2011-08-15T20:12:54.199074", 
+                "state": "active", 
+                "id": "69cb8134-7b8b-491f-8ac3-5fee5af852f9"
+            }, 
+            {
+                "vocabulary_id": null, 
+                "display_name": "industry", 
+                "name": "industry", 
+                "revision_timestamp": "2011-03-25T20:54:45.839757", 
+                "state": "active", 
+                "id": "963121e2-caad-43f0-9876-fcf1e02e6dde"
+            }, 
+            {
+                "vocabulary_id": null, 
+                "display_name": "license-metadata", 
+                "name": "license-metadata", 
+                "revision_timestamp": "2011-08-15T20:03:14.834562", 
+                "state": "active", 
+                "id": "8d7e5c73-261b-4137-a278-42f56a6ec4bb"
+            }, 
+            {
+                "vocabulary_id": null, 
+                "display_name": "lod", 
+                "name": "lod", 
+                "revision_timestamp": "2011-08-14T20:46:48.043343", 
+                "state": "active", 
+                "id": "54a512d9-f003-4b79-badf-c85bfa977a7e"
+            }, 
+            {
+                "vocabulary_id": null, 
+                "display_name": "no-proprietary-vocab", 
+                "name": "no-proprietary-vocab", 
+                "revision_timestamp": "2011-08-14T20:49:47.638947", 
+                "state": "active", 
+                "id": "aef04cb8-a7aa-4419-8184-396b0ef6e680"
+            }, 
+            {
+                "vocabulary_id": null, 
+                "display_name": "published-by-producer", 
+                "name": "published-by-producer", 
+                "revision_timestamp": "2011-08-14T20:49:47.638947", 
+                "state": "active", 
+                "id": "fcdb5c0a-2b91-44cb-83e5-19fd0d81125c"
+            }, 
+            {
+                "vocabulary_id": null, 
+                "display_name": "published-by-third-party", 
+                "name": "published-by-third-party", 
+                "revision_timestamp": "2011-08-14T20:49:47.638947", 
+                "state": "active", 
+                "id": "61a91c2c-78df-4237-9195-faa353244514"
+            }
+        ], 
+        "tracking_summary": {
+            "total": 649, 
+            "recent": 17
+        }, 
+        "groups": [
+            {
+                "id": "74881ac4-abf2-4f8a-ba5a-1c92860c30de", 
+                "description": "A collection of data about country level energy demand and energy generation technologies to the meet the demand with details of:\r\n\r\n- land area required for different energy generation sources\r\n- monetary cost of energy source to develop, implement, maintain and decommission, either by government or industry\r\n- location or suitable location\r\n- energy cost to make and maintain and decommission\r\n- time to develop\r\n- efficiency in cost/unit of energy \r\n- how efficiency is predicted to change over time\r\n\r\n\r\n ", 
+                "name": "energy-data", 
+                "title": "Energy Data"
+            }, 
+            {
+                "id": "ce086ef6-9e56-4af1-a63c-fd768fa2dfff", 
+                "description": "This group catalogs data sets that are available on the Web as [Linked Data](http://en.wikipedia.org/wiki/Linked_Data)  and contain data links pointing at other Linked Data sets.\r\n\r\nThe descriptions of the data sets in this group are used to generate the [Linking Open Data Cloud diagram](http://lod-cloud.net) at regular intervals. The descriptions are also used generate the statistics provided in the [State of the LOD Cloud](http://lod-cloud.net/state/) document.\r\n\r\nIf you publish a linked data set yourself, please add it to CKAN so that it appears in the next version of the LOD cloud diagram. Please describe your data set according to [Guidelines for Collecting Metadata on Linked Datasets in CKAN](http://www.w3.org/wiki/TaskForces/CommunityProjects/LinkingOpenData/DataSets/CKANmetainformation). Please tag newly added data sets with lod. The editors of this group will review your description afterwards and move your dataset into the lodcloud group.\r\n \r\nPlease also use the [CKAN LOD Validator](http://www4.wiwiss.fu-berlin.de/lodcloud/ckan/validator/validate.php) to check that the description of your data set is complete.", 
+                "name": "lodcloud", 
+                "title": "Linking Open Data Cloud"
+            }, 
+            {
+                "id": "ff622fed-7fcd-4917-b383-ff4fa895087e", 
+                "description": "A group for packages related to history.", 
+                "name": "history", 
+                "title": "History"
+            }
+        ], 
+        "organization": null, 
+        "relationships_as_subject": [], 
+        "num_tags": 9, 
+        "name": "enipedia", 
+        "isopen": true, 
+        "url": "http://enipedia.tudelft.nl", 
+        "notes": "Enipedia is an active exploration into the applications of wikis and the semantic web for energy and industry issues. Through this we seek to create a collaborative environment for discussion, while also providing the tools that allow for data from different sources to be connected, queried, and visualized from different perspectives. \t", 
+        "owner_org": null, 
+        "extras": [
+            {
+                "key": "links:dbpedia", 
+                "value": "1365", 
+                "__extras": {
+                    "package_id": "9da16c4f-32a1-43ac-ae6b-c3378c6e7e9f", 
+                    "revision_id": "2bf90c67-c183-44aa-8c01-d90e0bcbe504"
+                }
+            }, 
+            {
+                "key": "links:open-energy-info-wiki", 
+                "value": "189", 
+                "__extras": {
+                    "revision_id": "ccd4dd6c-cc99-4cab-91e7-64d471ca2824", 
+                    "package_id": "9da16c4f-32a1-43ac-ae6b-c3378c6e7e9f"
+                }
+            }, 
+            {
+                "key": "links:world-factbook-fu-berlin", 
+                "value": "204", 
+                "__extras": {
+                    "revision_id": "35d66d70-7bc5-4e41-b213-b30e0f2ce81d", 
+                    "package_id": "9da16c4f-32a1-43ac-ae6b-c3378c6e7e9f"
+                }
+            }, 
+            {
+                "key": "namespace", 
+                "value": "http://enipedia.tudelft.nl/wiki/", 
+                "__extras": {
+                    "revision_id": "14c2e6f9-b2b8-4d57-9dad-5145e7f77cc1", 
+                    "package_id": "9da16c4f-32a1-43ac-ae6b-c3378c6e7e9f"
+                }
+            }, 
+            {
+                "key": "triples", 
+                "value": "4180734", 
+                "__extras": {
+                    "package_id": "9da16c4f-32a1-43ac-ae6b-c3378c6e7e9f", 
+                    "revision_id": "a803bb3e-2b6c-4509-9fed-3a25f78eb2e1"
+                }
+            }
+        ], 
+        "license_url": "http://www.opendefinition.org/licenses/odc-pddl", 
+        "title": "Enipedia - Energy Industry Data", 
+        "revision_id": "24e1e151-9719-42cd-ae3c-f1837baf61b5"
+    }
+}

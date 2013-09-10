@@ -1,0 +1,713 @@
+[
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "loup9w75stvd", 
+            "profile_url": "", 
+            "firstname": "loup9w75stvd"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "zoilaxhjw1kcs", 
+            "profile_url": "", 
+            "firstname": "zoilaxhjw1kcs"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "wyt514959088", 
+            "profile_url": "", 
+            "firstname": "wyt514959088"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "wyt514959088", 
+            "profile_url": "", 
+            "firstname": "wyt514959088"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "wyt514959088", 
+            "profile_url": "", 
+            "firstname": "wyt514959088"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "wyt514959088", 
+            "profile_url": "", 
+            "firstname": "wyt514959088"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "wyt514959088", 
+            "profile_url": "", 
+            "firstname": "wyt514959088"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "clarencej", 
+            "profile_url": "", 
+            "firstname": "clarencej"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "evav2gbpydx8m", 
+            "profile_url": "", 
+            "firstname": "evav2gbpydx8m"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "jeanneraz", 
+            "profile_url": "", 
+            "firstname": "jeanneraz"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "haiyangtiantang", 
+            "profile_url": "", 
+            "firstname": "haiyangtiantang"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "loydvkbx5cx", 
+            "profile_url": "", 
+            "firstname": "loydvkbx5cx"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "mattieoam6r0r", 
+            "profile_url": "", 
+            "firstname": "mattieoam6r0r"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "leomaip79zt", 
+            "profile_url": "", 
+            "firstname": "leomaip79zt"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "kaylenekpp4nv", 
+            "profile_url": "", 
+            "firstname": "kaylenekpp4nv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "joannauyx", 
+            "profile_url": "", 
+            "firstname": "joannauyx"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "IFPRI-Data", 
+            "profile_url": "", 
+            "firstname": "IFPRI-Data"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "consortium", 
+            "profile_url": "", 
+            "firstname": "UniProt"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Petit", 
+            "profile_url": "", 
+            "firstname": "Sebastien"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "loup9w75stvd", 
+            "profile_url": "", 
+            "firstname": "loup9w75stvd"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "clarencej", 
+            "profile_url": "", 
+            "firstname": "clarencej"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Cabo", 
+            "profile_url": "", 
+            "firstname": "David"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "jingstredf", 
+            "profile_url": "", 
+            "firstname": "jingstredf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "jingstredf", 
+            "profile_url": "", 
+            "firstname": "jingstredf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "ameliegyrard@gmail.com", 
+            "profile_url": "", 
+            "firstname": "ameliegyrard@gmail.com"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Kiesel", 
+            "profile_url": "", 
+            "firstname": "Malte"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "jingstredf", 
+            "profile_url": "", 
+            "firstname": "jingstredf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Openuplabs", 
+            "profile_url": "", 
+            "firstname": "Openuplabs"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "jingstredf", 
+            "profile_url": "", 
+            "firstname": "jingstredf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "jingstredf", 
+            "profile_url": "", 
+            "firstname": "jingstredf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "jingstredf", 
+            "profile_url": "", 
+            "firstname": "jingstredf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "IFPRI-Data", 
+            "profile_url": "", 
+            "firstname": "IFPRI-Data"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "F. Sequeda", 
+            "profile_url": "", 
+            "firstname": "Juan"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "McNamara", 
+            "profile_url": "", 
+            "firstname": "Tim"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "of Energy Efficiency", 
+            "profile_url": "", 
+            "firstname": "Office"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "jingstredf", 
+            "profile_url": "", 
+            "firstname": "jingstredf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "jingstredf", 
+            "profile_url": "", 
+            "firstname": "jingstredf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "krisu0z9gyu", 
+            "profile_url": "", 
+            "firstname": "krisu0z9gyu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "jingstredf", 
+            "profile_url": "", 
+            "firstname": "jingstredf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "jingstredf", 
+            "profile_url": "", 
+            "firstname": "jingstredf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Kanzaki", 
+            "profile_url": "", 
+            "firstname": "M."
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "gadm.org", 
+            "profile_url": "", 
+            "firstname": "GADM"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Psoncak", 
+            "profile_url": "", 
+            "firstname": "Nina"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Grimm", 
+            "profile_url": "", 
+            "firstname": "Eric"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "jingstredf", 
+            "profile_url": "", 
+            "firstname": "jingstredf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Stadler", 
+            "profile_url": "", 
+            "firstname": "Claus"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "of Energy Efficiency", 
+            "profile_url": "", 
+            "firstname": "Office"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "project on behalf of ontology owner.", 
+            "profile_url": "", 
+            "firstname": "BioPortal"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "of Energy Efficiency", 
+            "profile_url": "", 
+            "firstname": "Office"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Garijo ", 
+            "profile_url": "", 
+            "firstname": "Daniel"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "shayx8vc1brh", 
+            "profile_url": "", 
+            "firstname": "shayx8vc1brh"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "maximohlvqei4", 
+            "profile_url": "", 
+            "firstname": "maximohlvqei4"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "linxiaqingfeng14", 
+            "profile_url": "", 
+            "firstname": "linxiaqingfeng14"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "krisu0z9gyu", 
+            "profile_url": "", 
+            "firstname": "krisu0z9gyu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "krisu0z9gyu", 
+            "profile_url": "", 
+            "firstname": "krisu0z9gyu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "McNamara", 
+            "profile_url": "", 
+            "firstname": "Tim"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "krisu0z9gyu", 
+            "profile_url": "", 
+            "firstname": "krisu0z9gyu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "project on behalf of ontology owner.", 
+            "profile_url": "", 
+            "firstname": "BioPortal"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Counties Trust", 
+            "profile_url": "", 
+            "firstname": "Historic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "project on behalf of ontology owner.", 
+            "profile_url": "", 
+            "firstname": "BioPortal"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "krisu0z9gyu", 
+            "profile_url": "", 
+            "firstname": "krisu0z9gyu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "project on behalf of ontology owner.", 
+            "profile_url": "", 
+            "firstname": "BioPortal"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "McNamara", 
+            "profile_url": "", 
+            "firstname": "Tim"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Hong", 
+            "profile_url": "", 
+            "firstname": "Soon-Gill"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Alex", 
+            "profile_url": "", 
+            "firstname": "Keith"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "of Energy Efficiency", 
+            "profile_url": "", 
+            "firstname": "Office"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "seiffert@dshs-koeln.de", 
+            "profile_url": "", 
+            "firstname": "seiffert@dshs-koeln.de"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "McNamara", 
+            "profile_url": "", 
+            "firstname": "Tim"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "maximohlvqei4", 
+            "profile_url": "", 
+            "firstname": "maximohlvqei4"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Linkedopendata.it", 
+            "profile_url": "", 
+            "firstname": "Linkedopendata.it"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "jingstredf", 
+            "profile_url": "", 
+            "firstname": "jingstredf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "krisu0z9gyu", 
+            "profile_url": "", 
+            "firstname": "krisu0z9gyu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "http://geodata.gov.gr/geodata/", 
+            "profile_url": "", 
+            "firstname": "http://geodata.gov.gr/geodata/"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "krisu0z9gyu", 
+            "profile_url": "", 
+            "firstname": "krisu0z9gyu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "krisu0z9gyu", 
+            "profile_url": "", 
+            "firstname": "krisu0z9gyu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "of Energy Efficiency", 
+            "profile_url": "", 
+            "firstname": "Office"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "McNamara", 
+            "profile_url": "", 
+            "firstname": "Tim"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "project on behalf of ontology owner.", 
+            "profile_url": "", 
+            "firstname": "BioPortal"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "of Energy Efficiency", 
+            "profile_url": "", 
+            "firstname": "Office"
+        }
+    }
+]

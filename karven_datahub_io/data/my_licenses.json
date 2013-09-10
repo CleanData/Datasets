@@ -1,0 +1,122 @@
+[
+    {
+        "fields": {
+            "url": "", 
+            "name": "License Not Specified"
+        }, 
+        "model": "data_connections.License", 
+        "pk": 1
+    }, 
+    {
+        "fields": {
+            "url": "http://www.opendefinition.org/licenses/odc-pddl", 
+            "name": "Open Data Commons Public Domain Dedication and Licence (PDDL)"
+        }, 
+        "model": "data_connections.License", 
+        "pk": 2
+    }, 
+    {
+        "fields": {
+            "url": "http://www.opendefinition.org/licenses/odc-odbl", 
+            "name": "Open Data Commons Open Database License (ODbL)"
+        }, 
+        "model": "data_connections.License", 
+        "pk": 3
+    }, 
+    {
+        "fields": {
+            "url": "http://www.opendefinition.org/licenses/odc-by", 
+            "name": "Open Data Commons Attribution License"
+        }, 
+        "model": "data_connections.License", 
+        "pk": 4
+    }, 
+    {
+        "fields": {
+            "url": "http://www.opendefinition.org/licenses/cc-zero", 
+            "name": "Creative Commons CCZero"
+        }, 
+        "model": "data_connections.License", 
+        "pk": 5
+    }, 
+    {
+        "fields": {
+            "url": "http://www.opendefinition.org/licenses/cc-by", 
+            "name": "Creative Commons Attribution"
+        }, 
+        "model": "data_connections.License", 
+        "pk": 6
+    }, 
+    {
+        "fields": {
+            "url": "http://www.opendefinition.org/licenses/cc-by-sa", 
+            "name": "Creative Commons Attribution Share-Alike"
+        }, 
+        "model": "data_connections.License", 
+        "pk": 7
+    }, 
+    {
+        "fields": {
+            "url": "http://www.opendefinition.org/licenses/gfdl", 
+            "name": "GNU Free Documentation License"
+        }, 
+        "model": "data_connections.License", 
+        "pk": 8
+    }, 
+    {
+        "fields": {
+            "url": "", 
+            "name": "Other (Open)"
+        }, 
+        "model": "data_connections.License", 
+        "pk": 9
+    }, 
+    {
+        "fields": {
+            "url": "", 
+            "name": "Other (Public Domain)"
+        }, 
+        "model": "data_connections.License", 
+        "pk": 10
+    }, 
+    {
+        "fields": {
+            "url": "", 
+            "name": "Other (Attribution)"
+        }, 
+        "model": "data_connections.License", 
+        "pk": 11
+    }, 
+    {
+        "fields": {
+            "url": "http://reference.data.gov.uk/id/open-government-licence", 
+            "name": "UK Open Government Licence (OGL)"
+        }, 
+        "model": "data_connections.License", 
+        "pk": 12
+    }, 
+    {
+        "fields": {
+            "url": "http://creativecommons.org/licenses/by-nc/2.0/", 
+            "name": "Creative Commons Non-Commercial (Any)"
+        }, 
+        "model": "data_connections.License", 
+        "pk": 13
+    }, 
+    {
+        "fields": {
+            "url": "", 
+            "name": "Other (Non-Commercial)"
+        }, 
+        "model": "data_connections.License", 
+        "pk": 14
+    }, 
+    {
+        "fields": {
+            "url": "", 
+            "name": "Other (Not Open)"
+        }, 
+        "model": "data_connections.License", 
+        "pk": 15
+    }
+]

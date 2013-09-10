@@ -109,6 +109,54 @@ def ckan_test_convert_package(ckan_datasets_path, max_spam_score = 3000, dataset
         print(x['name'])                                  
         if 'spam_score' in x and x['spam_score'] >= max_spam_score : 
             continue                                      
+        if x['num_resources'] < 1 :
+            #spam
+            continue
+        #organizations
+        #{
+        #    "model":"data_connections.Organization",
+        #    "pk":null,
+        #    "fields":{
+        #    "name":"Mayor's Office of Long-Term Planning and Sustainability, NYC",
+        #    "url":"http://www.nyc.gov/html/planyc2030/html/about/who-we-are.shtml"
+        #    }
+        #}                          
+        if x["author"] not in [ item['fields']['name'] for item in organizations ]  :   
+            a_organization = { "model":"data_connections.Organization", "pk":None, 'fields':{} }
+            a_organization['fields']['name'] = x["author"]              
+            a_organization['fields']['url'] = ''
+            organizations.append(a_organization)
+        #end organizations
+        #scientists
+        #{
+        #    "model":"data_connections.Scientist",
+        #    "pk":null,
+        #    "fields":{
+        #    "firstname":"Albert",
+        #    "lastname":"Webber",
+        #    "profile_url":"https://data.cityofnewyork.us/profile/Albert-Webber/txun-eb7e"
+        #    }
+        #}
+        a_manager = []
+        if x['maintainer'] and len(x['maintainer']) > 0 :
+            temp = x['maintainer'].split(',')
+            temp = temp[0].split('and')
+            temp = temp[0].split(None, 1)
+            a_scientist = { "model":"data_connections.Scientist", "pk":None, 'fields':{} }
+            if len(temp) == 2 :         
+                a_scientist['fields']['firstname'] = temp[0]           
+                a_scientist['fields']['lastname'] = temp[1]            
+                a_scientist['fields']['profile_url'] = ""            
+                a_manager = [ temp[0], temp[1], "" ]          
+            else :
+                a_scientist['fields']['firstname'] = temp[0]           
+                a_scientist['fields']['lastname'] = x['maintainer']           
+                a_scientist['fields']['profile_url'] = ""                   
+                a_manager = [ temp[0], x['maintainer'], "" ] 
+            scientists.append(a_scientist)          
+        else :
+            a_manager = None    
+        #end scientists
         if x['num_resources'] > 1 :
             #datacataglog
           	#{
@@ -122,42 +170,16 @@ def ckan_test_convert_package(ckan_datasets_path, max_spam_score = 3000, dataset
             #		}
             #}
             a_catalog = {"model":"data_connections.DataCatalog","pk":None,"fields":{} }
-            a_catalog['fields']['name'] = x['title']
-            if x['maintainer'] and len(x['maintainer']) > 0 :
-                #HERE         
-                a_manager =                    
-            a_catalog['fields']['manager'] = x['maintainer']                              
+            a_catalog['fields']['name'] = x['title']                    
+            a_catalog['fields']['manager'] = a_manager         
             a_catalog['fields']['managing_organization'] = x['author']   
             #extra fields for datahub             
             a_catalog['fields']['datahub_name'] = x['name']              
             if 'spam_score' in x :                                                   
                 a_catalog['fields']['spam_score'] = x['spam_score']
             datacatalogs.append(a_catalog)
-            #organizations
-            #{
-            #    "model":"data_connections.Organization",
-            #    "pk":null,
-            #    "fields":{
-            #    "name":"Mayor's Office of Long-Term Planning and Sustainability, NYC",
-            #    "url":"http://www.nyc.gov/html/planyc2030/html/about/who-we-are.shtml"
-            #    }
-            #}                          
-            if a_resource["author"] not in [ item['fields']['name'] for item in organizations ]  :   
-                a_organization = { "model":"data_connections.Organization", "pk":None, 'fields':{} }
-                a_organization['fields']['name'] = x["author"]              
-                a_organization['fields']['url'] = ''
-                formats.append(a_organization)
-            #scientists
-            #{
-            #    "model":"data_connections.Scientist",
-            #    "pk":null,
-            #    "fields":{
-            #    "firstname":"Albert",
-            #    "lastname":"Webber",
-            #    "profile_url":"https://data.cityofnewyork.us/profile/Albert-Webber/txun-eb7e"
-            #    }
-            #}
-             
+            #end datacatalogs
+            #resources
             for a_resource in x['resources'] :
                 #datasets                                 
                 #{
@@ -186,7 +208,7 @@ def ckan_test_convert_package(ckan_datasets_path, max_spam_score = 3000, dataset
                 else :                                                                            
                     a_dataset['fields']['data_format'] = [ a_resource["mimetype"] ]                    
                 a_dataset['fields']['date_published'] = a_resource["last_modified"]
-                a_dataset['fields']['manager'] = x['maintainer']                              
+                a_dataset['fields']['manager'] = a_catalog['fields']['manager']                            
                 a_dataset['fields']['managing_organization'] = x['author']       
                 a_dataset['fields']['data_catalog'] = [ x['title'] ]
                 a_dataset['fields']['name'] = unicode(x['title']) + " " + unicode(a_resource['name']) + " " + unicode(a_resource['format']) # catalog.title + name + format       
@@ -208,38 +230,92 @@ def ckan_test_convert_package(ckan_datasets_path, max_spam_score = 3000, dataset
                     a_format['fields']['name'] = a_resource["format"]              
                     a_format['fields']['url'] = ''
                     formats.append(a_format)
-                
+        #end if x['num_resources'] > 1          
         elif x['num_resources'] == 1 :
-            pass
-            #datasets
-        else :
-            pass
-            #spam 
-        #write to datacatalogs.json   
-        output = open(datacatalogs_path,'w')    
-        output.write(json.dumps(datacatalogs, indent=4))     
-        output.close()          
-        #write to datasets.json, 
-        output = open(datasets_path,'w')    
-        output.write(json.dumps(datasets, indent=4))     
-        output.close()  
-        #write to organziations.json      
-        output = open(organizations_path,'w')    
-        output.write(json.dumps(organizations, indent=4))     
-        output.close()  
-        #check example formats to remove duplicates, assign primary keys, write to formats.json
-        f = open(core_formats_path)
-        core_formats = json.loads(f.read())
-        core_format_names = [ item['fields']['name'] for item in core_formats ]
-        f.close()
-        my_formats = []
-        for a_format in formats :
-            if a_format['fields']['name'] not in core_format_names :
-                a_format['pk'] = len(my_formats)+1
-                my_formats.append(a_format)            
-        output = open(formats_path,'w')     
-        output.write(json.dumps(my_formats, indent=4))     
-        output.close()  
+            #datasets                                 
+            #{
+            # 		"model":"data_connections.Dataset",
+            # 		"pk":null,
+            #		  "fields":{
+            #            "description": "",
+            #            "license": ["MIT"],
+            #            "date_last_edited": "2013-07-27T01:31:13Z",
+            #            "url": "http://example.com/",
+            #            "data_format": ["JSON"],
+            #            "date_published": "2013-07-27T01:31:11Z",
+            #            "manager": null,
+            #            "managing_organization": null,
+            #            "data_catalog": null,
+            #            "name": "Test dataset"
+            # 		}
+            #	},
+            a_dataset = {		"model":"data_connections.Dataset","pk":None,"fields":{}}     
+            a_resource = x['resources'][0]           
+            a_dataset['fields']['description'] = unicode(x['notes']) + unicode(a_resource['description'])   
+            a_dataset['fields']['license'] = [ x['license_title'] ]                         
+            a_dataset['fields']['date_last_edited'] = x["metadata_modified"]
+            a_dataset['fields']['url'] = a_resource["url"]                
+            if a_resource["format"] and len(a_resource["format"]) > 0 :                           
+                a_dataset['fields']['data_format'] = [ a_resource["format"] ]
+            else :                                                                            
+                a_dataset['fields']['data_format'] = [ a_resource["mimetype"] ]                    
+            a_dataset['fields']['date_published'] = x["metadata_created"]
+            a_dataset['fields']['manager'] = a_manager                                
+            a_dataset['fields']['managing_organization'] = x['author']       
+            a_dataset['fields']['data_catalog'] = [ x['title'] ]
+            a_dataset['fields']['name'] = unicode(x['title']) + " " + unicode(a_resource['name']) + " " + unicode(a_resource['format']) # catalog.title + name + format       
+            #extra fields for datahub             
+            a_dataset['fields']['datahub_name'] = x['name']              
+            if 'spam_score' in x :                                                   
+                a_dataset['fields']['spam_score'] = x['spam_score']
+            datasets.append(a_dataset)
+            #end datasets
+            #formats
+            #{
+            #    "model":"data_connections.Format",
+            #    "pk":1,
+            #    "fields":{
+            #    "name":"JSON",
+            #    "url":"http://en.wikipedia.org/wiki/JSON"
+            #}
+            if a_resource["format"] not in [ item['fields']['name'] for item in formats ]  :
+                a_format = { "model":"data_connections.Format", "pk":None, 'fields':{} }
+                a_format['fields']['name'] = a_resource["format"]              
+                a_format['fields']['url'] = ''
+                formats.append(a_format)
+            #end formats
+        #end elif x['num_resources'] == 1
+        #if appending to output json files
+    #end for x in ckan_package_list :
+    #write to datacatalogs.json   
+    output = open(datacatalogs_path,'w')    
+    output.write(json.dumps(datacatalogs, indent=4))     
+    output.close()          
+    #write to datasets.json, 
+    output = open(datasets_path,'w')    
+    output.write(json.dumps(datasets, indent=4))     
+    output.close()  
+    #write to organziations.json      
+    output = open(organizations_path,'w')    
+    output.write(json.dumps(organizations, indent=4))     
+    output.close()  
+    #write to scientists .json      
+    output = open(scientists_path,'w')    
+    output.write(json.dumps(scientists, indent=4))     
+    output.close()  
+    #check example formats to remove duplicates, assign primary keys, write to formats.json
+    f = open(core_formats_path)
+    core_formats = json.loads(f.read())
+    core_format_names = [ item['fields']['name'] for item in core_formats ]
+    f.close()
+    my_formats = []
+    for a_format in formats :
+        if a_format['fields']['name'] not in core_format_names :
+            a_format['pk'] = len(my_formats)+1
+            my_formats.append(a_format)            
+    output = open(formats_path,'w')     
+    output.write(json.dumps(my_formats, indent=4))     
+    output.close()  
         
         
         

@@ -8,6 +8,8 @@ copied exameple datasets.json and formats.json to parsing_code directory b/c com
 Natural Language Processing doesn't work for spam filtering b/c of good adjectives like collaborative, statistical. 
 Datasets with zero resources are dropped from data/datasets.json
 
+### 
+
 ### TO DO LIST
 Need to work on appending to json files instead of rewriting with json.dumps everytime
 Add error checking

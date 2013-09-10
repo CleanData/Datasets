@@ -20,7 +20,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/rdf+xml"
+            "name": "png"
         }
     }, 
     {
@@ -28,7 +28,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "webservices"
+            "name": "text/n3"
         }
     }, 
     {
@@ -36,7 +36,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/octet-stream"
+            "name": "api/sparql"
         }
     }, 
     {
@@ -44,7 +44,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "RDF"
+            "name": "example/turtle"
         }
     }, 
     {
@@ -52,7 +52,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "api/sparql"
+            "name": "data file in stata"
         }
     }, 
     {
@@ -60,7 +60,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "meta/sitemap"
+            "name": "text/sql"
         }
     }, 
     {
@@ -68,7 +68,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "meta/void"
+            "name": "application/octet-stream"
         }
     }, 
     {
@@ -76,7 +76,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/rdf+xml"
+            "name": "application/vnd.ms-excel"
         }
     }, 
     {
@@ -84,7 +84,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/x-ntriples"
+            "name": "application/rdf+xml"
         }
     }, 
     {
@@ -92,7 +92,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "png"
+            "name": "webservices"
         }
     }, 
     {
@@ -100,7 +100,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "text/n3"
+            "name": "ZIP"
         }
     }, 
     {
@@ -108,7 +108,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/turtle"
+            "name": "HTML"
         }
     }, 
     {
@@ -116,7 +116,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "ZIP"
+            "name": "RDF"
         }
     }, 
     {
@@ -124,7 +124,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "HTML"
+            "name": "meta/sitemap"
         }
     }, 
     {
@@ -132,7 +132,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "XLS"
+            "name": "meta/void"
         }
     }, 
     {
@@ -140,7 +140,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "shp"
+            "name": "example/rdf+xml"
         }
     }, 
     {
@@ -148,7 +148,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gml"
+            "name": "application/x-ntriples"
         }
     }, 
     {
@@ -156,7 +156,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "KML"
+            "name": "xml, rdf+xml, turtle and json"
         }
     }, 
     {
@@ -164,7 +164,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "map"
+            "name": "aspx"
         }
     }, 
     {
@@ -172,7 +172,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/vnd.ms-excel"
+            "name": "XLS"
         }
     }, 
     {
@@ -180,7 +180,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/rdfa"
+            "name": "data file in excel"
         }
     }, 
     {
@@ -188,7 +188,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/x-bzip"
+            "name": "jpg"
         }
     }, 
     {
@@ -196,7 +196,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "rdf/xml, html, json"
+            "name": "KML"
         }
     }, 
     {
@@ -204,7 +204,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "meta/rdf-schema"
+            "name": "shp"
         }
     }, 
     {
@@ -212,7 +212,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "mapping/owl"
+            "name": "gml"
         }
     }, 
     {
@@ -220,7 +220,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "ms access"
+            "name": "map"
         }
     }, 
     {
@@ -228,7 +228,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/*"
+            "name": "other"
         }
     }, 
     {
@@ -236,7 +236,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "aleph sequentials"
+            "name": "text/ascii"
         }
     }, 
     {
@@ -244,7 +244,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "spreadsheet"
+            "name": "example/rdfa"
         }
     }, 
     {
@@ -252,7 +252,79 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
+            "name": "application/x-bzip"
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "rdf/xml, html, json"
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "meta/rdf-schema"
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "mapping/owl"
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "ms access"
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "example/*"
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "aleph sequentials"
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "spreadsheet"
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
             "name": "asp"
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "kml "
         }
     }
 ]

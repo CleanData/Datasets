@@ -1,0 +1,10 @@
+[
+    {
+        "pk": null, 
+        "model": "data_connections.Organization", 
+        "fields": {
+            "url": "", 
+            "name": []
+        }
+    }
+]

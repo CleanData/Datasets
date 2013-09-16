@@ -1,0 +1,974 @@
+[
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Nath", 
+            "profile_url": "http://nycbigapps.com/person/2878", 
+            "firstname": "Saptarshi"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Schwaiger-Hastanan", 
+            "profile_url": "http://nycbigapps.com/person/tobins", 
+            "firstname": "Tobin"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Chadwick", 
+            "profile_url": "http://nycbigapps.com/person/march.chadwick", 
+            "firstname": "March"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Schumacher", 
+            "profile_url": "http://nycbigapps.com/person/ajschumacher", 
+            "firstname": "Aaron"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Alber", 
+            "profile_url": "http://nycbigapps.com/person/stephan.alber", 
+            "firstname": "Stephan"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Casey", 
+            "profile_url": "http://nycbigapps.com/person/citrusvanilla", 
+            "firstname": "Justinn"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Ghearing", 
+            "profile_url": "http://nycbigapps.com/person/gabe.ghearing", 
+            "firstname": "Gabe"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Vu", 
+            "profile_url": "http://nycbigapps.com/person/tony.vu", 
+            "firstname": "Tony"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Mann", 
+            "profile_url": "http://nycbigapps.com/person/1990", 
+            "firstname": "Michael"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Novich", 
+            "profile_url": "http://nycbigapps.com/person/jeffnovich", 
+            "firstname": "Jeff"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Forman", 
+            "profile_url": "http://nycbigapps.com/person/sjforman", 
+            "firstname": "Scott"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Wijnen", 
+            "profile_url": "http://nycbigapps.com/person/anthony.wijnen1", 
+            "firstname": "Anthony"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Valmiki", 
+            "profile_url": "http://nycbigapps.com/person/shreyasvalmiki", 
+            "firstname": "Shreyas"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Greer", 
+            "profile_url": "http://nycbigapps.com/person/alastair.greer.7", 
+            "firstname": "Alastair"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Komarin", 
+            "profile_url": "http://nycbigapps.com/person/WyattKomarin", 
+            "firstname": "Wyatt"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Nehring", 
+            "profile_url": "http://nycbigapps.com/person/katherine.nehring", 
+            "firstname": "Katherine"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Bishop", 
+            "profile_url": "http://nycbigapps.com/person/MatthewTBishop", 
+            "firstname": "Matt"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Pearson", 
+            "profile_url": "http://nycbigapps.com/person/pearson.jason", 
+            "firstname": "Jason"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Wernham", 
+            "profile_url": "http://nycbigapps.com/person/rowanwernham", 
+            "firstname": "Rowan"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Cobb", 
+            "profile_url": "http://nycbigapps.com/person/RodneyA.Cobb", 
+            "firstname": "Rodney"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Touil", 
+            "profile_url": "http://nycbigapps.com/person/imad.t.2011", 
+            "firstname": "Imad"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Russo", 
+            "profile_url": "http://nycbigapps.com/person/garyrusso", 
+            "firstname": "Gary"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Wesley", 
+            "profile_url": "http://nycbigapps.com/person/bwreid", 
+            "firstname": "Bryan"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Ewing", 
+            "profile_url": "http://nycbigapps.com/person/clay.ewing", 
+            "firstname": "Clay"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Burgas", 
+            "profile_url": "http://nycbigapps.com/person/kim.burgas", 
+            "firstname": "Kim"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "L. Goodman", 
+            "profile_url": "http://nycbigapps.com/person/2117", 
+            "firstname": "Wylie"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Singh", 
+            "profile_url": "http://nycbigapps.com/person/sparminder", 
+            "firstname": "Parminder"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Conti", 
+            "profile_url": "http://nycbigapps.com/person/jmichaelconti", 
+            "firstname": "Michael"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Freilino", 
+            "profile_url": "http://nycbigapps.com/person/ryan.freilino", 
+            "firstname": "Ryan"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Kosmatopoulos", 
+            "profile_url": "http://nycbigapps.com/person/esmeralda.kosmatopoulos", 
+            "firstname": "Esmeralda"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Maxey", 
+            "profile_url": "http://nycbigapps.com/person/madison.maxey.7", 
+            "firstname": "Madison"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Kneisley", 
+            "profile_url": "http://nycbigapps.com/person/gabekneisley", 
+            "firstname": "Gabriel"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Nahian", 
+            "profile_url": "http://nycbigapps.com/person/FaisalNahian", 
+            "firstname": "Faisal"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Vlasov", 
+            "profile_url": "http://nycbigapps.com/person/vitaly.vlasov", 
+            "firstname": "Vitaly"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Chen", 
+            "profile_url": "http://nycbigapps.com/person/tsuokang.chen", 
+            "firstname": "Calvin"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Mak", 
+            "profile_url": "http://nycbigapps.com/person/madelena.mak", 
+            "firstname": "Madelena"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Weinberg", 
+            "profile_url": "http://nycbigapps.com/person/alexcharestweinberg", 
+            "firstname": "Alex"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Thompson", 
+            "profile_url": "http://nycbigapps.com/person/ben.thompson.12139862", 
+            "firstname": "Ben"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Whong", 
+            "profile_url": "http://nycbigapps.com/person/louiedog98", 
+            "firstname": "Chris"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Finco", 
+            "profile_url": "http://nycbigapps.com/person/lucas.finco", 
+            "firstname": "Lucas"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Livingston", 
+            "profile_url": "http://nycbigapps.com/person/aiden.livingston", 
+            "firstname": "Aiden"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Rose", 
+            "profile_url": "http://nycbigapps.com/person/evanmrose", 
+            "firstname": "Evan"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Hurst", 
+            "profile_url": "http://nycbigapps.com/person/vigilante", 
+            "firstname": "Vanessa"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "profile_url": "http://nycbigapps.com/person/will.will.16", 
+            "firstname": "Will"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Powell", 
+            "profile_url": "http://nycbigapps.com/person/scott.powell.7773", 
+            "firstname": "Scott"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Cushing", 
+            "profile_url": "http://nycbigapps.com/person/patrick.j.cushing", 
+            "firstname": "Patrick"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Bracco", 
+            "profile_url": "http://nycbigapps.com/person/awbracco", 
+            "firstname": "Arthur"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Yeung", 
+            "profile_url": "http://nycbigapps.com/person/jeanezra", 
+            "firstname": "Jean-Ezra"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Melan\u00e7on", 
+            "profile_url": "http://nycbigapps.com/person/ben.agaric", 
+            "firstname": "Benjamin"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Pan", 
+            "profile_url": "http://nycbigapps.com/person/forrest.pan.3", 
+            "firstname": "Forrest"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Phuvan", 
+            "profile_url": "http://nycbigapps.com/person/vietnhi.phuvan", 
+            "firstname": "Vietnhi"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Bell", 
+            "profile_url": "http://nycbigapps.com/person/jabari.bell.10", 
+            "firstname": "Jabari"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Unsal", 
+            "profile_url": "http://nycbigapps.com/person/picardo", 
+            "firstname": "Volkan"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Figueroa", 
+            "profile_url": "http://nycbigapps.com/person/jonathan.figueroa.71", 
+            "firstname": "Jonathan"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Chahwan", 
+            "profile_url": "http://nycbigapps.com/person/sleiman.tanios", 
+            "firstname": "Sleiman-Tanios"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Kalina", 
+            "profile_url": "http://nycbigapps.com/person/markuskalina", 
+            "firstname": "Markus"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Davydova", 
+            "profile_url": "http://nycbigapps.com/person/sofyad", 
+            "firstname": "Sofya"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Kim", 
+            "profile_url": "http://nycbigapps.com/person/shinjikim1", 
+            "firstname": "Shinji"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Kolodny", 
+            "profile_url": "http://nycbigapps.com/person/michael.kolodny.3", 
+            "firstname": "Michael"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Bhartia", 
+            "profile_url": "http://nycbigapps.com/person/vbhartia", 
+            "firstname": "Varun"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Thakur", 
+            "profile_url": "http://nycbigapps.com/person/jiti2009", 
+            "firstname": "Jin"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Kurttila", 
+            "profile_url": "http://nycbigapps.com/person/scottkurttila", 
+            "firstname": "Scott"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Lindiakos", 
+            "profile_url": "http://nycbigapps.com/person/thefotios", 
+            "firstname": "Fotios"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Borthwick", 
+            "profile_url": "http://nycbigapps.com/person/evie.borthwick.5", 
+            "firstname": "Evie"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Nguyen", 
+            "profile_url": "http://nycbigapps.com/person/wdotnguyen", 
+            "firstname": "Wendy"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Wootton", 
+            "profile_url": "http://nycbigapps.com/person/adamwootton", 
+            "firstname": "Adam"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Gordon", 
+            "profile_url": "http://nycbigapps.com/person/roger.gordon.714", 
+            "firstname": "Roger"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "De Schepper", 
+            "profile_url": "http://nycbigapps.com/person/klaar.deschepper", 
+            "firstname": "Klaar"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Muchenje", 
+            "profile_url": "http://nycbigapps.com/person/tendekai.muchenje", 
+            "firstname": "Tendekai"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Brown", 
+            "profile_url": "http://nycbigapps.com/person/2492", 
+            "firstname": "Mike"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Sales", 
+            "profile_url": "http://nycbigapps.com/person/mel.sales.524", 
+            "firstname": "Mel"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Vayngrib", 
+            "profile_url": "http://nycbigapps.com/person/gene.vayngrib", 
+            "firstname": "Gene"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Belinsky", 
+            "profile_url": "http://nycbigapps.com/person/mark.belinsky", 
+            "firstname": "Mark"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Wong", 
+            "profile_url": "http://nycbigapps.com/person/gnickwong", 
+            "firstname": "Nock"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Lopez", 
+            "profile_url": "http://nycbigapps.com/person/Dustinnicholas", 
+            "firstname": "Dustin"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Huang", 
+            "profile_url": "http://nycbigapps.com/person/kuan.huang", 
+            "firstname": "Kuan"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Shoe", 
+            "profile_url": "http://nycbigapps.com/person/bamboo.shoe", 
+            "firstname": "Bamboo"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Sanderson", 
+            "profile_url": "http://nycbigapps.com/person/michael.sanderson", 
+            "firstname": "Michael"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Siemiginowski", 
+            "profile_url": "http://nycbigapps.com/person/ATSiem", 
+            "firstname": "Adam"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Karwas", 
+            "profile_url": "http://nycbigapps.com/person/dana.karwas", 
+            "firstname": "Dana"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Heimbinder", 
+            "profile_url": "http://nycbigapps.com/person/michael.heimbinder", 
+            "firstname": "Michael"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Roberts", 
+            "profile_url": "http://nycbigapps.com/person/jonathan.roberts1", 
+            "firstname": "Jonathan"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Sanchez", 
+            "profile_url": "http://nycbigapps.com/person/juracanEZ", 
+            "firstname": "Eddie"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Levine", 
+            "profile_url": "http://nycbigapps.com/person/perluette", 
+            "firstname": "Thomas"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Jimenez", 
+            "profile_url": "http://nycbigapps.com/person/yscaira.jimenez", 
+            "firstname": "Yscaira"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Chang", 
+            "profile_url": "http://nycbigapps.com/person/daniel.k.chang", 
+            "firstname": "Daniel"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Nash", 
+            "profile_url": "http://nycbigapps.com/person/danielle.nash.921", 
+            "firstname": "Danielle"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Garza", 
+            "profile_url": "http://nycbigapps.com/person/fernando.garza.3979", 
+            "firstname": "Fernando"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Cleary", 
+            "profile_url": "http://nycbigapps.com/person/frankie.cleary", 
+            "firstname": "Frankie"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Sen", 
+            "profile_url": "http://nycbigapps.com/person/debattama.sen", 
+            "firstname": "Deb"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "McCreery", 
+            "profile_url": "http://nycbigapps.com/person/dmccreery", 
+            "firstname": "David"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Novak", 
+            "profile_url": "http://nycbigapps.com/person/Smartsplace", 
+            "firstname": "Mark"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Lensing", 
+            "profile_url": "http://nycbigapps.com/person/sarahannelensing", 
+            "firstname": "Sarah"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Kumar Mirchandani", 
+            "profile_url": "http://nycbigapps.com/person/anita.kumarmirchandani", 
+            "firstname": "Anita"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Bulla", 
+            "profile_url": "http://nycbigapps.com/person/jefrey.bulla", 
+            "firstname": "Jefrey"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Fonseca", 
+            "profile_url": "http://nycbigapps.com/person/LFonseca34", 
+            "firstname": "Luis"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Chen", 
+            "profile_url": "http://nycbigapps.com/person/stephenchen1", 
+            "firstname": "Stephen"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Yung", 
+            "profile_url": "http://nycbigapps.com/person/johntyung", 
+            "firstname": "John"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Kunnumkal", 
+            "profile_url": "http://nycbigapps.com/person/goonAR", 
+            "firstname": "Sajit"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Wolanczyk", 
+            "profile_url": "http://nycbigapps.com/person/fran.wolanczyk", 
+            "firstname": "Fran"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Frackman", 
+            "profile_url": "http://nycbigapps.com/person/david.frackman", 
+            "firstname": "David"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Chun", 
+            "profile_url": "http://nycbigapps.com/person/russellchun", 
+            "firstname": "Russell"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Udeshi", 
+            "profile_url": "http://nycbigapps.com/person/rohanu", 
+            "firstname": "Rohan"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Leavitt", 
+            "profile_url": "http://nycbigapps.com/person/jocelynleavitt", 
+            "firstname": "Jocelyn"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Pangia", 
+            "profile_url": "http://nycbigapps.com/person/seanpangia", 
+            "firstname": "Sean"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Goodman", 
+            "profile_url": "http://nycbigapps.com/person/wylie.goodman", 
+            "firstname": "Wylie"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Piliero", 
+            "profile_url": "http://nycbigapps.com/person/michael.piliero", 
+            "firstname": "Michael"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Lilla", 
+            "profile_url": "http://nycbigapps.com/person/ramona.lilla.7", 
+            "firstname": "Ramona"
+        }
+    }
+]

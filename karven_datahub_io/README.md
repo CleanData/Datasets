@@ -8,17 +8,55 @@ copied exameple datasets.json and formats.json to parsing_code directory b/c com
 Natural Language Processing doesn't work for spam filtering b/c of good adjectives like collaborative, statistical. 
 Datasets with zero resources are dropped from data/datasets.json
 
-### 
+## Running the scripts
+### To run through the entire site 
+#### python ckan_main.py scrape "{options}"
+This process can be interrupted by user. The script will save state after interrupt.   
+   
+### To continue from a previous run   
+#### python ckan_main.py continue "{options}"
+
+### For debugging
+#### python ckan_main.py debug debug_items options
+
+### debug_items
+#### robots
+read the robots.txt and print the crawl-delay for the website    
+#### licenses
+Read the licenses used by the ckan site and output to my_licenses.json. 
+There may be other licenses used by the datasets though.
+#### package_list
+Read the list of packages available on the site and write to ckan_package_list.json
+#### package_read
+Read the ckan packages and save it unchanged to ckan_datasets.json
+#### spam
+add a spam score to the datasets in ckan_datasets.json and saved the data to scored_datasets.json
+#### convert
+convert scored_datasets.json to proper Datasets formats.
+
+
+options
+    "{'site':'http://datahub.io/',
+      'datasets':'../data/datasets.json'
+      'licenses':'../data/my_licenses.json'
+      'formats':'../data/formats.json'
+      'datacatalogs':'../data/datacatalogs.json'
+      'datarelations':'../data/datarelations.json'
+      'organizations':'../data/organizations.json'
+      'scientists':'../data/scientists.json'}"
+      
+
 
 ### TO DO LIST
-Need to work on appending to json files instead of rewriting with json.dumps everytime
+*Need to work on appending to json files instead of rewriting with json.dumps everytime
 //can only be done if we remove duplicate formats, scientitst and organizations afterwards
-Add error checking
-Adjust spam filtering curve
-Add datarelations
-add a print_debug in shared_functions and replace all print 
+*Add error checking
+*Adjust spam filtering curve
+*Add datarelations
+*add a print_debug in shared_functions and replace all print 
 
-datahub Crawl-Delay : 10 seconds. 
+###datahub information
+Crawl-Delay : 10 seconds. 
 Needs one request to pull package, and one more for non-spam to get relations
 
 ### ckan library reference
@@ -29,18 +67,21 @@ package_show_path = ckan_action_get + 'package_show?id='
 license_list_path = ckan_action_get + 'licence_list'
 tag_list_path = ckan_action_get + 'tag_list'
 related_list_path = ckan_action_get + 'related_list?id='
-ny-zipcodes-and-electricity-use
+sample dataset ny-zipcodes-and-electricity-use
 
 example url for requesting dataset
-http://datahub.io/api/3/action/package_show?id=enipedia
+http://datahub.io/api/3/action/package_show?id=ny-zipcodes-and-electricity-use
 
-### related list
+
+### related list mapping
 http://datahub.io/api/3/action/related_list?id=ny-zipcodes-and-electricity-use
 {
     help: "Return a dataset's related items. Either the ``id`` or the ``dataset`` parameter must be given. :param id: id or name of the dataset (optional) :type id: string :param dataset: dataset dictionary of the dataset (optional) :type dataset: dictionary :param type_filter: the type of related item to show (optional, default: None, show all items) :type type_filter: string :param sort: the order to sort the related items in, possible values are 'view_count_asc', 'view_count_desc', 'created_asc' or 'created_desc' (optional) :type sort: string :param featured: whether or not to restrict the results to only featured related items (optional, default: False) :type featured: bool :rtype: list of dictionaries ",
     success: true,
     result: [
-        {
+        {   #"how_data_was_processed" : ""
+            #"source" : [this.url, this.title]
+            #"derivative" : [dataset.url, dataset.name]
             view_count: 0,
             description: "A tool for visualizing NYC electricity use",
             title: "Energy Zip",

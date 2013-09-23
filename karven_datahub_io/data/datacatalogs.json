@@ -3,70 +3,6 @@
         "pk": null, 
         "model": "data_connections.DataCatalog", 
         "fields": {
-            "spam_score": 1802.0646, 
-            "manager": null, 
-            "managing_organization": "", 
-            "name": "Studies in Chemical Process Technology (SCPT)", 
-            "datahub_name": "http-www-as-se-org-scpt"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 1763.5729000000001, 
-            "manager": null, 
-            "managing_organization": "", 
-            "name": "Health statistics Italy", 
-            "datahub_name": "health-statistics-italy"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 1711.7124, 
-            "manager": [
-                "David", 
-                "Cabo", 
-                ""
-            ], 
-            "managing_organization": "Ministerio de Econom\u00eda y Hacienda", 
-            "name": "Spanish national budget 2008-2011", 
-            "datahub_name": "spain-national-budget-2008-2011"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 1178.0, 
-            "manager": null, 
-            "managing_organization": "Open Richly Annotated Cuneiform Corpus", 
-            "name": "Open Richly Annotated Cuneiform Corpus", 
-            "datahub_name": "open-richly-annotated-cuneiform-corpus"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 1177.0, 
-            "manager": [
-                "Sebastien", 
-                "Petit", 
-                ""
-            ], 
-            "managing_organization": "Jan Bliki and Sebastien Petit ", 
-            "name": "Discomap", 
-            "datahub_name": "discomap"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 1153.0, 
             "manager": [
                 "UniProt", 
                 "consortium", 
@@ -81,125 +17,16 @@
         "pk": null, 
         "model": "data_connections.DataCatalog", 
         "fields": {
-            "spam_score": 1148.7368, 
             "manager": null, 
             "managing_organization": "", 
-            "name": "International Journal of Communications (IJC)", 
-            "datahub_name": "http-www-seipub-org-ijc"
+            "name": "Areas protected by international treaties ", 
+            "datahub_name": "areas-protected-by-international-treaties-areas-protected-by-international-treaties"
         }
     }, 
     {
         "pk": null, 
         "model": "data_connections.DataCatalog", 
         "fields": {
-            "spam_score": 1135.0, 
-            "manager": null, 
-            "managing_organization": "DFID", 
-            "name": "DFID Project Information", 
-            "datahub_name": "ukgov-dfid-project-db"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 1117.1354999999999, 
-            "manager": null, 
-            "managing_organization": "", 
-            "name": "Advances in Water Resource and Protection (AWRP)", 
-            "datahub_name": "http-www-seipub-org-awrp"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 1107.8489, 
-            "manager": null, 
-            "managing_organization": "", 
-            "name": "Malawi Aid Projects", 
-            "datahub_name": "malawi-aid-projects"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 1042.0, 
-            "manager": null, 
-            "managing_organization": "Office for Official Publications of the European Communities", 
-            "name": "EUROVOC in SKOS", 
-            "datahub_name": "eurovoc-in-skos"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 1007.0, 
-            "manager": null, 
-            "managing_organization": "Microsoft", 
-            "name": "Microsoft Web N-Gram Service", 
-            "datahub_name": "microsoft-web-n-gram-service"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 845.0, 
-            "manager": null, 
-            "managing_organization": "Kei Cheung", 
-            "name": "Yale Senselab", 
-            "datahub_name": "yale_senselab"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 748.0, 
-            "manager": null, 
-            "managing_organization": "Tobias Wunner", 
-            "name": "de-gaap-ontology-lexicon", 
-            "datahub_name": "de-gaap-ontology-lexicon"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 664.0, 
-            "manager": [
-                "Tim", 
-                "McNamara", 
-                ""
-            ], 
-            "managing_organization": "Ministry of Agriculture and Forestry", 
-            "name": "A National Exotic Forest Description (2007)", 
-            "datahub_name": "new-zealand-a-national-exotic-forest-description-2007"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 647.0, 
-            "manager": [
-                "BioPortal", 
-                "project on behalf of ontology owner.", 
-                ""
-            ], 
-            "managing_organization": "Alex Diehl", 
-            "name": "Cell type", 
-            "datahub_name": "bioportal-cl"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 576.0, 
             "manager": [
                 "Juan", 
                 "F. Sequeda", 
@@ -214,59 +41,46 @@
         "pk": null, 
         "model": "data_connections.DataCatalog", 
         "fields": {
-            "spam_score": 480.0, 
-            "manager": [
-                "Daniel", 
-                "Garijo ", 
-                ""
-            ], 
-            "managing_organization": "Ontology Engineering Group, Facultad de Inform\u00e1tica, Universidad Polit\u00e9cnica de Madrid.", 
-            "name": "El Viajero's tourism dataset", 
-            "datahub_name": "webnmasunotraveler"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 477.0, 
             "manager": null, 
-            "managing_organization": "Hugh Glaser", 
-            "name": "OpenCyc (RKBExplorer)", 
-            "datahub_name": "rkb-explorer-opencyc"
+            "managing_organization": "", 
+            "name": "chengzhi321c", 
+            "datahub_name": "chengzhi321c"
         }
     }, 
     {
         "pk": null, 
         "model": "data_connections.DataCatalog", 
         "fields": {
-            "spam_score": 417.0, 
-            "manager": [
-                "ameliegyrard@gmail.com", 
-                "ameliegyrard@gmail.com", 
-                ""
-            ], 
-            "managing_organization": "Amelie Gyrard", 
-            "name": "Naturopathy", 
-            "datahub_name": "naturopathy"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 399.0, 
             "manager": null, 
-            "managing_organization": "Hugh Glaser", 
-            "name": "epsrc", 
-            "datahub_name": "rkb-explorer-epsrc"
+            "managing_organization": "", 
+            "name": "Budget Library Tunisia ", 
+            "datahub_name": "budget-library-tunisia"
         }
     }, 
     {
         "pk": null, 
         "model": "data_connections.DataCatalog", 
         "fields": {
-            "spam_score": 396.0, 
+            "manager": null, 
+            "managing_organization": "John Goodwin", 
+            "name": "John Goodwin's Family Tree", 
+            "datahub_name": "john-goodwins-family-tree"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "DFID", 
+            "name": "DFID Project Information", 
+            "datahub_name": "ukgov-dfid-project-db"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
             "manager": null, 
             "managing_organization": "Konstantinos Kyprianos", 
             "name": "Neel", 
@@ -277,7 +91,16 @@
         "pk": null, 
         "model": "data_connections.DataCatalog", 
         "fields": {
-            "spam_score": 333.0, 
+            "manager": null, 
+            "managing_organization": "Microsoft", 
+            "name": "Microsoft Web N-Gram Service", 
+            "datahub_name": "microsoft-web-n-gram-service"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
             "manager": [
                 "M.", 
                 "Kanzaki", 
@@ -292,289 +115,20 @@
         "pk": null, 
         "model": "data_connections.DataCatalog", 
         "fields": {
-            "spam_score": 332.0, 
             "manager": [
-                "Malte", 
-                "Kiesel", 
+                "ameliegyrard@gmail.com", 
+                "ameliegyrard@gmail.com", 
                 ""
             ], 
-            "managing_organization": "TVTropes.org community", 
-            "name": "DBTropes", 
-            "datahub_name": "dbtropes"
+            "managing_organization": "Amelie Gyrard", 
+            "name": "Naturopathy", 
+            "datahub_name": "naturopathy"
         }
     }, 
     {
         "pk": null, 
         "model": "data_connections.DataCatalog", 
         "fields": {
-            "spam_score": 272.0, 
-            "manager": null, 
-            "managing_organization": "", 
-            "name": "Pentraci\u00f3n Internet - Argentina", 
-            "datahub_name": "pentraci-n-internet-argentina"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 264.0, 
-            "manager": [
-                "Keith", 
-                "Alex", 
-                ""
-            ], 
-            "managing_organization": "Keith Alexander", 
-            "name": "ECCO-TCP Eighteenth Century Texts Linked Data", 
-            "datahub_name": "ecco-tcp-linked-data"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 200.0, 
-            "manager": null, 
-            "managing_organization": "", 
-            "name": "chengzhi321c", 
-            "datahub_name": "chengzhi321c"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 200.0, 
-            "manager": [
-                "BioPortal", 
-                "project on behalf of ontology owner.", 
-                ""
-            ], 
-            "managing_organization": "Plant Ontology Administrators", 
-            "name": "Cereal Plant Development", 
-            "datahub_name": "bioportal-gro"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 176.0, 
-            "manager": [
-                "BioPortal", 
-                "project on behalf of ontology owner.", 
-                ""
-            ], 
-            "managing_organization": "Dimitris Zeginis", 
-            "name": "Cancer Chemoprevention Ontology", 
-            "datahub_name": "bioportal-canco"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 168.0, 
-            "manager": null, 
-            "managing_organization": "", 
-            "name": "Haushalt Stadt Gie\u00dfen", 
-            "datahub_name": "giessen_city_goverment_budget"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 160.0, 
-            "manager": null, 
-            "managing_organization": "", 
-            "name": "Areas protected by international treaties ", 
-            "datahub_name": "areas-protected-by-international-treaties-areas-protected-by-international-treaties"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 112.0, 
-            "manager": [
-                "seiffert@dshs-koeln.de", 
-                "seiffert@dshs-koeln.de", 
-                ""
-            ], 
-            "managing_organization": "Zentralbibliothek Sportwissenschaften", 
-            "name": "Catalog Data from the Zentralbibliothek Sportwissenschaften", 
-            "datahub_name": "zbsport"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 104.0, 
-            "manager": [
-                "BioPortal", 
-                "project on behalf of ontology owner.", 
-                ""
-            ], 
-            "managing_organization": "ZFIN administrators", 
-            "name": "Zebrafish anatomy and development", 
-            "datahub_name": "bioportal-zfa"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 100.0, 
-            "manager": null, 
-            "managing_organization": "", 
-            "name": "Budget Library Tunisia ", 
-            "datahub_name": "budget-library-tunisia"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 100.0, 
-            "manager": null, 
-            "managing_organization": "", 
-            "name": "Kenya Health Spending", 
-            "datahub_name": "kenya-health-spending"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 100.0, 
-            "manager": null, 
-            "managing_organization": "", 
-            "name": "Budget Library Germany", 
-            "datahub_name": "budget-library-germany"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 100.0, 
-            "manager": null, 
-            "managing_organization": "", 
-            "name": "Budget Library Honduras", 
-            "datahub_name": "budget-library-honduras"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 100.0, 
-            "manager": null, 
-            "managing_organization": null, 
-            "name": "UK Conservation Costs", 
-            "datahub_name": "uk-conservation-costs"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 100.0, 
-            "manager": null, 
-            "managing_organization": "", 
-            "name": "Bulletin Mensuel des Statistiques \u00c9conomiques Janvier 2012", 
-            "datahub_name": "bulletin-mensuel-des-statistiques-conomiques-janvier-2012"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 96.0, 
-            "manager": [
-                "Claus", 
-                "Stadler", 
-                ""
-            ], 
-            "managing_organization": "", 
-            "name": "LinkedGeoData: Aerodromes", 
-            "datahub_name": "linkedgeodata-aerodromes"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 96.0, 
-            "manager": [
-                "Linkedopendata.it", 
-                "Linkedopendata.it", 
-                ""
-            ], 
-            "managing_organization": "Linkedopendata.it", 
-            "name": "Postal codes Italy (LinkedOpenData.it)", 
-            "datahub_name": "cap-italy-rdf"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 64.0, 
-            "manager": null, 
-            "managing_organization": "", 
-            "name": "Esta\u00e7\u00f5es Anatel", 
-            "datahub_name": "estacoes_anatel"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 56.0, 
-            "manager": null, 
-            "managing_organization": "", 
-            "name": "Talis Aspire - University of Derby", 
-            "datahub_name": "aspire-derby"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 56.0, 
-            "manager": [
-                "BioPortal", 
-                "project on behalf of ontology owner.", 
-                ""
-            ], 
-            "managing_organization": "Wasila Dahdul", 
-            "name": "Vertebrate Anatomy Ontology", 
-            "datahub_name": "bioportal-vao"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 56.0, 
-            "manager": [
-                "Soon-Gill", 
-                "Hong", 
-                ""
-            ], 
-            "managing_organization": "Soon-Gill Hong", 
-            "name": "Korean Traditional Recipes", 
-            "datahub_name": "ktr"
-        }
-    }, 
-    {
-        "pk": null, 
-        "model": "data_connections.DataCatalog", 
-        "fields": {
-            "spam_score": 48.0, 
             "manager": [
                 "Nina", 
                 "Psoncak", 
@@ -589,18 +143,368 @@
         "pk": null, 
         "model": "data_connections.DataCatalog", 
         "fields": {
-            "spam_score": 40.0, 
             "manager": null, 
-            "managing_organization": "John Goodwin", 
-            "name": "John Goodwin's Family Tree", 
-            "datahub_name": "john-goodwins-family-tree"
+            "managing_organization": "", 
+            "name": "International Journal of Communications (IJC)", 
+            "datahub_name": "http-www-seipub-org-ijc"
         }
     }, 
     {
         "pk": null, 
         "model": "data_connections.DataCatalog", 
         "fields": {
-            "spam_score": 32.0, 
+            "manager": null, 
+            "managing_organization": "Open Richly Annotated Cuneiform Corpus", 
+            "name": "Open Richly Annotated Cuneiform Corpus", 
+            "datahub_name": "open-richly-annotated-cuneiform-corpus"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Talis Aspire - University of Derby", 
+            "datahub_name": "aspire-derby"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Hugh Glaser", 
+            "name": "epsrc", 
+            "datahub_name": "rkb-explorer-epsrc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Malte", 
+                "Kiesel", 
+                ""
+            ], 
+            "managing_organization": "TVTropes.org community", 
+            "name": "DBTropes", 
+            "datahub_name": "dbtropes"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Claus", 
+                "Stadler", 
+                ""
+            ], 
+            "managing_organization": "", 
+            "name": "LinkedGeoData: Aerodromes", 
+            "datahub_name": "linkedgeodata-aerodromes"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Kenya Health Spending", 
+            "datahub_name": "kenya-health-spending"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": null, 
+            "name": "Openflights Routes", 
+            "datahub_name": "kasabi-openflights-routes"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "ZFIN administrators", 
+            "name": "Zebrafish anatomy and development", 
+            "datahub_name": "bioportal-zfa"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Daniel", 
+                "Garijo ", 
+                ""
+            ], 
+            "managing_organization": "Ontology Engineering Group, Facultad de Inform\u00e1tica, Universidad Polit\u00e9cnica de Madrid.", 
+            "name": "El Viajero's tourism dataset", 
+            "datahub_name": "webnmasunotraveler"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Kei Cheung", 
+            "name": "Yale Senselab", 
+            "datahub_name": "yale_senselab"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Hugh Glaser", 
+            "name": "OpenCyc (RKBExplorer)", 
+            "datahub_name": "rkb-explorer-opencyc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Sebastien", 
+                "Petit", 
+                ""
+            ], 
+            "managing_organization": "Jan Bliki and Sebastien Petit ", 
+            "name": "Discomap", 
+            "datahub_name": "discomap"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Office for Official Publications of the European Communities", 
+            "name": "EUROVOC in SKOS", 
+            "datahub_name": "eurovoc-in-skos"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Esta\u00e7\u00f5es Anatel", 
+            "datahub_name": "estacoes_anatel"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Budget Library Germany", 
+            "datahub_name": "budget-library-germany"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "  Interest Group on German Sentiment Analysis (IGGSA)", 
+            "name": " MLSA - A Multi-layered Reference Corpus for German Sentiment Analysis", 
+            "datahub_name": "mlsa"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Budget Library Honduras", 
+            "datahub_name": "budget-library-honduras"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Plant Ontology Administrators", 
+            "name": "Cereal Plant Development", 
+            "datahub_name": "bioportal-gro"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Alex Diehl", 
+            "name": "Cell type", 
+            "datahub_name": "bioportal-cl"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "David", 
+                "Cabo", 
+                ""
+            ], 
+            "managing_organization": "Ministerio de Econom\u00eda y Hacienda", 
+            "name": "Spanish national budget 2008-2011", 
+            "datahub_name": "spain-national-budget-2008-2011"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Wasila Dahdul", 
+            "name": "Vertebrate Anatomy Ontology", 
+            "datahub_name": "bioportal-vao"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Studies in Chemical Process Technology (SCPT)", 
+            "datahub_name": "http-www-as-se-org-scpt"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Health statistics Italy", 
+            "datahub_name": "health-statistics-italy"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Soon-Gill", 
+                "Hong", 
+                ""
+            ], 
+            "managing_organization": "Soon-Gill Hong", 
+            "name": "Korean Traditional Recipes", 
+            "datahub_name": "ktr"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Keith", 
+                "Alex", 
+                ""
+            ], 
+            "managing_organization": "Keith Alexander", 
+            "name": "ECCO-TCP Eighteenth Century Texts Linked Data", 
+            "datahub_name": "ecco-tcp-linked-data"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Haushalt Stadt Gie\u00dfen", 
+            "datahub_name": "giessen_city_goverment_budget"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "seiffert@dshs-koeln.de", 
+                "seiffert@dshs-koeln.de", 
+                ""
+            ], 
+            "managing_organization": "Zentralbibliothek Sportwissenschaften", 
+            "name": "Catalog Data from the Zentralbibliothek Sportwissenschaften", 
+            "datahub_name": "zbsport"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Tim", 
+                "McNamara", 
+                ""
+            ], 
+            "managing_organization": "Ministry of Agriculture and Forestry", 
+            "name": "A National Exotic Forest Description (2007)", 
+            "datahub_name": "new-zealand-a-national-exotic-forest-description-2007"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Advances in Water Resource and Protection (AWRP)", 
+            "datahub_name": "http-www-seipub-org-awrp"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Pentraci\u00f3n Internet - Argentina", 
+            "datahub_name": "pentraci-n-internet-argentina"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
             "manager": null, 
             "managing_organization": "", 
             "name": "Ministerio del Ambiente", 
@@ -611,11 +515,2954 @@
         "pk": null, 
         "model": "data_connections.DataCatalog", 
         "fields": {
-            "spam_score": 24.0, 
+            "manager": [
+                "Linkedopendata.it", 
+                "Linkedopendata.it", 
+                ""
+            ], 
+            "managing_organization": "Linkedopendata.it", 
+            "name": "Postal codes Italy (LinkedOpenData.it)", 
+            "datahub_name": "cap-italy-rdf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
             "manager": null, 
             "managing_organization": null, 
-            "name": "Openflights Routes", 
-            "datahub_name": "kasabi-openflights-routes"
+            "name": "UK Conservation Costs", 
+            "datahub_name": "uk-conservation-costs"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Tobias Wunner", 
+            "name": "de-gaap-ontology-lexicon", 
+            "datahub_name": "de-gaap-ontology-lexicon"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Dimitris Zeginis", 
+            "name": "Cancer Chemoprevention Ontology", 
+            "datahub_name": "bioportal-canco"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Malawi Aid Projects", 
+            "datahub_name": "malawi-aid-projects"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Bulletin Mensuel des Statistiques \u00c9conomiques Janvier 2012", 
+            "datahub_name": "bulletin-mensuel-des-statistiques-conomiques-janvier-2012"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "cancer simulation mat files ", 
+            "datahub_name": "cancer-simulation-mat-files"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Antoine Isaac <http://www.few.vu.nl/~aisaac>, Rameau committee <http://rameau.bnf.fr>", 
+            "name": "RAMEAU subject headings (STITCH)", 
+            "datahub_name": "stitch-rameau"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "OKFN", 
+                "OKFN", 
+                ""
+            ], 
+            "managing_organization": "USAID", 
+            "name": "USAID Development Experience Clearinghouse", 
+            "datahub_name": "us-usaid"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Indice National des Prix \u00e0 la Consommation INPC F\u00e9vrier 2012", 
+            "datahub_name": "indice-national-des-prix-la-consommation-inpc-f-vrier-2012"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Talis Aspire - Robert Gordon University", 
+            "datahub_name": "aspire-rgu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Keith", 
+                "Alex", 
+                ""
+            ], 
+            "managing_organization": "Keith Alexander", 
+            "name": "Metoffice Weather Forecasts", 
+            "datahub_name": "data-incubator-metoffice"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": null, 
+            "name": "Emitter.ca Facility Data 2008", 
+            "datahub_name": "emitter_facility_data"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Gerard", 
+                "de Melo", 
+                ""
+            ], 
+            "managing_organization": "Gerard de Melo", 
+            "name": "Lexvo", 
+            "datahub_name": "lexvo"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Data.gov", 
+            "datahub_name": "data-gov"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "HPO", 
+            "datahub_name": "hyrdologic_process_ontology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Bio2RDF", 
+            "name": "Saccharomyces Genome Database", 
+            "datahub_name": "bio2rdf-sgd"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Nina", 
+                "Psoncak", 
+                ""
+            ], 
+            "managing_organization": "Maine Dept. of Administrative and Financial Services", 
+            "name": "Maine Expenditure Data (aggregate only)", 
+            "datahub_name": "maine-expenditure-data-aggregate-only"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Internet Archive, a 501(c)(3) non-profit", 
+            "name": "Open Library", 
+            "datahub_name": "open-library"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Stephen", 
+                "V. Williams", 
+                ""
+            ], 
+            "managing_organization": "Christopher P. Barnes", 
+            "name": "VIVO University of Florida", 
+            "datahub_name": "vivo-university-of-florida"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "HM Revenue and Customs", 
+            "name": "HM Revenue and Customs - Income Tax and Personal Incomes", 
+            "datahub_name": "hmrc-national-statistics-income-tax-and-personal-incomes"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "NPS-FOIA-Feb-2012", 
+            "datahub_name": "nps-foia-feb-2012"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Sourcemap.org and its Contributors", 
+            "name": "Sourcemap - Open Supply Chains & Carbon Footprint", 
+            "datahub_name": "sourcemap"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Hugh Glaser", 
+            "name": "Budapest University of Technology and Economics (RKBExplorer)", 
+            "datahub_name": "rkb-explorer-budapest"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Kate", 
+                "Geyer", 
+                ""
+            ], 
+            "managing_organization": "Kate Geyer", 
+            "name": "Massachusetts Open Data Initiative", 
+            "datahub_name": "massachusetts-open-data"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Tweets matching 'kmart'", 
+            "datahub_name": "tweets-matching-kmart"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "JumpStart", 
+                "Georgia", 
+                ""
+            ], 
+            "managing_organization": "JumpStart Georgia", 
+            "name": "Tbilisi Minibus (marshrutka) Routes", 
+            "datahub_name": "tbilisi-minibus-routes"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Timothy Lebo", 
+            "name": "IEEE VIS Source Data", 
+            "datahub_name": "twc-ieeevis"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Peter Midford", 
+            "name": "Loggerhead nesting", 
+            "datahub_name": "bioportal-lhn"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Jairo", 
+                "Francisco de Souza", 
+                ""
+            ], 
+            "managing_organization": "Lucas Ara\u00fajo; Jairo Francisco de Souza", 
+            "name": "Brazilian Politicians", 
+            "datahub_name": "brazilian-politicians"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Cosm feed 61916", 
+            "datahub_name": "cosm-feed-61916"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Stuart Nelson", 
+            "name": "RxNORM", 
+            "datahub_name": "bioportal-rxnorm"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Riza Theresa Batista-Navarro", 
+            "name": "Natural Products Ontology", 
+            "datahub_name": "bioportal-natpro"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Vicomtech-IK4", 
+                "Vicomtech-IK4", 
+                ""
+            ], 
+            "managing_organization": "Vicomtech-IK4", 
+            "name": "Santillana Guide Dataset", 
+            "datahub_name": "santillana_guide_dataset"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Andr\u00e9 Bittar", 
+            "name": "French TimeBank", 
+            "datahub_name": "french-timebank"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Advances in Forestry Letters (AFL)", 
+            "datahub_name": "http-www-afl-journal-org"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Gilles Criquet", 
+            "name": "Localisation des lyc\u00e9es publics d'Aquitaine", 
+            "datahub_name": "ig_lycees_aquitaine-cra"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Royal", 
+                "Society of Chemistry", 
+                ""
+            ], 
+            "managing_organization": "Royal Society of Chemistry", 
+            "name": "ChemSpider", 
+            "datahub_name": "chemspider"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Space Telescope Science Institute", 
+            "name": "Multimission Archive at STScI (MAST)", 
+            "datahub_name": "mast"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "William Bug", 
+            "name": "BIRNLex", 
+            "datahub_name": "bioportal-birnlex"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Tim", 
+                "McNamara", 
+                ""
+            ], 
+            "managing_organization": "Statistics New Zealand", 
+            "name": "New Zealand People and Communities Statistics", 
+            "datahub_name": "new-zealand-people-and-communities-statistics"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Budget Library Dominican Republic ", 
+            "datahub_name": "budget-library-dominican-republic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "The", 
+                "British Museum", 
+                ""
+            ], 
+            "managing_organization": "Daniel Pett", 
+            "name": "The Portable Antiquities Scheme", 
+            "datahub_name": "portable-antiquities"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Peter Midford", 
+            "name": "Teleost taxonomy", 
+            "datahub_name": "bioportal-tto"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "UNESCO World Heritage Centre", 
+            "name": "UNESCO World Heritage Sites", 
+            "datahub_name": "unesco-world-heritage-sites"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Dr. Arathi Raghunath", 
+            "name": "Breast tissue cell lines", 
+            "datahub_name": "bioportal-mcbcc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Mark", 
+                "Brough", 
+                ""
+            ], 
+            "managing_organization": "", 
+            "name": "EU Climate Finance", 
+            "datahub_name": "eu-climate-finance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "California State Legislative Analyst's Office", 
+            "name": "California Historical Budgetary Data", 
+            "datahub_name": "california-historical-budgetary-data"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Hugh Glaser", 
+            "name": "dotAC (RKBExplorer)", 
+            "datahub_name": "rkb-explorer-dotac"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "mace.ojala@turku.fi", 
+                "mace.ojala@turku.fi", 
+                ""
+            ], 
+            "managing_organization": "Mace Ojala", 
+            "name": "Vaski libraries bibliographic data", 
+            "datahub_name": "vaski-libraries-bibliographic-data"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "The", 
+                "eagle-i Network", 
+                ""
+            ], 
+            "managing_organization": "The eagle-i Network", 
+            "name": "eagle-i @ Florida Agricultural and Mechanical University", 
+            "datahub_name": "eagle-i-famu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "WHO Collaborating Centre for International Drug Monitoring", 
+            "name": "WHO Adverse Reaction Terminology", 
+            "datahub_name": "bioportal-who"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Budget Library Papua New Guinea ", 
+            "datahub_name": "budget-library-papua-new-guinea"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "CTCAE Help", 
+            "name": "Common Terminology Criteria for Adverse Events", 
+            "datahub_name": "bioportal-ctcae"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Boyan", 
+                "Yurukov", 
+                ""
+            ], 
+            "managing_organization": "State Security Committee | Boyan Yurukov", 
+            "name": "Former Bulgarian state security operatives", 
+            "datahub_name": "bulgarian-state-security"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "SGD curators", 
+            "name": "Ascomycete phenotype ontology", 
+            "datahub_name": "bioportal-apo"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Ariane Toussaint", 
+            "name": "MeGO", 
+            "datahub_name": "bioportal-mego"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": null, 
+            "name": "Supplementary Budgetary Information", 
+            "datahub_name": "ukgov-finance-sbi"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "OKFN", 
+                "OKFN", 
+                ""
+            ], 
+            "managing_organization": "OKFN", 
+            "name": "South Africa Development Co-operation Information System", 
+            "datahub_name": "south-africa-development-cooperation-system"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "UN Habitat City Prosperity Index", 
+            "datahub_name": "un-habitat-city-prosperity-index"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": null, 
+            "name": "test_python_client_package_1", 
+            "datahub_name": "test_python_client_package_1"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Tim", 
+                "McNamara", 
+                ""
+            ], 
+            "managing_organization": "Statistics New Zealand", 
+            "name": "New Zealand Industry Statistics", 
+            "datahub_name": "new-zealand-industry-statistics"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Talis Aspire - University College London", 
+            "datahub_name": "aspire-ucl"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Pierre-Yves", 
+                "V", 
+                ""
+            ], 
+            "managing_organization": "Pierre-Yves Vandenbussche", 
+            "name": "SPARQL Endpoint Status", 
+            "datahub_name": "sparql-endpoint-status"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Jim Balhoff", 
+            "name": "Comparative Data Analysis Ontology", 
+            "datahub_name": "bioportal-cdao"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Kier Davis", 
+            "name": "Pokedex data in RDF", 
+            "datahub_name": "data-incubator-pokedex"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": null, 
+            "name": "Common Learning Spaces Extra Information (University of Southampton)", 
+            "datahub_name": "southampton-ac-uk-cls-extras"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": null, 
+            "name": "National Air Pollutant Emission Trends", 
+            "datahub_name": "national_pollutant_release_inventory_national_air_pollutant_emission_trends"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Event Administrators", 
+            "name": "Molecule role (INOH Protein name/family name ontology)", 
+            "datahub_name": "bioportal-imr"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "The Charity Commission for Northern Ireland", 
+            "name": "Northern Ireland Charities List", 
+            "datahub_name": "northern-ireland-charities-list"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "TEST: CZ: Aris test 2010", 
+            "datahub_name": "aris-test-2010"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Minsk City budget 2007", 
+            "datahub_name": "minsk-city-budget-2007"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "James McCusker", 
+            "name": "HealthData.gov Platform (HDP) on the Semantic Web", 
+            "datahub_name": "twc-healthdata"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Project", 
+                "Gutenberg", 
+                ""
+            ], 
+            "managing_organization": "Project Gutenberg", 
+            "name": "Project Gutenberg", 
+            "datahub_name": "gutenberg"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "The", 
+                "eagle-i Network", 
+                ""
+            ], 
+            "managing_organization": "The eagle-i Network", 
+            "name": "eagle-i @ University of Texas at El Paso", 
+            "datahub_name": "eagle-i-utep"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "The Stationery Office Limited", 
+            "name": "OpenUpLabs Transport", 
+            "datahub_name": "transport-openuplabs"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Tim", 
+                "Hodson", 
+                ""
+            ], 
+            "managing_organization": "Tim Hodson", 
+            "name": "European Election Results", 
+            "datahub_name": "european-election-results"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Yu Lin", 
+            "name": "Ontology for Genetic Interval", 
+            "datahub_name": "bioportal-ogi"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Mouse_pathology Administrators", 
+            "name": "Mouse pathology", 
+            "datahub_name": "bioportal-mpath"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Schmidt_Shupp_Walker_Ostrom_2003", 
+            "datahub_name": "schmidt-shupp-walker-ostrom-2003"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Ross Singer", 
+            "name": "MARC Codes List", 
+            "datahub_name": "marc-codes"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "The", 
+                "British Library Metadata Services", 
+                ""
+            ], 
+            "managing_organization": "The British Library Metadata Services", 
+            "name": "British National Bibliography (BNB) - Linked Open Data", 
+            "datahub_name": "bluk-bnb"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Ms. Kathy Mercer, LOINC Developer", 
+            "name": "Logical Observation Identifier Names and Codes", 
+            "datahub_name": "bioportal-lnc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": null, 
+            "name": "my_dataset_name1", 
+            "datahub_name": "my_dataset_name1"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Dr. Elspeth Bruford", 
+            "name": "HUGO", 
+            "datahub_name": "bioportal-hugo"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "lemonUby", 
+            "datahub_name": "lemonuby"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "caloi", 
+            "datahub_name": "caloi"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Data.gov.uk Team", 
+            "name": "reference.data.gov.uk", 
+            "datahub_name": "reference-data-gov-uk"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Hugh", 
+                "Glaser", 
+                ""
+            ], 
+            "managing_organization": "Hugh Glaser", 
+            "name": "ePrints Harvest (RKBExplorer)", 
+            "datahub_name": "eprints-harvest-rkbexplorer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Ferdinand Dhombres", 
+            "name": "Orphanet Ontology of Rare Diseases", 
+            "datahub_name": "bioportal-ontoorpha"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Recovery/Stimulus", 
+            "datahub_name": "recovery-stimulus"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Hugh Glaser", 
+            "name": "Research Assessment Exercise 2001 (RKBExplorer)", 
+            "datahub_name": "rkb-explorer-rae2001"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Finn", 
+                "\u00c5rup Nielsen", 
+                ""
+            ], 
+            "managing_organization": "Finn \u00c5rup Nielsen", 
+            "name": "Brede Wiki", 
+            "datahub_name": "bredewiki"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Jan Hummel", 
+            "name": "Golm Metabolome Database", 
+            "datahub_name": "gmd"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Christopher", 
+                "Gutteridge", 
+                ""
+            ], 
+            "managing_organization": "", 
+            "name": "Apps using our data (University of Southampton)", 
+            "datahub_name": "southampton-ac-uk-apps"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "The", 
+                "British Museum", 
+                ""
+            ], 
+            "managing_organization": "Dominic Oldman", 
+            "name": "British Museum Collection", 
+            "datahub_name": "british-museum-collection"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "AFTv5 hand coding", 
+            "datahub_name": "aftv5-hand-coding"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "International Journal of Energy and Power (IJEP)", 
+            "datahub_name": "http-www-ijep-org"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Communications in Control Science and Engineering (CCSE) ", 
+            "datahub_name": "http-www-as-se-org-ccse"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Incidencia delictiva. Mexico", 
+            "datahub_name": "incidencia-delictiva-mexico"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Nigeria 2009 Budget ", 
+            "datahub_name": "nigeria-2009-budget"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Tom's Test Data", 
+            "datahub_name": "toms-test"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Melanie Courtot", 
+            "name": "Adverse Event Reporting ontology", 
+            "datahub_name": "bioportal-aero"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "ACAPS worldbankdata", 
+            "datahub_name": "acaps-worldbankdata"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Tim", 
+                "McNamara", 
+                ""
+            ], 
+            "managing_organization": "Statistics New Zealand", 
+            "name": "New Zealand Import and Export Statistics", 
+            "datahub_name": "new-zealand-import-and-export-statistics"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "test-local-money", 
+            "datahub_name": "test-local-money"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Yann", 
+                "NICOLAS", 
+                ""
+            ], 
+            "managing_organization": "ABES", 
+            "name": "IdRef: Sudoc authority data", 
+            "datahub_name": "idreffr"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Tim", 
+                "McNamara", 
+                ""
+            ], 
+            "managing_organization": "Statistics New Zealand", 
+            "name": "New Zealand Employment Statistics", 
+            "datahub_name": "new-zealand-employment-statistics"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "MusicNet Codex", 
+            "datahub_name": "musicnet_codex"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Boyan", 
+                "Yurukov", 
+                ""
+            ], 
+            "managing_organization": "Bulgarian Parliament | Remixed - Boyan Yurukov", 
+            "name": "Open data of the Bulgarian Parliament", 
+            "datahub_name": "open-data-of-the-bulgarian-parliament"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Anja", 
+                "Jentzsch", 
+                ""
+            ], 
+            "managing_organization": "Anja Jentzsch", 
+            "name": "SIDER: Side Effect Resource", 
+            "datahub_name": "fu-berlin-sider"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Copa do Mundo", 
+            "datahub_name": "worldcup"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Government", 
+                "of Canada", 
+                ""
+            ], 
+            "managing_organization": "Government of Canada, Natural Resources Canada, Canada Centre for Remote Sensing, The Atlas of Canada", 
+            "name": "Atlas of Canada 1,000,000 National Frameworks Data, Administrative Boundaries", 
+            "datahub_name": "atlasofcanada1000000nationalframeworksdataadministrativeboundaries"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Envo Administrators", 
+            "name": "Environment Ontology", 
+            "datahub_name": "bioportal-envo"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Peter", 
+                "J. DeVries", 
+                ""
+            ], 
+            "managing_organization": "Peter J. DeVries, UW - Madison <http://people.geospecies.org/people/Peter_J_DeVries/>", 
+            "name": "GeoSpecies Knowledge Base", 
+            "datahub_name": "geospecies"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Grants of the General Secretariat of Sports", 
+            "datahub_name": "grants-of-the-general-secretariat-of-sports"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Sarven", 
+                "Capadisli", 
+                ""
+            ], 
+            "managing_organization": "Sarven Capadisli", 
+            "name": "International Monetary Fund (IMF) Linked Data", 
+            "datahub_name": "imf-linked-data"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Michael", 
+                "Ley", 
+                ""
+            ], 
+            "managing_organization": "DBLP Team", 
+            "name": "The DBLP Computer Science Bibliography", 
+            "datahub_name": "dblp"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Gilles S\u00e9rasset", 
+            "name": "dbnary", 
+            "datahub_name": "dbnary"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "U.S. Department of Transportation, Federal Highway Administration", 
+            "name": "National Bridge Inventory", 
+            "datahub_name": "national_bridge_inventory"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Ian Davis", 
+            "name": "Standard Eurobarometer ", 
+            "datahub_name": "eurobarometer-standard"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "OBI Consortium", 
+            "name": "Ontology for Biomedical Investigations", 
+            "datahub_name": "bioportal-obi"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Greek Wind Map", 
+            "datahub_name": "greek-wind-map"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": null, 
+            "name": "Health Profile Database", 
+            "datahub_name": "health_profile_2009_06_25"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "GNOSS", 
+                "Team", 
+                ""
+            ], 
+            "managing_organization": "GNOSS Team", 
+            "name": "IneveryCREA, la comunidad de la creatividad educativa", 
+            "datahub_name": "ineverycrea"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Diederik van Liere", 
+            "name": "Wikichallenge - Training", 
+            "datahub_name": "wikichallenge-training"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "The", 
+                "eagle-i Network", 
+                ""
+            ], 
+            "managing_organization": "The eagle-i Network", 
+            "name": "eagle-i @ Charles R. Drew University", 
+            "datahub_name": "eagle-i-cdrewu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "South African National Budget", 
+            "datahub_name": "za_budget"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Trish Whetzel, Csongor Nyulas, Natasha Noy", 
+            "name": "Biomedical Resource Ontology", 
+            "datahub_name": "bioportal-bro_x1"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Hugh Glaser", 
+            "name": "Universit\u00e9 Paul Sabatier - Toulouse 3 (RKB Explorer)", 
+            "datahub_name": "rkb-explorer-irit"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Potential of Biomass from solid remains", 
+            "datahub_name": "potential-of-biomass-from-solid-remains"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Francisco", 
+                "Blanco", 
+                ""
+            ], 
+            "managing_organization": "Francisco Blanco", 
+            "name": "vulnerapedia", 
+            "datahub_name": "vulnerapedia"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Hugh Glaser", 
+            "name": "notube", 
+            "datahub_name": "rkb-explorer-notube"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Fumihiro Kato", 
+            "name": "DBpedia in Japanese", 
+            "datahub_name": "dbpedia-ja"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "admin", 
+            "name": "chicagoproj", 
+            "datahub_name": "chicagoproj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Joachim", 
+                "Neubert", 
+                ""
+            ], 
+            "managing_organization": "ZBW German National Library of Economics - Leibniz Centre for Economics", 
+            "name": "20th Century Press Archives", 
+            "datahub_name": "zbw-pressemappe20"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "http://sci-class.math.auth.gr/MSCLW/index.php/User_contributions", 
+            "name": "Mathematics Subject Classification", 
+            "datahub_name": "msc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Jose", 
+                "Mar\u00eda Alvarez Rodr\u00edguez", 
+                ""
+            ], 
+            "managing_organization": "Jose Mar\u00eda Alvarez Rodr\u00edguez at WESO (University of Oviedo)", 
+            "name": "CN  2012", 
+            "datahub_name": "combined-nomenclature-2012"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": null, 
+            "name": "my_package_name", 
+            "datahub_name": "my_package_name"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Daniel Lombra\u00f1a Gonz\u00e1lez", 
+            "name": "Air Quality with Biomarkers: Lichens", 
+            "datahub_name": "airquality"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Christian Heine", 
+            "name": "South Atlantic Rift Kinematics", 
+            "datahub_name": "southatlanticrift"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Tim", 
+                "McNamara", 
+                ""
+            ], 
+            "managing_organization": "Department for Transport, Energy and Infrastructure (SA)", 
+            "name": "Current And Future Road Reports and Traffic Restrictions In South Australia", 
+            "datahub_name": "current-and-future-road-reports-and-traffic-restrictions-in-south-australia"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Mendeley", 
+                "Mendeley", 
+                ""
+            ], 
+            "managing_organization": "Mendeley", 
+            "name": "Mendeley Research Catalog", 
+            "datahub_name": "mendeley-research-catalog"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Budget Library Rwanda", 
+            "datahub_name": "budget-library-rwanda"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Budget Library Senegal", 
+            "datahub_name": "budget-library-senegal"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Fahim Imam", 
+            "name": "NIFSTD", 
+            "datahub_name": "bioportal-nif"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "British Oceanographic Data Centre, Natural Environment Research Council, UK", 
+            "name": "NERC Vocabulary Server 2.0", 
+            "datahub_name": "nvs"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "State Department", 
+            "name": "US State Department - Humanitarian Information Unit", 
+            "datahub_name": "state-dept-hiu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Studies in Surveying and Mapping Science (SSMS) ", 
+            "datahub_name": "http-www-as-se-org-ssms"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Hugh Glaser", 
+            "name": "Universit\u00e4t Ulm (RKBExplorer)", 
+            "datahub_name": "rkb-explorer-ulm"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Industry", 
+                "Canada", 
+                ""
+            ], 
+            "managing_organization": "Statistics Canada", 
+            "name": "2006 Agricultural Ecumene Census Division Boundary File", 
+            "datahub_name": "2006_agricultural_ecumene_census_division_boundary_file"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Karen Eckert", 
+            "name": "Master Drug Data Base", 
+            "datahub_name": "bioportal-mddb"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Amelie", 
+                "Gyrard", 
+                ""
+            ], 
+            "managing_organization": "Amelie Gyrard", 
+            "name": "STAC", 
+            "datahub_name": "stac"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Ordnance", 
+                "Survey", 
+                ""
+            ], 
+            "managing_organization": "Ordnance Survey", 
+            "name": "Ordnance Survey Linked Data", 
+            "datahub_name": "ordnance-survey-linked-data"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "David S. DeLuca", 
+            "name": "MaHCO - An MHC Ontology", 
+            "datahub_name": "bioportal-mhc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Ben", 
+                "O'Steen", 
+                ""
+            ], 
+            "managing_organization": "Ben O'Steen", 
+            "name": "Bibliographica.org BNB export", 
+            "datahub_name": "bibliographica-org-bnb-export"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Kavargiris Kostas and Bratsas Charalampos ", 
+            "name": "intervalue", 
+            "datahub_name": "intervalue"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "hr347", 
+            "datahub_name": "hr347"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Carbon", 
+                "Calculated", 
+                ""
+            ], 
+            "managing_organization": "Carbon Calculated", 
+            "name": "Carbon Calculated Platform: Environmental, Carbon and Energy Data", 
+            "datahub_name": "carbon_calculated"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Evan", 
+                "S", 
+                ""
+            ], 
+            "managing_organization": "Evan Sandhaus, Rob Larson", 
+            "name": "New York Times - Linked Open Data", 
+            "datahub_name": "nytimes-linked-open-data"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Bio2RDF", 
+            "name": "PROSITE", 
+            "datahub_name": "bio2rdf-prosite"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Nicolas Le Novere", 
+            "name": "Systems Biology", 
+            "datahub_name": "bioportal-sbo"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "RIA NEWS OPEN DATA", 
+            "datahub_name": "ria-news-open-data"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Dario Taraborelli", 
+            "name": "Wikimedia Research Newsletter corpus", 
+            "datahub_name": "wikimedia-research-newsletter"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": null, 
+            "name": "Open Data Catalog (University of Southampton)", 
+            "datahub_name": "southampton-ac-uk-data-catalog"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Michael Bauer", 
+            "name": "Members of the Tanzanian Parliament", 
+            "datahub_name": "members-of-the-tanzanian-parliament"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Hugh Glaser", 
+            "name": "France Telecom Recherche et D\u00e9veloppement (RKBExplorer)", 
+            "datahub_name": "rkb-explorer-ft"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "NTNU special collections", 
+            "datahub_name": "ntnusc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Library", 
+                "of Congress", 
+                ""
+            ], 
+            "managing_organization": "", 
+            "name": "Library of Congress Subject Headings", 
+            "datahub_name": "lcsh"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Eitan Rubin", 
+            "name": "Neural-Immune Gene Ontology", 
+            "datahub_name": "bioportal-nigo"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "EU - Financial Transparency System", 
+            "datahub_name": "eu-fts"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Rufus", 
+                "Pollock", 
+                ""
+            ], 
+            "managing_organization": "Federal Reserve (and others)", 
+            "name": "Exchange Rates", 
+            "datahub_name": "exchange-rates"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Hospitals", 
+            "datahub_name": "hospitals"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Government", 
+                "of Canada", 
+                ""
+            ], 
+            "managing_organization": "Government of Canada, Natural Resources Canada, Canada Centre for Remote Sensing; Instituto Nacional de Estad\u00edstica Geograf\u00eda e Inform\u00e1tica; Geological Survey", 
+            "name": "North American Atlas - Bathymetry Collection", 
+            "datahub_name": "geogratisnat_bathymetry_v100"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Bio2RDF", 
+            "name": "KEGG Glycan", 
+            "datahub_name": "bio2rdf-kegg-glycan"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Union State Budget 2011", 
+            "datahub_name": "sg-budget"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Milos", 
+                "Jovanovik", 
+                ""
+            ], 
+            "managing_organization": "Milos Jovanovik", 
+            "name": "Drug Data from the Health Insurance Fund of Macedonia", 
+            "datahub_name": "drug-data-hifm"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": null, 
+            "name": "DOAP Store", 
+            "datahub_name": "doap_store"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Budget Library Brazil", 
+            "datahub_name": "budget-library-brazil"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Budget Library Serbia", 
+            "datahub_name": "budget-library-serbia"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Jan Willis", 
+            "name": "Metathesaurus CPT Hierarchical Terms", 
+            "datahub_name": "bioportal-mthch"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Vehicle Engineering (VE)", 
+            "datahub_name": "http-www-seipub-org-ve"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Bio2RDF", 
+            "name": "Bio2RDF :: ChEBI", 
+            "datahub_name": "bio2rdf-chebi"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Open Knowledge Foundation Dashboard Data", 
+            "datahub_name": "okfn-dashboard"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "UniProt", 
+                "consortium", 
+                ""
+            ], 
+            "managing_organization": "UniPathway", 
+            "name": "UniProt UniPathway", 
+            "datahub_name": "uniprot-unipathway"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Fed Once-Secret Loan Crisis Data Compiled by Bloomberg (Bailouts)", 
+            "datahub_name": "fed-once-secret-loan-crisis-data-compiled-by-bloomberg-bailouts"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "EU Spending Sources and Tools", 
+            "datahub_name": "eu-spending-sources-and-tools"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Collection of Facial Images", 
+            "datahub_name": "collection-of-facial-images"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Fumihiro Kato", 
+            "name": "LODAC BDLS", 
+            "datahub_name": "lodac-bdls"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Volker Englisch", 
+            "name": "Physician Data Query", 
+            "datahub_name": "bioportal-pdq"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Semantic", 
+                "Web Company", 
+                ""
+            ], 
+            "managing_organization": "Andreas Blumauer", 
+            "name": "Alpine Ski Racers of Austria", 
+            "datahub_name": "austrian_ski_racers"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Osma Suominen", 
+            "name": "Finnish municipalities and regional classifications", 
+            "datahub_name": "finnish-municipalities"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Studies in System Science (SSS)", 
+            "datahub_name": "http-www-as-se-org-sss"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Stefan Marsiske", 
+            "name": "European Parliament Legislative Activities", 
+            "datahub_name": "european-parlament-legislative-activities"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": null, 
+            "name": "Tweets matching 'bought'", 
+            "datahub_name": "tweets-matching-bought"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Peter J. DeVries", 
+            "name": "GeoSpecies Ontology", 
+            "datahub_name": "bioportal-geospecies"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Plant Ontology Administrators", 
+            "name": "Plant Trait Ontology", 
+            "datahub_name": "bioportal-to"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Alexandra Bulzan", 
+            "name": "Breast Cancer Grading Ontology", 
+            "datahub_name": "bioportal-bcgo"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Tim", 
+                "McNamara", 
+                ""
+            ], 
+            "managing_organization": "Ministry of Agriculture and Forestry", 
+            "name": "Fertiliser use statistics", 
+            "datahub_name": "new-zealand-fertiliser-use-statistics"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "EMAP Administrators", 
+            "name": "Mouse gross anatomy and development", 
+            "datahub_name": "bioportal-emap"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Yves Raimond", 
+            "name": "DBTune.org Musicbrainz D2R Server", 
+            "datahub_name": "dbtune-musicbrainz"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "GroupLens Research, University of Michigan", 
+            "name": "MovieLens Data Sets", 
+            "datahub_name": "movielens"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Campaign Against the Arms Trade (CAAT)", 
+            "name": "UK Strategic Export Controls (Arms Exports)", 
+            "datahub_name": "uk-strategic-export-controls"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Tim", 
+                "McNamara", 
+                ""
+            ], 
+            "managing_organization": "Statistics New Zealand", 
+            "name": "New Zealand Alcohol and Tobacco Availability Statistics", 
+            "datahub_name": "new-zealand-alcohol-and-tobacco-availability-statistics"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Christophe", 
+                "Dupriez", 
+                ""
+            ], 
+            "managing_organization": "Imma Subirats", 
+            "name": "JITA Classification System of Library and Information Science", 
+            "datahub_name": "jita"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Amy Coenen", 
+            "name": "International Classification for Nursing Practice", 
+            "datahub_name": "bioportal-icnp"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Tim", 
+                "McNamara", 
+                ""
+            ], 
+            "managing_organization": "Institute of Environmental Science and Research", 
+            "name": "New Zealand Public Health Observatory - Notifiable Disease", 
+            "datahub_name": "new-zealand-public-health-observatory-notifiable-disease"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "http://www.deis.gov.ar/", 
+            "name": "Estadisticas vitales 2010 - Argentina", 
+            "datahub_name": "estadisticas-vitales-2010-argentina"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Jason", 
+                "Mai", 
+                ""
+            ], 
+            "managing_organization": "Jason Mai", 
+            "name": "Linked Open Data of Ecology", 
+            "datahub_name": "linked-open-data-of-ecology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Standard and Poors", 
+            "name": "Case-Shiller Home Price Indices", 
+            "datahub_name": "case-shiller-home-price-indices"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Budget Library Nigeria ", 
+            "datahub_name": "budget-library-nigeria"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Advances in Chemical Science (ACS)", 
+            "datahub_name": "advances-in-chemical-science-acs"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "World Development Indicator Sources", 
+            "datahub_name": "world-indicators"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Numbers of Municipal and Regional Directors", 
+            "datahub_name": "numbers-of-municipal-and-regional-directors"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Victoria Petri", 
+            "name": "Pathway ontology", 
+            "datahub_name": "bioportal-pw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Heidi Lam, Enrico Bertini, Petra Isenberg, Catherine Plaisant, and Sheelagh Carpendale", 
+            "name": "Empirical Studies in Information Visualization: Seven Scenarios (Paper Codings)", 
+            "datahub_name": "vis-seven-scenarios-codings"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "S\u00f8ren", 
+                "Roug", 
+                ""
+            ], 
+            "managing_organization": "", 
+            "name": "EIONET RDF Data", 
+            "datahub_name": "eionet-rdf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Janos", 
+                "G. Hajagos", 
+                ""
+            ], 
+            "managing_organization": "US National Library of Medicine", 
+            "name": "RxNorm", 
+            "datahub_name": "rxnorm"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Catastro un techo para mi pa\u00eds - Argentina", 
+            "datahub_name": "catastro-un-techo"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Sergey", 
+                "Fomel", 
+                ""
+            ], 
+            "managing_organization": null, 
+            "name": "Geophysical research papers with reproducible computations ", 
+            "datahub_name": "madagascar"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Policija Slovenije", 
+            "name": "Kriminaliteta", 
+            "datahub_name": "kriminaliteta_00_09"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "UAH", 
+                "UAH", 
+                ""
+            ], 
+            "managing_organization": "University of Alcala de Henares", 
+            "name": "Organic Edunet Linked Open Data", 
+            "datahub_name": "organic-edunet"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "James Malone", 
+            "name": "Software Ontology", 
+            "datahub_name": "bioportal-swo"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Budget Library Mexico", 
+            "datahub_name": "budget-library-mexico"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Hugh Glaser", 
+            "name": "Open Archive Initiative Harvest over OAI-PMH (RKBExplorer)", 
+            "datahub_name": "rkb-explorer-oai"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Kenya Expenditure 2002-2010", 
+            "datahub_name": "kenya-expenditure-2002-2010"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Pippa Norris", 
+            "name": "Democracy time-series dataset: Variable labels.", 
+            "datahub_name": "democracy-time-series-dataset---variable-labels"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": null, 
+            "name": "JACS Codes (University of Southampton)", 
+            "datahub_name": "southampton-ac-uk-jacs"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Kjetil Kjernsmo", 
+            "name": "Norwegian geo-divisions", 
+            "datahub_name": "norwegian-geo-divisions"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Unit Administrators", 
+            "name": "Units of measurement", 
+            "datahub_name": "bioportal-uo"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "BioPortal", 
+                "project on behalf of ontology owner.", 
+                ""
+            ], 
+            "managing_organization": "Maria Taboada", 
+            "name": "Cerebrotendinous xanthomatosis", 
+            "datahub_name": "bioportal-ctx"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Budget Library Iraq", 
+            "datahub_name": "budget-library-iraq"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Franck Tanoh", 
+            "name": "The BioCatalogue", 
+            "datahub_name": "biocatalogue"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Cory", 
+                "Horner", 
+                ""
+            ], 
+            "managing_organization": null, 
+            "name": "How'd They Vote? - Canadian MPs in focus", 
+            "datahub_name": "canada-howdtheyvote"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": null, 
+            "name": "EU farm subsidies for Slovenia ", 
+            "datahub_name": "eufarmsubsidy_slovenia"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "GNOSS", 
+                "Team", 
+                ""
+            ], 
+            "managing_organization": "GNOSS Team", 
+            "name": "IneveryCREA Argentina, la comunidad de la creatividad educativa", 
+            "datahub_name": "ineverycrea-argentina"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Talis Aspire - University of Central Lancashire", 
+            "datahub_name": "aspire-uclan"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Indice National des Prix \u00e0 la Consommation INPC F\u00e9vrier 2011", 
+            "datahub_name": "indice-national-des-prix-la-consommation-inpc-f-vrier-2011"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "Benny & Sven", 
+            "name": "Portugal EU Cohesion Projects", 
+            "datahub_name": "openspending-erdf-pt"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Matt", 
+                "Ford", 
+                ""
+            ], 
+            "managing_organization": "UK Parliament", 
+            "name": "Early Day Motions", 
+            "datahub_name": "early-day-motions"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "The National Archives", 
+            "name": "UK Legislation", 
+            "datahub_name": "uk-legislation-api"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Paul", 
+                "Fitzpatrick", 
+                ""
+            ], 
+            "managing_organization": null, 
+            "name": "DCP rooted economy directories", 
+            "datahub_name": "dcp-rooted-economy"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Michel", 
+                "Dumontier", 
+                ""
+            ], 
+            "managing_organization": "Bio2RDF", 
+            "name": "Bio2RDF::OMIM", 
+            "datahub_name": "bio2rdf-omim"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Stuart", 
+                "Williams", 
+                ""
+            ], 
+            "managing_organization": "Environment Agency", 
+            "name": "Environment Agency Bathing Water Quality", 
+            "datahub_name": "environment-agency-bathing-water-quality"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Senadores, Diputados y Twitter", 
+            "datahub_name": "senadores-diputados-y-twitter"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": null, 
+            "name": "Student Statistics (University of Southampton)", 
+            "datahub_name": "southampton-ac-uk-stats"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Hospital Sites and Facilities", 
+            "datahub_name": "hospital-sites-and-facilities"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Eric", 
+                "Kansa", 
+                ""
+            ], 
+            "managing_organization": "Aaron Brody", 
+            "name": "Bade Museum", 
+            "datahub_name": "bade_museum"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "", 
+            "name": "Budget Library Georgia ", 
+            "datahub_name": "budget-library-georgia"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": [
+                "Martin", 
+                "Keegan", 
+                ""
+            ], 
+            "managing_organization": "London Borough of Hammersmith and Fulham", 
+            "name": "London Borough of Hammersmith and Fulham Spending 2010", 
+            "datahub_name": "lbhf-spending-2010"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": null, 
+            "name": "Laboratory for Satellite Altimetry Global Sea Level Time Series", 
+            "datahub_name": "lsa-sealevel"
         }
     }
 ]

@@ -1,92 +1,484 @@
 [
     {
-        "fields": {
-            "url": "", 
-            "name": "License Not Specified"
-        }
+        "status": "active", 
+        "maintainer": "", 
+        "family": "", 
+        "title": "License Not Specified", 
+        "domain_data": "False", 
+        "id": "notspecified", 
+        "is_okd_compliant": "False", 
+        "is_generic": "True", 
+        "url": "", 
+        "is_osi_compliant": "False", 
+        "domain_software": "False", 
+        "domain_content": "False"
     }, 
     {
-        "fields": {
-            "url": "http://www.opendefinition.org/licenses/odc-pddl", 
-            "name": "Open Data Commons Public Domain Dedication and Licence (PDDL)"
-        }
+        "status": "active", 
+        "maintainer": "", 
+        "family": "", 
+        "title": "Open Data Commons Public Domain Dedication and Licence (PDDL)", 
+        "domain_data": "True", 
+        "id": "odc-pddl", 
+        "is_okd_compliant": "True", 
+        "is_generic": "False", 
+        "url": "http://www.opendefinition.org/licenses/odc-pddl", 
+        "is_osi_compliant": "False", 
+        "domain_software": "False", 
+        "domain_content": "False"
     }, 
     {
-        "fields": {
-            "url": "http://www.opendefinition.org/licenses/odc-odbl", 
-            "name": "Open Data Commons Open Database License (ODbL)"
-        }
+        "status": "active", 
+        "maintainer": "", 
+        "family": "", 
+        "title": "Open Data Commons Open Database License (ODbL)", 
+        "domain_data": "True", 
+        "id": "odc-odbl", 
+        "is_okd_compliant": "True", 
+        "is_generic": "False", 
+        "url": "http://www.opendefinition.org/licenses/odc-odbl", 
+        "is_osi_compliant": "False", 
+        "domain_software": "False", 
+        "domain_content": "False"
     }, 
     {
-        "fields": {
-            "url": "http://www.opendefinition.org/licenses/odc-by", 
-            "name": "Open Data Commons Attribution License"
-        }
+        "status": "active", 
+        "maintainer": "", 
+        "family": "", 
+        "title": "Open Data Commons Attribution License", 
+        "domain_data": "True", 
+        "id": "odc-by", 
+        "is_okd_compliant": "True", 
+        "is_generic": "False", 
+        "url": "http://www.opendefinition.org/licenses/odc-by", 
+        "is_osi_compliant": "False", 
+        "domain_software": "False", 
+        "domain_content": "False"
     }, 
     {
-        "fields": {
-            "url": "http://www.opendefinition.org/licenses/cc-zero", 
-            "name": "Creative Commons CCZero"
-        }
+        "status": "active", 
+        "maintainer": "", 
+        "family": "", 
+        "title": "Creative Commons CCZero", 
+        "domain_data": "True", 
+        "id": "cc-zero", 
+        "is_okd_compliant": "True", 
+        "is_generic": "False", 
+        "url": "http://www.opendefinition.org/licenses/cc-zero", 
+        "is_osi_compliant": "False", 
+        "domain_software": "False", 
+        "domain_content": "True"
     }, 
     {
-        "fields": {
-            "url": "http://www.opendefinition.org/licenses/cc-by", 
-            "name": "Creative Commons Attribution"
-        }
+        "status": "active", 
+        "maintainer": "", 
+        "family": "", 
+        "title": "Creative Commons Attribution", 
+        "domain_data": "False", 
+        "id": "cc-by", 
+        "is_okd_compliant": "True", 
+        "is_generic": "False", 
+        "url": "http://www.opendefinition.org/licenses/cc-by", 
+        "is_osi_compliant": "False", 
+        "domain_software": "False", 
+        "domain_content": "False"
     }, 
     {
-        "fields": {
-            "url": "http://www.opendefinition.org/licenses/cc-by-sa", 
-            "name": "Creative Commons Attribution Share-Alike"
-        }
+        "status": "active", 
+        "maintainer": "", 
+        "family": "", 
+        "title": "Creative Commons Attribution Share-Alike", 
+        "domain_data": "False", 
+        "id": "cc-by-sa", 
+        "is_okd_compliant": "True", 
+        "is_generic": "False", 
+        "url": "http://www.opendefinition.org/licenses/cc-by-sa", 
+        "is_osi_compliant": "False", 
+        "domain_software": "False", 
+        "domain_content": "True"
     }, 
     {
-        "fields": {
-            "url": "http://www.opendefinition.org/licenses/gfdl", 
-            "name": "GNU Free Documentation License"
-        }
+        "status": "active", 
+        "maintainer": "", 
+        "family": "", 
+        "title": "GNU Free Documentation License", 
+        "domain_data": "False", 
+        "id": "gfdl", 
+        "is_okd_compliant": "True", 
+        "is_generic": "False", 
+        "url": "http://www.opendefinition.org/licenses/gfdl", 
+        "is_osi_compliant": "False", 
+        "domain_software": "False", 
+        "domain_content": "True"
     }, 
     {
-        "fields": {
-            "url": "", 
-            "name": "Other (Open)"
-        }
+        "status": "active", 
+        "maintainer": "", 
+        "family": "", 
+        "title": "Other (Open)", 
+        "domain_data": "False", 
+        "id": "other-open", 
+        "is_okd_compliant": "True", 
+        "is_generic": "True", 
+        "url": "", 
+        "is_osi_compliant": "False", 
+        "domain_software": "False", 
+        "domain_content": "True"
     }, 
     {
-        "fields": {
-            "url": "", 
-            "name": "Other (Public Domain)"
-        }
+        "status": "active", 
+        "maintainer": "", 
+        "family": "", 
+        "title": "Other (Public Domain)", 
+        "domain_data": "False", 
+        "id": "other-pd", 
+        "is_okd_compliant": "True", 
+        "is_generic": "True", 
+        "url": "", 
+        "is_osi_compliant": "False", 
+        "domain_software": "False", 
+        "domain_content": "True"
     }, 
     {
-        "fields": {
-            "url": "", 
-            "name": "Other (Attribution)"
-        }
+        "status": "active", 
+        "maintainer": "", 
+        "family": "", 
+        "title": "Other (Attribution)", 
+        "domain_data": "False", 
+        "id": "other-at", 
+        "is_okd_compliant": "True", 
+        "is_generic": "True", 
+        "url": "", 
+        "is_osi_compliant": "False", 
+        "domain_software": "False", 
+        "domain_content": "True"
     }, 
     {
-        "fields": {
-            "url": "http://reference.data.gov.uk/id/open-government-licence", 
-            "name": "UK Open Government Licence (OGL)"
-        }
+        "status": "active", 
+        "maintainer": "", 
+        "family": "", 
+        "title": "UK Open Government Licence (OGL)", 
+        "domain_data": "False", 
+        "id": "uk-ogl", 
+        "is_okd_compliant": "True", 
+        "is_generic": "False", 
+        "url": "http://reference.data.gov.uk/id/open-government-licence", 
+        "is_osi_compliant": "False", 
+        "domain_software": "False", 
+        "domain_content": "True"
     }, 
     {
-        "fields": {
-            "url": "http://creativecommons.org/licenses/by-nc/2.0/", 
-            "name": "Creative Commons Non-Commercial (Any)"
-        }
+        "status": "active", 
+        "maintainer": "", 
+        "family": "", 
+        "title": "Creative Commons Non-Commercial (Any)", 
+        "domain_data": "False", 
+        "id": "cc-nc", 
+        "is_okd_compliant": "False", 
+        "is_generic": "False", 
+        "url": "http://creativecommons.org/licenses/by-nc/2.0/", 
+        "is_osi_compliant": "False", 
+        "domain_software": "False", 
+        "domain_content": "False"
     }, 
     {
-        "fields": {
-            "url": "", 
-            "name": "Other (Non-Commercial)"
-        }
+        "status": "active", 
+        "maintainer": "", 
+        "family": "", 
+        "title": "Other (Non-Commercial)", 
+        "domain_data": "False", 
+        "id": "other-nc", 
+        "is_okd_compliant": "False", 
+        "is_generic": "True", 
+        "url": "", 
+        "is_osi_compliant": "False", 
+        "domain_software": "False", 
+        "domain_content": "False"
     }, 
     {
-        "fields": {
-            "url": "", 
-            "name": "Other (Not Open)"
-        }
+        "status": "active", 
+        "maintainer": "", 
+        "family": "", 
+        "title": "Other (Not Open)", 
+        "domain_data": "False", 
+        "id": "other-closed", 
+        "is_okd_compliant": "False", 
+        "is_generic": "True", 
+        "url": "", 
+        "is_osi_compliant": "False", 
+        "domain_software": "False", 
+        "domain_content": "False"
+    }, 
+    {
+        "url": "", 
+        "title": "air foamposites for cheap"
+    }, 
+    {
+        "url": "", 
+        "title": "Barbour Jacket Sale"
+    }, 
+    {
+        "url": "", 
+        "title": "baidu11"
+    }, 
+    {
+        "url": "", 
+        "title": null
+    }, 
+    {
+        "url": "", 
+        "title": ""
+    }, 
+    {
+        "url": "", 
+        "title": "Ralph Lauren Polo"
+    }, 
+    {
+        "url": "", 
+        "title": "nike foamposites on sale"
+    }, 
+    {
+        "url": "", 
+        "title": "%keyword%"
+    }, 
+    {
+        "url": "", 
+        "title": "Pas cher air max 87"
+    }, 
+    {
+        "url": "", 
+        "title": "Polo Sales"
+    }, 
+    {
+        "url": "", 
+        "title": "nike air max"
+    }, 
+    {
+        "url": "", 
+        "title": "baidu"
+    }, 
+    {
+        "url": "", 
+        "title": "air max 87"
+    }, 
+    {
+        "url": "", 
+        "title": "Nike air max 1 femme"
+    }, 
+    {
+        "url": "", 
+        "title": "air max one pas cher "
+    }, 
+    {
+        "url": "", 
+        "title": "b2222"
+    }, 
+    {
+        "url": "", 
+        "title": "air max 87 pas che  femme"
+    }, 
+    {
+        "url": "", 
+        "title": "Nike air max 1 homme"
+    }, 
+    {
+        "url": "", 
+        "title": "air max 1"
+    }, 
+    {
+        "url": "", 
+        "title": "air max 1 pas cher Chaussures "
+    }, 
+    {
+        "url": "", 
+        "title": "sousuo"
+    }, 
+    {
+        "url": "", 
+        "title": "air max 87 pas che homme"
+    }, 
+    {
+        "url": "", 
+        "title": "d2222"
+    }, 
+    {
+        "url": "", 
+        "title": "pingbaidu"
+    }, 
+    {
+        "url": "", 
+        "title": "monster cable"
+    }, 
+    {
+        "url": "", 
+        "title": "nike air max 87"
+    }, 
+    {
+        "url": "", 
+        "title": "Polo Sales Online"
+    }, 
+    {
+        "url": "", 
+        "title": "cookie111"
+    }, 
+    {
+        "url": "", 
+        "title": "fake ray bans"
+    }, 
+    {
+        "url": "", 
+        "title": "ukcrown-withrights"
+    }, 
+    {
+        "url": "", 
+        "title": "yola"
+    }, 
+    {
+        "url": "", 
+        "title": "ugg boots sale"
+    }, 
+    {
+        "url": "", 
+        "title": "cnn2"
+    }, 
+    {
+        "url": "", 
+        "title": "louboutin shoes sale"
+    }, 
+    {
+        "url": "", 
+        "title": "cnn222"
+    }, 
+    {
+        "url": "", 
+        "title": "juicer"
+    }, 
+    {
+        "url": "", 
+        "title": "air max one"
+    }, 
+    {
+        "url": "", 
+        "title": "cnn1"
+    }, 
+    {
+        "url": "", 
+        "title": "cookie11"
+    }, 
+    {
+        "url": "", 
+        "title": "air max 87 pas cher Chaussures"
+    }, 
+    {
+        "url": "", 
+        "title": "sdfsdf"
+    }, 
+    {
+        "url": "", 
+        "title": "lgpl-2.1"
+    }, 
+    {
+        "url": "", 
+        "title": "replica chanel outlet"
+    }, 
+    {
+        "url": "", 
+        "title": "fdbg5r"
+    }, 
+    {
+        "url": "", 
+        "title": "baidu2"
+    }, 
+    {
+        "url": "", 
+        "title": "\u6dd8\u5b9d"
+    }, 
+    {
+        "url": "", 
+        "title": "polo sales"
+    }, 
+    {
+        "url": "", 
+        "title": "ukclickusepsi"
+    }, 
+    {
+        "url": "", 
+        "title": "sdgrf"
+    }, 
+    {
+        "url": "", 
+        "title": "wqe2ed"
+    }, 
+    {
+        "url": "", 
+        "title": "yola2"
+    }, 
+    {
+        "url": "", 
+        "title": "ukcrown"
+    }, 
+    {
+        "url": "", 
+        "title": "nike air foamposites on sale"
+    }, 
+    {
+        "url": "", 
+        "title": "cheap air foamposites"
+    }, 
+    {
+        "url": "", 
+        "title": "\u767e\u5ea6"
+    }, 
+    {
+        "url": "", 
+        "title": "chanel outlet "
+    }, 
+    {
+        "url": "", 
+        "title": "cnn111"
+    }, 
+    {
+        "url": "", 
+        "title": "apache"
+    }, 
+    {
+        "url": "", 
+        "title": "polosalesonline"
+    }, 
+    {
+        "url": "", 
+        "title": "baidu222"
+    }, 
+    {
+        "url": "", 
+        "title": "jordans for sale"
+    }, 
+    {
+        "url": "", 
+        "title": "b11"
+    }, 
+    {
+        "url": "", 
+        "title": "geogratis"
+    }, 
+    {
+        "url": "", 
+        "title": "christian louboutin sale"
+    }, 
+    {
+        "url": "", 
+        "title": "gpl-2.0"
+    }, 
+    {
+        "url": "", 
+        "title": "None"
+    }, 
+    {
+        "url": "", 
+        "title": "air foamposites for sale cheap"
+    }, 
+    {
+        "url": "", 
+        "title": "blow leafs backpack"
     }
 ]

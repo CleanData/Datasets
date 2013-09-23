@@ -6,7 +6,8 @@ from shared_functions import remove_newline
 from shared_functions import read_json    
 from shared_functions import write_json    
 from shared_functions import robots_txt         
-from shared_functions import license_list  
+from shared_functions import license_list       
+from shared_functions import related_list  
 from shared_functions import license_convert
 from shared_functions import my_licenses
 from shared_functions import package_list 
@@ -31,6 +32,7 @@ default_scientists_path = data_root + 'scientists.json'
 temp_file_root = ''
 temp_ckan_package_list = temp_file_root + 'ckan_package_list.json'
 temp_ckan_datasets = temp_file_root + 'ckan_datasets.json'
+temp_ckan_licenses = temp_file_root + 'ckan_licenses.json'
 temp_scored_datasets = temp_file_root + 'scored_datasets.json'
 temp_spam_digest = temp_file_root + 'spam_digest.json'
 temp_saved_state = temp_file_root + 'saved_state.json'
@@ -56,9 +58,10 @@ def ckan_spider(site_root = 'http://datahub.io/', max_spam = default_max_spam, s
     print("running spider")
     delay = robots_txt(site_root)
     print("crawl-delay: " + str(delay))
-    
-    ckan_licenses = license_convert(license_list(site_root,delay))
-    mylicenses = my_licenses(ckan_licenses, core_licenses_path, my_licenses_path)
+                                            
+    if run_state == 'scrape' :
+        ckan_licenses = license_list(site_root,delay)
+        #mylicenses = my_licenses(ckan_licenses, core_licenses_path, my_licenses_path)
     
     #read package list
     ckan_package_list = package_list(site_root, delay)    
@@ -76,6 +79,7 @@ def ckan_spider(site_root = 'http://datahub.io/', max_spam = default_max_spam, s
         organizations = read_json(default_organizations_path)
         scientists = read_json(default_scientists_path)
         processed_packages = read_json(temp_saved_state)
+        ckan_licenses = read_json(temp_ckan_licenses)
         
     #for each package in package list
     #read package_show
@@ -95,6 +99,14 @@ def ckan_spider(site_root = 'http://datahub.io/', max_spam = default_max_spam, s
                 continue
             
             print(package_name + " : processing")
+            license_title = ""
+            license_url = ""
+            if "license_title" in x :
+                license_title = x["license_title"]
+            if "license_url" in x :
+                license_url = x["license_url"]
+            if {license_title,license_url} not in [ {license["title"],license["url"]} for license in ckan_licenses ] :
+                ckan_licenses.append({"title":license_title,"url":license_url}) 
             if x["author"] not in [ item['fields']['name'] for item in organizations ]  :   
                 a_organization = { "model":"data_connections.Organization", "pk":None, 'fields':{} }
                 a_organization['fields']['name'] = x["author"]              
@@ -193,12 +205,14 @@ def ckan_spider(site_root = 'http://datahub.io/', max_spam = default_max_spam, s
             #if appending to output json files
         #end for x in package_list :#write to datacatalogs.json  
     #end try
-    except KeyboardInterrupt as e:        
-        print("spider KeyboardInterrupt") 
+    except (KeyboardInterrupt, Exception) as e:        
+        print("spider KeyboardInterrupt : "  +  str(sys.exc_info())) 
+        print("len(datasets) : " + str(len(datasets)))  
         write_json(datacatalogs_path, datacatalogs)   
         write_json(datasets_path, datasets)                  
         write_json(organizations_path, organizations)
-        write_json(scientists_path, scientists)                       
+        write_json(scientists_path, scientists)              
+        write_json(temp_ckan_licenses, ckan_licenses)         
         core_formats = read_json(core_formats_path)
         core_format_names = [ item['fields']['name'] for item in core_formats ]
         my_formats = []
@@ -208,7 +222,10 @@ def ckan_spider(site_root = 'http://datahub.io/', max_spam = default_max_spam, s
                 my_formats.append(a_format)          
         write_json(formats_path, my_formats)
         write_json(temp_saved_state, processed_packages)
-    #end except           
+        import traceback
+        traceback.print_exc()
+    #end except        
+    mylicenses = my_licenses(license_convert(ckan_licenses), core_licenses_path, my_licenses_path)
     write_json(datacatalogs_path, datacatalogs)   
     write_json(datasets_path, datasets)                  
     write_json(organizations_path, organizations)
@@ -231,7 +248,12 @@ def ckan_spider(site_root = 'http://datahub.io/', max_spam = default_max_spam, s
 #     read datarelations, create using datahub name
 #     add proper source derivatives 
 def process_relations(datasets, datarelations_path) :
-    pass
+    datarelations = []
+    for d in datasets :
+        #related = related_list()
+        #HERE
+        pass
+    
 
     
 
@@ -550,38 +572,40 @@ if __name__ == "__main__":
     spam_digest = temp_spam_digest
     saved_state = temp_saved_state
     max_spam = default_max_spam
-    if len(sys.argv) >= 3 :
+    if len(sys.argv) >= 2 :
         #read options here                         
         options = {}
         try:
-            if len(sys.argv) >= 4 :
-                options = eval(sys.argv[3])                       
-                if 'site' in options:
-                    site_root = options['site']
-                if 'datasets' in options:
-                    datasets_path = options['datasets']
-                if 'licenses' in options:
-                    my_licenses_path = options['licenses']
-                if 'formats' in options:
-                    formats_path = options['formats']
-                if 'datacatalogs' in options:
-                    datacatalogs_path = options['datacatalogs']
-                if 'datarelations' in options:
-                    datarelations_path = options['datarelations']
-                if 'organizations' in options:
-                    organizations_path = options['organizations']              
-                if 'scientists' in options:
-                    scientists_path = options['scientists']                 
-                if 'core_licenses' in options:
-                    core_licenses_path = options['core_licenses']             
-                if 'core_formats' in options:
-                    core_formats_path = options['core_formats']               
-                if 'saved_state' in options:
-                    saved_state = options['saved_state']                
-                if 'spam_digest' in options:
-                    spam_digest = options['spam_digest']             
-                if 'max_spam' in options:
-                    max_spam = options['max_spam']      
+            if len(sys.argv) >= 4 and sys.argv[1] == 'debug' :
+                options = eval(sys.argv[3])              
+            elif len(sys.argv) == 3 and (sys.argv[1] == 'scrape' or sys.argv[1] == 'continue') :      
+                options = eval(sys.argv[2])                
+            if 'site' in options:
+                site_root = options['site']
+            if 'datasets' in options:
+                datasets_path = options['datasets']
+            if 'licenses' in options:
+                my_licenses_path = options['licenses']
+            if 'formats' in options:
+                formats_path = options['formats']
+            if 'datacatalogs' in options:
+                datacatalogs_path = options['datacatalogs']
+            if 'datarelations' in options:
+                datarelations_path = options['datarelations']
+            if 'organizations' in options:
+                organizations_path = options['organizations']              
+            if 'scientists' in options:
+                scientists_path = options['scientists']                 
+            if 'core_licenses' in options:
+                core_licenses_path = options['core_licenses']             
+            if 'core_formats' in options:
+                core_formats_path = options['core_formats']               
+            if 'saved_state' in options:
+                saved_state = options['saved_state']                
+            if 'spam_digest' in options:
+                spam_digest = options['spam_digest']             
+            if 'max_spam' in options:
+                max_spam = options['max_spam']      
                 
         except SyntaxError as e :            
             print("main read options, reason: ", e.reason) 

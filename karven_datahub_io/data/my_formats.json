@@ -4,7 +4,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "data file in stata"
+            "name": ""
         }
     }, 
     {
@@ -12,7 +12,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": ""
+            "name": "application/vnd.ms-excel"
         }
     }, 
     {
@@ -20,7 +20,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/octet-stream"
+            "name": "jpg"
         }
     }, 
     {
@@ -28,7 +28,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "ZIP"
+            "name": "aspx"
         }
     }, 
     {
@@ -36,7 +36,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "HTML"
+            "name": "KML"
         }
     }, 
     {
@@ -44,7 +44,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "aspx"
+            "name": "application/rdf+xml"
         }
     }, 
     {
@@ -52,7 +52,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "webservices"
+            "name": "shp"
         }
     }, 
     {
@@ -60,7 +60,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/rdf+xml"
+            "name": "gml"
         }
     }, 
     {
@@ -68,7 +68,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "XLS"
+            "name": "map"
         }
     }, 
     {
@@ -76,7 +76,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "data file in excel"
+            "name": "example/rdf+xml"
         }
     }, 
     {
@@ -84,7 +84,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "api/sparql"
+            "name": "other"
         }
     }, 
     {
@@ -92,7 +92,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "ms access"
+            "name": "XLS"
         }
     }, 
     {
@@ -100,7 +100,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/rdf+xml"
+            "name": "meta/void"
         }
     }, 
     {
@@ -108,7 +108,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "spreadsheet"
+            "name": "api/sparql"
         }
     }, 
     {
@@ -116,7 +116,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "RDF"
+            "name": "application/octet-stream"
         }
     }, 
     {
@@ -124,7 +124,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "other"
+            "name": "ZIP"
         }
     }, 
     {
@@ -132,7 +132,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "rdf/xml, html, json"
+            "name": "HTML"
         }
     }, 
     {
@@ -140,7 +140,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/turtle"
+            "name": "RDF"
         }
     }, 
     {
@@ -148,7 +148,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/x-ntriples"
+            "name": "text/ascii"
         }
     }, 
     {
@@ -156,7 +156,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "meta/rdf-schema"
+            "name": "example/rdfa"
         }
     }, 
     {
@@ -164,7 +164,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "mapping/owl"
+            "name": "data file in excel"
         }
     }, 
     {
@@ -172,7 +172,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "meta/void"
+            "name": "meta/sitemap"
         }
     }, 
     {
@@ -180,7 +180,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "meta/sitemap"
+            "name": "application/x-ntriples"
         }
     }, 
     {
@@ -188,7 +188,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "text/ascii"
+            "name": "application/x-bzip"
         }
     }, 
     {
@@ -196,7 +196,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "jpg"
+            "name": "data file in stata"
         }
     }, 
     {
@@ -204,7 +204,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "asp"
+            "name": "rdf/xml, html, json"
         }
     }, 
     {
@@ -212,7 +212,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/*"
+            "name": "example/turtle"
         }
     }, 
     {
@@ -220,7 +220,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "text/sql"
+            "name": "meta/rdf-schema"
         }
     }, 
     {
@@ -228,7 +228,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/vnd.ms-excel"
+            "name": "mapping/owl"
         }
     }, 
     {
@@ -236,7 +236,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "KML"
+            "name": "text/sql"
         }
     }, 
     {
@@ -244,7 +244,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "shp"
+            "name": "ms access"
         }
     }, 
     {
@@ -252,7 +252,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gml"
+            "name": "xml, rdf+xml, turtle and json"
         }
     }, 
     {
@@ -260,7 +260,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "map"
+            "name": "webservices"
         }
     }, 
     {
@@ -268,7 +268,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "aleph sequentials"
+            "name": "png"
         }
     }, 
     {
@@ -276,7 +276,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "kml "
+            "name": "text/n3"
         }
     }, 
     {
@@ -284,7 +284,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xml, rdf+xml, turtle and json"
+            "name": "example/*"
         }
     }, 
     {
@@ -292,7 +292,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/x-bzip"
+            "name": "aleph sequentials"
         }
     }, 
     {
@@ -300,7 +300,887 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/rdfa"
+            "name": "spreadsheet"
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "asp"
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "kml "
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "mietbuergschaft"
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "plettac"
+        }
+    }, 
+    {
+        "pk": 43, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "application/gzip"
+        }
+    }, 
+    {
+        "pk": 44, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "owl"
+        }
+    }, 
+    {
+        "pk": 45, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "application/vnd.oasis.opendocument.spreadsheet"
+        }
+    }, 
+    {
+        "pk": 46, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "gz:txt"
+        }
+    }, 
+    {
+        "pk": 47, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "text/turtle"
+        }
+    }, 
+    {
+        "pk": 48, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "application/vnd.google-earth.kml+xml"
+        }
+    }, 
+    {
+        "pk": 49, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "esri shapefiles"
+        }
+    }, 
+    {
+        "pk": 50, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "mapping/twc-conversion"
+        }
+    }, 
+    {
+        "pk": 51, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "html, xml, xml+xslt"
+        }
+    }, 
+    {
+        "pk": 52, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "ol"
+        }
+    }, 
+    {
+        "pk": 53, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "iso-timeml"
+        }
+    }, 
+    {
+        "pk": 54, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "esri shapefile"
+        }
+    }, 
+    {
+        "pk": 55, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "sdf"
+        }
+    }, 
+    {
+        "pk": 56, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "mol"
+        }
+    }, 
+    {
+        "pk": 57, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "web form"
+        }
+    }, 
+    {
+        "pk": 58, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "rss"
+        }
+    }, 
+    {
+        "pk": 59, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "georss"
+        }
+    }, 
+    {
+        "pk": 60, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "tsv"
+        }
+    }, 
+    {
+        "pk": 61, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "iso2709"
+        }
+    }, 
+    {
+        "pk": 62, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "marcxml"
+        }
+    }, 
+    {
+        "pk": 63, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "wfs/gml"
+        }
+    }, 
+    {
+        "pk": 64, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "text/plain"
+        }
+    }, 
+    {
+        "pk": 65, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "application/rdf xml"
+        }
+    }, 
+    {
+        "pk": 66, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "sqlite"
+        }
+    }, 
+    {
+        "pk": 67, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "bz2"
+        }
+    }, 
+    {
+        "pk": 68, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "example/ntriples"
+        }
+    }, 
+    {
+        "pk": 69, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "api/search"
+        }
+    }, 
+    {
+        "pk": 70, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "example/rdf+ttl"
+        }
+    }, 
+    {
+        "pk": 71, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "example/rdf+json"
+        }
+    }, 
+    {
+        "pk": 72, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "example"
+        }
+    }, 
+    {
+        "pk": 73, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "html | pdf"
+        }
+    }, 
+    {
+        "pk": 74, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "nt"
+        }
+    }, 
+    {
+        "pk": 75, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "ttl"
+        }
+    }, 
+    {
+        "pk": 76, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "api/linked-data"
+        }
+    }, 
+    {
+        "pk": 77, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "data file in spss"
+        }
+    }, 
+    {
+        "pk": 78, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "wsdl"
+        }
+    }, 
+    {
+        "pk": 79, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "plain text"
+        }
+    }, 
+    {
+        "pk": 80, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "wsf/gml"
+        }
+    }, 
+    {
+        "pk": 81, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "text/tab-separated-values"
+        }
+    }, 
+    {
+        "pk": 82, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "jsp"
+        }
+    }, 
+    {
+        "pk": 83, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "text/x-sql"
+        }
+    }, 
+    {
+        "pk": 84, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "uri"
+        }
+    }, 
+    {
+        "pk": 85, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "xsd"
+        }
+    }, 
+    {
+        "pk": 86, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "SHAPE"
+        }
+    }, 
+    {
+        "pk": 87, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "esri arc export"
+        }
+    }, 
+    {
+        "pk": 88, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "ms excel csv"
+        }
+    }, 
+    {
+        "pk": 89, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "ms acess mdb"
+        }
+    }, 
+    {
+        "pk": 90, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "gz:xml"
+        }
+    }, 
+    {
+        "pk": 91, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "dtd"
+        }
+    }, 
+    {
+        "pk": 92, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "linked data"
+        }
+    }, 
+    {
+        "pk": 93, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "fixed width"
+        }
+    }, 
+    {
+        "pk": 94, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "tab"
+        }
+    }, 
+    {
+        "pk": 95, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "meta/owl"
+        }
+    }, 
+    {
+        "pk": 96, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "service/gdocs/spreadsheet"
+        }
+    }, 
+    {
+        "pk": 97, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "csv | mdb"
+        }
+    }, 
+    {
+        "pk": 98, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "microsoft excel"
+        }
+    }, 
+    {
+        "pk": 99, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "example/n3"
+        }
+    }, 
+    {
+        "pk": 100, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "application/x-zip-compressed"
+        }
+    }, 
+    {
+        "pk": 101, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "beacon"
+        }
+    }, 
+    {
+        "pk": 102, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "google spreadsheet"
+        }
+    }, 
+    {
+        "pk": 103, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "application/x-protobuf"
+        }
+    }, 
+    {
+        "pk": 104, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "n3"
+        }
+    }, 
+    {
+        "pk": 105, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "xml (current)"
+        }
+    }, 
+    {
+        "pk": 106, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "xml (tomorrow)"
+        }
+    }, 
+    {
+        "pk": 107, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "xml (tomorrow country)"
+        }
+    }, 
+    {
+        "pk": 108, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "xml (tomorrow metro)"
+        }
+    }, 
+    {
+        "pk": 109, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "xml (current country)"
+        }
+    }, 
+    {
+        "pk": 110, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "xml (current metro)"
+        }
+    }, 
+    {
+        "pk": 111, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "application/msword"
+        }
+    }, 
+    {
+        "pk": 112, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "text/comma-separated-values"
+        }
+    }, 
+    {
+        "pk": 113, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "pdf:0_documentation"
+        }
+    }, 
+    {
+        "pk": 114, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+    }, 
+    {
+        "pk": 115, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "shapefile"
+        }
+    }, 
+    {
+        "pk": 116, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": ".shp"
+        }
+    }, 
+    {
+        "pk": 117, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": ".tab"
+        }
+    }, 
+    {
+        "pk": 118, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "data file in stata and excel"
+        }
+    }, 
+    {
+        "pk": 119, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "gzip::nquads"
+        }
+    }, 
+    {
+        "pk": 120, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "do"
+        }
+    }, 
+    {
+        "pk": 121, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "application/rss+xml"
+        }
+    }, 
+    {
+        "pk": 122, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "zip:csv"
+        }
+    }, 
+    {
+        "pk": 123, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "python"
+        }
+    }, 
+    {
+        "pk": 124, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "TXT"
+        }
+    }, 
+    {
+        "pk": 125, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "sicherungsautomat"
+        }
+    }, 
+    {
+        "pk": 126, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "python source code"
+        }
+    }, 
+    {
+        "pk": 127, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "application/xml+atom"
+        }
+    }, 
+    {
+        "pk": 128, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "dbase"
+        }
+    }, 
+    {
+        "pk": 129, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "gdocs/spreadsheet"
+        }
+    }, 
+    {
+        "pk": 130, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "esri shape files"
+        }
+    }, 
+    {
+        "pk": 131, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "xml/atom/rss"
+        }
+    }, 
+    {
+        "pk": 132, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "csv,json"
+        }
+    }, 
+    {
+        "pk": 133, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "ods"
+        }
+    }, 
+    {
+        "pk": 134, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "xml:txt"
+        }
+    }, 
+    {
+        "pk": 135, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "void"
+        }
+    }, 
+    {
+        "pk": 136, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "sparql"
+        }
+    }, 
+    {
+        "pk": 137, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "mapping/d2r"
+        }
+    }, 
+    {
+        "pk": 138, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "excel"
+        }
+    }, 
+    {
+        "pk": 139, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "spss"
+        }
+    }, 
+    {
+        "pk": 140, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "stata"
+        }
+    }, 
+    {
+        "pk": 141, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "zip, csv, shp"
+        }
+    }, 
+    {
+        "pk": 142, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "uv fits"
+        }
+    }, 
+    {
+        "pk": 143, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "application/atom+xml"
+        }
+    }, 
+    {
+        "pk": 144, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "application/x-nquads"
+        }
+    }, 
+    {
+        "pk": 145, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "xhtml"
+        }
+    }, 
+    {
+        "pk": 146, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "atom"
+        }
+    }, 
+    {
+        "pk": 147, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "text/x-osmapping-csv"
+        }
+    }, 
+    {
+        "pk": 148, 
+        "model": "data_connections.Format", 
+        "fields": {
+            "url": "", 
+            "name": "netcdf"
         }
     }
 ]

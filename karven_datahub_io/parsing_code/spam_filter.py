@@ -21,13 +21,13 @@ spam_def ={
               "really long word" : 25,
               "strange license" : 500, 
               
-              "spam words" : {    "100" : "sale, buy, coupon, discounts, shopping, outlet, risk-free, cheap",
-                                  "30" : "certainly, wrong, easy, quick, simple, terrific, fancy, thrilling, amazing, great, genuinely, quite, pleasant, fortunately, tricks, tip, risk, pleasing, pleased, truly, fashion, famous, undoubtedly, fun, helpful, enhance, effortlessly, possible, really, virtually, super, huge, favored, enhancement, excellent",
+              "spam words" : {    "1000" : "sale, buy, coupon, discounts, shopping, outlet, risk-free, cheap",
+                                  "100" : "certainly, wrong, easy, quick, simple, terrific, fancy, thrilling, amazing, great, genuinely, quite, pleasant, fortunately, tricks, tip, risk, pleasing, pleased, truly, fashion, famous, undoubtedly, fun, helpful, enhance, effortlessly, possible, really, virtually, super, huge, favored, enhancement, excellent",
                                   "80" : "\!, \?",
                                   "60" : "your, my, they, them, their, you are, you're",
-                                  "15" : "should, might, will, may",
-                                  "10" : "advice, how to, how does, Ins And Outs, reasons why, look of, in order to, ever, again, even, become, industry professionals, are saying, recognizable, especially",
-                                  "5" : "very, perhaps, ways to, first step, things, know, need, thought, truth, basic, understand, personal, many, suitable, as well as, actually, where, what, everything, often, a lot, assume, understood, misunderstood, misunderstand, In that case, possibility, expert, learn to, guide, even, without, do not, hestitant, can, enjoy, anything, ordered"
+                                  "15" : "should, might, will, may, can",
+                                  "40" : "advice, how to, how does, Ins And Outs, reasons why, look of, in order to, ever, again, even, become, industry professionals, are saying, recognizable, especially, perhaps, ways to",
+                                  "5" : "very, first step, things, know, need, thought, truth, basic, understand, personal, many, suitable, as well as, actually, everything, often, a lot, assume, understood, misunderstood, misunderstand, In that case, possibility, expert, learn to, guide, even, without, do not, hestitant, enjoy, anything, ordered"
                              }
                               
 }
@@ -85,8 +85,9 @@ def add_spam_score(ckan_package, spam_digest) :
         spam_words = ""
         for score in spam_def['spam words'] :
             for word in spam_def['spam words'][score].split(",") :
-                temp_num = len(re.findall(r'\s'+word.strip()+'[s]?\s',ckan_package['notes'],flags=re.I or re.S))*int(score) 
+                temp_num = len(re.findall(r'\W'+word.strip()+'[s]?\W',ckan_package['notes'],flags=re.I or re.S))*int(score) 
                 #re.I = Ignore case, re.S = . also matches newline
+                #\W When the LOCALE and UNICODE flags are not specified [a-zA-Z0-9_]
                 word_score = word_score + temp_num    
                 if temp_num > 0 :      
                     spam_words = spam_words + " , " + word + "-" + str(temp_num)
@@ -105,8 +106,8 @@ def add_spam_score(ckan_package, spam_digest) :
             spam_score = spam_score + temp_num         
             digest["len(resources description) > 1000"] = digest["len(resources description) > 1000"] + temp_num
     digest['spam_score'] = spam_score
-    
-    append_file(spam_digest, convert_json(digest) + ",")
+    if spam_digest :
+        append_file(spam_digest, convert_json(digest) + ",")
     print(ckan_package['name'] + " : " + str(spam_score)) 
     return spam_score      
         

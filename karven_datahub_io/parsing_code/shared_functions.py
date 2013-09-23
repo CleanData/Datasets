@@ -203,3 +203,16 @@ def package_show(site_root, package_name, delay=10):
             return curr_package
     return {}
     
+# http://docs.ckan.org/en/ckan-2.0.2/api.html
+# read list of datasets related to package_name
+# site_root : the domain name of the ckan site
+# delay : crawler-delay defined in robots.txt
+# returns a list of related item dictionaries, return an empty list if read fails
+def related_list(site_root, package_name, delay=10):
+    pagejson = read_url(site_root + '/api/3/action/related_list?id=' + package_name, delay = delay)
+    if len(pagejson) > 0:
+        temp = json.loads(pagejson)
+        if temp['success']: 
+            related_list = temp["result"]
+            return related_list
+    return []

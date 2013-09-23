@@ -60,13 +60,14 @@ Needs one request to pull package, and one more for non-spam to get relations
 
 ### ckan library reference
 http://docs.ckan.org/en/ckan-2.0.2/api.html
-ckan_action_get = '/api/3/action/'
-package_list_path = ckan_action_get + 'package_list'
-package_show_path = ckan_action_get + 'package_show?id='
-license_list_path = ckan_action_get + 'licence_list'
-tag_list_path = ckan_action_get + 'tag_list'
-related_list_path = ckan_action_get + 'related_list?id='
 sample dataset ny-zipcodes-and-electricity-use
+
+    ckan_action_get = '/api/3/action/'
+    package_list_path = ckan_action_get + 'package_list'
+    package_show_path = ckan_action_get + 'package_show?id='
+    license_list_path = ckan_action_get + 'licence_list'
+    tag_list_path = ckan_action_get + 'tag_list'
+    related_list_path = ckan_action_get + 'related_list?id='
 
 example url for requesting dataset
 http://datahub.io/api/3/action/package_show?id=ny-zipcodes-and-electricity-use
@@ -74,6 +75,7 @@ http://datahub.io/api/3/action/package_show?id=ny-zipcodes-and-electricity-use
 
 ### related list mapping
 http://datahub.io/api/3/action/related_list?id=ny-zipcodes-and-electricity-use
+
     {
         help: "Return a dataset's related items. Either the ``id`` or the ``dataset`` parameter must be given. :param id: id or name of the dataset (optional) :type id: string :param dataset: dataset dictionary of the dataset (optional) :type dataset: dictionary :param type_filter: the type of related item to show (optional, default: None, show all items) :type type_filter: string :param sort: the order to sort the related items in, possible values are 'view_count_asc', 'view_count_desc', 'created_asc' or 'created_desc' (optional) :type sort: string :param featured: whether or not to restrict the results to only featured related items (optional, default: False) :type featured: bool :rtype: list of dictionaries ",
         success: true,

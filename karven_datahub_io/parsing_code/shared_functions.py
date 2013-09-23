@@ -44,6 +44,30 @@ def read_url(url, delay=10, values={}): #read url and return the content
         else:
             return f.read()
     return ""
+    
+# read file tp json
+def read_json(file_path) :          
+    f = open(file_path)     
+    json_object = json.loads(f.read())     
+    f.close()
+    return json_object 
+
+# write json to file
+def write_json(file_path, json_object) :          
+    output = open(file_path,'w')     
+    output.write(json.dumps(json_object, indent=4))     
+    output.close() 
+    
+def write_file(file_path, str) :         
+    output = open(file_path,'w')     
+    output.write(str)     
+    output.close() 
+    
+def append_file(file_path, str) :         
+    output = open(file_path,'a+')     
+    output.write(str)     
+    output.close() 
+    
 
 # remove blank lines    
 def remove_newline(orig_str):
@@ -52,6 +76,14 @@ def remove_newline(orig_str):
     tempstr = tempstr.replace('\r',' ')
     tempstr = tempstr.replace('\n',' ')
     return tempstr
+
+
+# convert json object to string to be added to file 
+def convert_json(json_item, indent=4) :
+    #write new line plus indent every line by 4
+    out = json.dumps(json_item, indent=indent)
+    return '\n' + indent*' ' + out.replace('\n','\n' + indent*' ')
+    
     
 ##########################################################################################
 
@@ -170,5 +202,4 @@ def package_show(site_root, package_name, delay=10):
             curr_package = temp["result"]
             return curr_package
     return {}
-    
     

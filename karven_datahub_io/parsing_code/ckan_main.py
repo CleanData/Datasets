@@ -241,18 +241,54 @@ def ckan_spider(site_root = 'http://datahub.io/', max_spam = default_max_spam, s
             my_formats.append(a_format)          
     write_json(formats_path, my_formats)
     write_json(temp_saved_state, processed_packages)
-    process_relations(datasets, datarelations_path)
+    process_relations(site_root, datasets, datarelations_path, delay)
     
      
 #for each datasets
 #     read datarelations, create using datahub name
 #     add proper source derivatives 
-def process_relations(datasets, datarelations_path) :
+def process_relations(site_root, datasets, run_state = "scrape", 
+                      datarelations_path = default_datarelations_path, delay = 10) :
+    print("data relation")
     datarelations = []
-    for d in datasets :
-        #related = related_list()
-        #HERE
-        pass
+    ckan_package_names = []
+    processed = set()
+    if run_state == 'continue' :    
+        datarelations = read_json(datarelations_path)
+        processed = { x['fields']['datahub_name'] for x in datarelations }
+    ckan_package_names = { x['fields']['datahub_name'] for x in datasets } 
+    try: 
+        for x in ckan_package_names :
+            print(x)
+            if x not in processed :
+                processed.add(x)
+                related = related_list(site_root, x, delay)
+                for d in datasets :
+                    if d['fields']['datahub_name'] == x :
+                        for a_source in related :
+                            print("    " + x + " : " + a_source['title'] )
+                            a_relation = { "model":"data_connections.Scientist", "pk":None, 'fields':{} }
+                            a_relation['fields']["how_data_was_processed"] = ""                            
+                            a_relation['fields']["source"] = [ a_source['url'], a_source['title'] ] 
+                            a_relation['fields']["derivative"] = [ d['fields']['url'], d['fields']['name'] ]
+                            a_relation['fields']["datahub_name"] = d['fields']['datahub_name']
+                            datarelations.append(a_relation)
+                            #"how_data_was_processed" : ""
+                            #"source" : [this.url, this.title]
+                            #"derivative" : [dataset.url, dataset.name]
+                            #"datahub_name" : dataset.datahub_name
+                        #end for a_source in related
+                #end for d in datasets
+        #end for x in ckan_package_names                          
+        write_json(datarelations_path, datarelations)                   
+        print("len(datarelations) : " + str(len(datarelations)))  
+    except (KeyboardInterrupt, Exception) as e:        
+        print("relations KeyboardInterrupt : "  +  str(sys.exc_info())) 
+        print("len(datarelations) : " + str(len(datarelations)))  
+        write_json(datarelations_path, datarelations)             
+        import traceback
+        traceback.print_exc()
+        
     
 
     
@@ -540,6 +576,7 @@ debug_items
     package_list
     spam
     convert
+    relations
 
 options
     "{'site':'http://datahub.io/',
@@ -611,7 +648,7 @@ if __name__ == "__main__":
             print("main read options, reason: ", e.reason) 
     if sys.argv[1] == 'debug' :
         for debug_item in sys.argv[2].split(','):
-            print(debug_item)
+            print("debug_item : " + debug_item)
             if debug_item == 'robots' :
                 ckan_test_robots(site_root)     
             if debug_item == 'licenses' :
@@ -624,7 +661,15 @@ if __name__ == "__main__":
                 ckan_test_spam_score(temp_ckan_datasets, temp_scored_datasets, spam_digest)          
             if debug_item == 'convert' :
                 #ckan_test_convert_package('ckan_datasets.json')       
-                ckan_test_convert_package(temp_scored_datasets)
+                ckan_test_convert_package(temp_scored_datasets)                                 
+            if debug_item == 'relations' or debug_item == 'relations_scrape':
+                #ckan_test_convert_package('ckan_datasets.json')  
+                datasets = read_json(datasets_path)     
+                process_relations(site_root, datasets, "scrape" , datarelations_path, 10)       
+            if debug_item == 'relations_continue':
+                #ckan_test_convert_package('ckan_datasets.json')  
+                datasets = read_json(datasets_path)     
+                process_relations(site_root, datasets, "continue" , datarelations_path, 10)
     elif sys.argv[1] == 'scrape' or sys.argv[1] == 'continue' :
         #print("spider " + sys.argv[1])
         ckan_spider(site_root, max_spam, spam_digest,

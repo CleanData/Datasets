@@ -83,6 +83,7 @@ http://datahub.io/api/3/action/related_list?id=ny-zipcodes-and-electricity-use
             {   #"how_data_was_processed" : ""
                 #"source" : [this.url, this.title]
                 #"derivative" : [dataset.url, dataset.name]
+                #"datahub_name" : dataset.datahub_name
                 view_count: 0,
                 description: "A tool for visualizing NYC electricity use",
                 title: "Energy Zip",

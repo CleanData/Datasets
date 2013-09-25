@@ -1,0 +1,34 @@
+[
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "source": [
+                "http://www.lidadaidaihuamall.com/", 
+                "Wish to Go for a Speedy Weight Decline"
+            ], 
+            "how_data_was_processed": "", 
+            "datahub_name": "cgsddforja", 
+            "derivative": [
+                "http://www.lidadaidaihuamall.com", 
+                "lida daidaihua strong version lida daidaihua HTML"
+            ]
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "source": [
+                "http://www.lidadaidaihuamall.com", 
+                "Cheapest destination to purchase seven Times Organic Slim Much better Than Lida Daidaihua"
+            ], 
+            "how_data_was_processed": "", 
+            "datahub_name": "cgsddforja", 
+            "derivative": [
+                "http://www.lidadaidaihuamall.com", 
+                "lida daidaihua strong version lida daidaihua HTML"
+            ]
+        }
+    }
+]

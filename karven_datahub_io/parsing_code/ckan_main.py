@@ -36,6 +36,7 @@ temp_ckan_licenses = temp_file_root + 'ckan_licenses.json'
 temp_scored_datasets = temp_file_root + 'scored_datasets.json'
 temp_spam_digest = temp_file_root + 'spam_digest.json'
 temp_saved_state = temp_file_root + 'saved_state.json'
+temp_processed_relations = temp_file_root + 'processed_relations.json'
 
 #core_licenses_path = '../../example_dataset/licenses.json' doesn't work b/c of comment on top
 default_core_licenses_path = 'licenses.json'
@@ -91,7 +92,7 @@ def ckan_spider(site_root = 'http://datahub.io/', max_spam = default_max_spam, s
                     continue
                     
             x = package_show(site_root, package_name, delay)
-            processed_packages[package_name] = x['revision_timestamp']
+            #processed_packages[package_name] = x['revision_timestamp']
             spam_score = add_spam_score(x, spam_digest)
             if spam_score >= max_spam or x['num_resources'] < 1 :       
                 #spam
@@ -115,7 +116,7 @@ def ckan_spider(site_root = 'http://datahub.io/', max_spam = default_max_spam, s
             a_manager = []
             if x['maintainer'] and len(x['maintainer']) > 0 :
                 temp = x['maintainer'].split(',')
-                temp = temp[0].split('and')
+                temp = temp[0].split(' and ')
                 temp = temp[0].split(None, 1)
                 a_scientist = { "model":"data_connections.Scientist", "pk":None, 'fields':{} }
                 if len(temp) == 2 :         
@@ -202,7 +203,8 @@ def ckan_spider(site_root = 'http://datahub.io/', max_spam = default_max_spam, s
                     formats.append(a_format)                
                 #end formats
             #end elif x['num_resources'] == 1
-            #if appending to output json files
+            #if appending to output json files              
+            processed_packages[package_name] = x['revision_timestamp']
         #end for x in package_list :#write to datacatalogs.json  
     #end try
     except (KeyboardInterrupt, Exception) as e:        
@@ -241,13 +243,13 @@ def ckan_spider(site_root = 'http://datahub.io/', max_spam = default_max_spam, s
             my_formats.append(a_format)          
     write_json(formats_path, my_formats)
     write_json(temp_saved_state, processed_packages)
-    process_relations(site_root, datasets, datarelations_path, delay)
+    process_relations(site_root, datasets, run_state, temp_processed_relations, datarelations_path, delay)
     
      
 #for each datasets
 #     read datarelations, create using datahub name
 #     add proper source derivatives 
-def process_relations(site_root, datasets, run_state = "scrape", 
+def process_relations(site_root, datasets, run_state = "scrape", processed_relations_path = temp_processed_relations,
                       datarelations_path = default_datarelations_path, delay = 10) :
     print("data relation")
     datarelations = []
@@ -255,13 +257,12 @@ def process_relations(site_root, datasets, run_state = "scrape",
     processed = set()
     if run_state == 'continue' :    
         datarelations = read_json(datarelations_path)
-        processed = { x['fields']['datahub_name'] for x in datarelations }
+        processed = read_json(processed_relations_path)
     ckan_package_names = { x['fields']['datahub_name'] for x in datasets } 
     try: 
         for x in ckan_package_names :
             print(x)
             if x not in processed :
-                processed.add(x)
                 related = related_list(site_root, x, delay)
                 for d in datasets :
                     if d['fields']['datahub_name'] == x :
@@ -278,14 +279,17 @@ def process_relations(site_root, datasets, run_state = "scrape",
                             #"derivative" : [dataset.url, dataset.name]
                             #"datahub_name" : dataset.datahub_name
                         #end for a_source in related
-                #end for d in datasets
+                #end for d in datasets             
+                processed.add(x)
         #end for x in ckan_package_names                          
-        write_json(datarelations_path, datarelations)                   
+        write_json(datarelations_path, datarelations)             
+        write_json(processed_relations_path, processed)                   
         print("len(datarelations) : " + str(len(datarelations)))  
     except (KeyboardInterrupt, Exception) as e:        
         print("relations KeyboardInterrupt : "  +  str(sys.exc_info())) 
-        print("len(datarelations) : " + str(len(datarelations)))  
-        write_json(datarelations_path, datarelations)             
+        print("len(datarelations) : " + str(len(datarelations))) 
+        write_json(datarelations_path, datarelations)                      
+        write_json(processed_relations_path, processed) 
         import traceback
         traceback.print_exc()
         
@@ -665,11 +669,11 @@ if __name__ == "__main__":
             if debug_item == 'relations' or debug_item == 'relations_scrape':
                 #ckan_test_convert_package('ckan_datasets.json')  
                 datasets = read_json(datasets_path)     
-                process_relations(site_root, datasets, "scrape" , datarelations_path, 10)       
+                process_relations(site_root, datasets, "scrape", temp_processed_relations, datarelations_path, 10)       
             if debug_item == 'relations_continue':
                 #ckan_test_convert_package('ckan_datasets.json')  
                 datasets = read_json(datasets_path)     
-                process_relations(site_root, datasets, "continue" , datarelations_path, 10)
+                process_relations(site_root, datasets, "continue", temp_processed_relations, datarelations_path, 10)
     elif sys.argv[1] == 'scrape' or sys.argv[1] == 'continue' :
         #print("spider " + sys.argv[1])
         ckan_spider(site_root, max_spam, spam_digest,

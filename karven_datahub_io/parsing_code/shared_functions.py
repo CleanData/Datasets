@@ -48,9 +48,11 @@ def read_url(url, delay=10, values={}): #read url and return the content
 # read file tp json
 def read_json(file_path) :          
     f = open(file_path)     
-    json_object = json.loads(f.read())     
-    f.close()
-    return json_object 
+    if f :
+        json_object = json.loads(f.read())     
+        f.close()
+        return json_object
+    return [] 
 
 # write json to file
 def write_json(file_path, json_object) :          

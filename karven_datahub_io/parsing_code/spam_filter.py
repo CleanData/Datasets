@@ -9,7 +9,7 @@ from shared_functions import append_file
 
 spam_def ={
               "len(title)==1" : 100,
-              "len(notes)==0 or 1" : 100,
+              "len(notes)==0 or 1" : 500,
               "len(notes)>1000" : 100,
               "800<len(notes)<=1000" : 50,
               "url only notes" : 10,
@@ -21,13 +21,15 @@ spam_def ={
               "really long word" : 25,
               "strange license" : 500, 
               
-              "spam words" : {    "1000" : "sale, buy, coupon, discounts, shopping, outlet, risk-free, cheap",
-                                  "100" : "certainly, wrong, easy, quick, simple, terrific, fancy, thrilling, amazing, great, genuinely, quite, pleasant, fortunately, tricks, tip, risk, pleasing, pleased, truly, fashion, famous, undoubtedly, fun, helpful, enhance, effortlessly, possible, really, virtually, super, huge, favored, enhancement, excellent",
+              "spam words" : {    "1000" : "buy, cheap, coupon, credit card, discounts, outlet, paypal, risk-free, sale, shopping, sold, style",
+                                  "100" : "accessories, beauty, bra, clothing, computer, cosmetics, fashion, gucci, hangbag, nike, styling",
+                                  "100" :"certainly, excellent, great, helpful, possible, quite, really, truly, undoubtedly, unquestionably, virtually, wrong",
+                                  "100" : "amazing, attractive, best, brilliant, chic, easy, effortless, effortlessly, elegance, enhance, enhancement, enormous, exclusive, fabulous, famous, fancy, favored, fortunately, fun, generously, genuinely, huge, iconic, immaculate, newest, pleasant, pleased, pleasing, popular, quick, risk, sadly, shiny, simple, stylish, super, terrific, thrilling, tip, tricks, unfortunately",
                                   "80" : "\!, \?",
-                                  "60" : "your, my, they, them, their, you are, you're",
+                                  "60" : "i'm, my, they, them, their, your, you are, you're",
                                   "15" : "should, might, will, may, can",
-                                  "40" : "advice, how to, how does, Ins And Outs, reasons why, look of, in order to, ever, again, even, become, industry professionals, are saying, recognizable, especially, perhaps, ways to",
-                                  "5" : "very, first step, things, know, need, thought, truth, basic, understand, personal, many, suitable, as well as, actually, everything, often, a lot, assume, understood, misunderstood, misunderstand, In that case, possibility, expert, learn to, guide, even, without, do not, hestitant, enjoy, anything, ordered"
+                                  "40" : "Ins And Outs, absolutely, advice, again, always, are saying, become, especially, essential, even, ever, extremely, how does, how to, in order to, industry professionals, look of, love, perhaps, reasons why, recognizable, slightly, usual, usually, ways to",
+                                  "5" : "In that case, a lot, actually, anything, as well as, assume, basic, do not, enjoy, even, everything, expert, first step, guide, hestitant, know, learn to, many, misunderstand, misunderstood, need, often, ordered, personal, possibility, suitable, things, thought, truth, understand, understood, very, without"
                              }
                               
 }
@@ -54,26 +56,11 @@ def add_spam_score(ckan_package, spam_digest) :
     if ckan_package['notes'] == None or len(ckan_package['notes'].split()) <= 1 :  
         spam_score = spam_score + spam_def["len(notes)==0 or 1"]        
         digest["one or zero word notes"] = spam_def["len(notes)==0 or 1"] 
-             
+    
+    all_the_text = "" #all the text        
     if ckan_package['notes'] != None :
-        #find longest word in notes
-        words_len = sorted([{'word':x, 'len':len(x)} for x in unicode(ckan_package['notes']).split()], key=itemgetter('len'), reverse=True) 
-        word_score = 0
-        longest_word = None
-        for word_len_pair in words_len :
-            if word_len_pair['len'] > max_word_length :
-                # need to skip http, ftp, file b/c they are links
-                if not re.search(r'(http|ftp|file)',word_len_pair['word']) :
-                    word_score = word_score + math.pow(word_len_pair['len'] - max_word_length,2) * spam_def["really long word"]    
-                    if not longest_word :
-                        longest_word = word_len_pair
-            else :
-                digest["longest word in notes"] = longest_word #len(notes) may be zero 
-                digest["long words in notes"] = word_score
-                digest["len(notes)"] = len(ckan_package['notes'])
-                break
-        spam_score = spam_score + word_score
-        #find spam words in notes
+        all_the_text = all_the_text + " " + ckan_package['notes']     
+        digest["len(notes)"] = len(ckan_package['notes'])
         if len(ckan_package['notes']) > 1000 :  
             temp_num = math.pow(float(len(ckan_package['notes']))/1000,2) * spam_def["len(notes)>1000"]
             spam_score = spam_score + temp_num 
@@ -81,30 +68,54 @@ def add_spam_score(ckan_package, spam_digest) :
         elif len(ckan_package['notes']) > 800 : 
             spam_score = spam_score + spam_def["800<len(notes)<=1000"] 
             digest["len(notes) score"] = spam_def["800<len(notes)<=1000"] 
-        word_score = 0
-        spam_words = ""
-        for score in spam_def['spam words'] :
-            for word in spam_def['spam words'][score].split(",") :
-                temp_num = len(re.findall(r'\W'+word.strip()+'[s]?\W',ckan_package['notes'],flags=re.I or re.S))*int(score) 
-                #re.I = Ignore case, re.S = . also matches newline
-                #\W When the LOCALE and UNICODE flags are not specified [a-zA-Z0-9_]
-                word_score = word_score + temp_num    
-                if temp_num > 0 :      
-                    spam_words = spam_words + " , " + word + "-" + str(temp_num)
-        digest["spam word scores"] = spam_words
-        digest["spam words"] = word_score
-        spam_score = spam_score + word_score #/ (float(len(ckan_package['notes'])+1)/100))   
+            
     #resources      
     digest["num_resources"] = ckan_package['num_resources']        
     if ckan_package['num_resources'] == 0 :
         spam_score = spam_score + spam_def["num resources==0"]              
         digest["no resource"] = spam_def["num resources==0"]       
     digest["len(resources description) > 1000"] = 0
-    for each_resource in ckan_package['resources'] :
+    for each_resource in ckan_package['resources'] :             
+        if 'description' in each_resource and each_resource['description'] != None :
+            all_the_text = all_the_text + " " + each_resource['description']        
         if len(each_resource['description']) > 1000 :
             temp_num = math.pow(float(len(each_resource['description']))/1000,2) * spam_def["len(description)>1000"]
             spam_score = spam_score + temp_num         
             digest["len(resources description) > 1000"] = digest["len(resources description) > 1000"] + temp_num
+    #find longest word in notes
+    #words_len = sorted([{'word':x, 'len':len(x)} for x in unicode(all_the_text).split()], key=itemgetter('len'), reverse=True)  
+    words_len = sorted([{'word':x.strip(), 'len':len(x.strip())} for x in re.findall(r'\W\w.*?\W',all_the_text,flags=re.I or re.S)], key=itemgetter('len'), reverse=True) 
+    word_score = 0
+    longest_word = None
+    for word_len_pair in words_len :
+        if word_len_pair['len'] > max_word_length :
+            # need to skip http, ftp, file b/c they are links
+            if not re.search(r'(http|ftp|file)',word_len_pair['word']) :
+                word_score = word_score + math.pow(word_len_pair['len'] - max_word_length,2) * spam_def["really long word"]    
+                if not longest_word :
+                    longest_word = word_len_pair
+        else :                                                                                      
+            if not longest_word :
+                longest_word = words_len[0]
+            digest["longest word in notes + descriptions"] = longest_word #len(notes) may be zero 
+            digest["long words in notes + descriptions score"] = word_score
+            break
+    spam_score = spam_score + word_score
+    #find spam words in notes
+    word_score = 0
+    spam_words = ""
+    for score in spam_def['spam words'] :
+        for word in spam_def['spam words'][score].split(",") :
+            temp_num = len(re.findall(r'\W'+word.strip()+'[s]?\W',all_the_text,flags=re.I or re.S))*int(score) 
+            #re.I = Ignore case, re.S = . also matches newline
+            #\W When the LOCALE and UNICODE flags are not specified [a-zA-Z0-9_]
+            word_score = word_score + temp_num    
+            if temp_num > 0 :      
+                spam_words = spam_words + " , " + word + "-" + str(temp_num)
+    digest["spam word scores"] = spam_words
+    digest["spam words"] = word_score
+    spam_score = spam_score + word_score #/ (float(len(ckan_package['notes'])+1)/100))   
+    
     digest['spam_score'] = spam_score
     if spam_digest :
         append_file(spam_digest, convert_json(digest) + ",")

@@ -21,15 +21,16 @@ spam_def ={
               "really long word" : 25,
               "strange license" : 500, 
               
-              "spam words" : {    "1000" : "buy, cheap, coupon, credit card, discounts, outlet, paypal, risk-free, sale, shopping, sold, style",
-                                  "100" : "accessories, beauty, bra, clothing, computer, cosmetics, fashion, gucci, hangbag, nike, styling",
-                                  "100" :"certainly, excellent, great, helpful, possible, quite, really, truly, undoubtedly, unquestionably, virtually, wrong",
-                                  "100" : "amazing, attractive, best, brilliant, chic, easy, effortless, effortlessly, elegance, enhance, enhancement, enormous, exclusive, fabulous, famous, fancy, favored, fortunately, fun, generously, genuinely, huge, iconic, immaculate, newest, pleasant, pleased, pleasing, popular, quick, risk, sadly, shiny, simple, stylish, super, terrific, thrilling, tip, tricks, unfortunately",
+              "spam words" : {    "1000" : "buy, cheap, coupon, credit card, discounts, outlet, paypal, purchase, regret, risk-free, sale, shopping, sold, style",
+                                  "500" : "accessories, ambitions, beauty, bra, cellulite, clothing, computer, considerably, cosmetics, desire, eroticism, fantasy, fashion, fashionable, fetish, gucci, hangbag, hassle-free, inexpensive, naked, nike, no-cost, pay, sexual, sorry, styling, thigh, tummy, wish, workout",
+                                  "200" : "actually, amazing, astoundingly, attractive, beautifully, beloved, best, brilliant, chic, delicious, dependable, easy, effortless, effortlessly, elegance, embarrass, embarrassment, enhance, enhancement, enormous, enthusiastic, envision, exclusive, fabulous, famous, fancy, faster, favored, favorable, favorite, fear, flawless, flawlessly, fortunately, fraud, freshly, fun, generously, genuinely, greed, huge, incredible, incredibly, iconic, immaculate, inspire, insipred, irresistible, kindly, liked, limitless, loved, lovely, mere, merely, newest, nice, nicely, ordinarily, perfect, perfection, perfectly, pleasant, pleased, pleasing, popular, powerful, purely, quick, sadly, shiny, simple, simply, stylish, super, terrific, thrilling, tip, tremendous, tricks, trouble, unfortunately, unlimited, unwanted, wanted, welcoming, wonderful",                                              
+                                  "100" :"absolutely, always, certainly, entrust, excellent, exploit, extremely, great, helpful, no way, normally, obvious, possible, quite, really, totally, truly, undoubtedly, unquestionably, unsure, virtually, wrong",
                                   "80" : "\!, \?",
-                                  "60" : "i'm, my, they, them, their, your, you are, you're",
-                                  "15" : "should, might, will, may, can",
-                                  "40" : "Ins And Outs, absolutely, advice, again, always, are saying, become, especially, essential, even, ever, extremely, how does, how to, in order to, industry professionals, look of, love, perhaps, reasons why, recognizable, slightly, usual, usually, ways to",
-                                  "5" : "In that case, a lot, actually, anything, as well as, assume, basic, do not, enjoy, even, everything, expert, first step, guide, hestitant, know, learn to, many, misunderstand, misunderstood, need, often, ordered, personal, possibility, suitable, things, thought, truth, understand, understood, very, without"
+                                  "60" : "i'm, my, they, them, their, your, you are, you're, you've, don't, you'll, would",
+                                  "40" : "Ins And Outs, advice, again, always, are saying, become, especially, essential, even, ever, generally, hestitant, how does, how to, in order to, industry professionals, look of, love, offer, often, perhaps, profit, reasons why, recognizable, slightly, usual, usually, very first, ways to",    
+                                  "15" : "should, might, will, won't, may, can, cannot, can't, never",
+                                  "10" : "In that case, a lot, actually, anything, as well as, assume, enjoy, even, everything, expert, first step, guide, hurt, know, learn to, misunderstand, misunderstood, need, often, ordered, personal, possibility, such as, suitable, things, thought, truth, understand, understood, very, without",
+                                  "5"  : "many, basic, do not, risk"
                              }
                               
 }
@@ -83,8 +84,9 @@ def add_spam_score(ckan_package, spam_digest) :
             spam_score = spam_score + temp_num         
             digest["len(resources description) > 1000"] = digest["len(resources description) > 1000"] + temp_num
     #find longest word in notes
-    #words_len = sorted([{'word':x, 'len':len(x)} for x in unicode(all_the_text).split()], key=itemgetter('len'), reverse=True)  
-    words_len = sorted([{'word':x.strip(), 'len':len(x.strip())} for x in re.findall(r'\W\w.*?\W',all_the_text,flags=re.I or re.S)], key=itemgetter('len'), reverse=True) 
+    #words_len = sorted([{'word':x, 'len':len(x)} for x in unicode(all_the_text).split()], key=itemgetter('len'), reverse=True) 
+    # \w [a-zA-Z0-9_] \W [^a-zA-Z0-9_] 
+    words_len = sorted([{'word':x.strip(), 'len':len(x.strip())} for x in re.findall(r'\W[\w:/].*?\W',all_the_text,flags=re.I or re.S)], key=itemgetter('len'), reverse=True) 
     word_score = 0
     longest_word = None
     for word_len_pair in words_len :

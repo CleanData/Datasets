@@ -90,8 +90,12 @@ def ckan_spider(site_root = 'http://datahub.io/', max_spam = default_max_spam, s
                 if package_name in processed_packages :
                     print(package_name + " : skipped")
                     continue
-                    
-            x = package_show(site_root, package_name, delay)
+            x = None       
+            while not x:                          
+                print(package_name + " : processing")
+                x = package_show(site_root, package_name, delay)
+                if not x :
+                    sleep(delay*5)
             #processed_packages[package_name] = x['revision_timestamp']
             spam_score = add_spam_score(x, spam_digest)
             if spam_score >= max_spam or x['num_resources'] < 1 :       
@@ -99,7 +103,6 @@ def ckan_spider(site_root = 'http://datahub.io/', max_spam = default_max_spam, s
                 print(package_name + " : spam")
                 continue
             
-            print(package_name + " : processing")
             license_title = ""
             license_url = ""
             if "license_title" in x :
@@ -234,11 +237,11 @@ def ckan_spider(site_root = 'http://datahub.io/', max_spam = default_max_spam, s
     write_json(scientists_path, scientists)                       
     f = open(core_formats_path)
     core_formats = json.loads(f.read())
-    core_format_names = [ item['fields']['name'] for item in core_formats ]
+    core_format_names = [ item['fields']['name'].lower() for item in core_formats ]
     f.close()
     my_formats = []
     for a_format in formats :
-        if a_format['fields']['name'] not in core_format_names :
+        if a_format['fields']['name'].lower() not in core_format_names :
             a_format['pk'] = len(my_formats)+1
             my_formats.append(a_format)          
     write_json(formats_path, my_formats)

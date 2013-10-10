@@ -195,7 +195,7 @@ licenses = [{ 'fields':{ "name":"public", "url":"" } }]
 write_json(datasets_path, datasets)                  
 write_json(organizations_path, organizations)
 write_json(scientists_path, scientists)        
-write_json(saved_state, str(page_count))
+#write_json(saved_state, str(page_count))
                   
 f = open(core_formats_path)
 core_formats = json.loads(f.read())

@@ -84,9 +84,18 @@ saves the `ckan_object["name"]` of the datasets after processing the data relati
 
 ####parsing_code/spam_digest.json
 Generate by `spam_filter.py`. Information about dataset spam score. It is written as each dataset is passed through the spam filter.
+The scores are pretty arbitrary, but sort of works. A better way is to create an initial spam words list. Then recursively add words and weights from spam datasets to that list and sutract words from legitimate datasets from the list.
 `spam_filter.py` was modified a few times during the current run. The earlier spam digest may have less information.
- - `len(notes)` number of characters in `ckan_object["notes"]`
- - `one word author`, `author` stores the author and the spam scoring if the author has zero or one word. (mistakenly reversed the printout, al) 
+ - `datahub_name` is the `ckan_object["names"]`
+ - `spam_score` is the total spam score
+ - `len(notes)`, `len(notes) score` stores the number of characters in `ckan_object["notes"]` and the spam score assigned according to the length
+ - `one word author`, `author` stores the author and the spam score if the author has zero or one word. (mistakenly reversed the printout, already fixed in code) 
+ - `one word maitainer`, `maintainer` stores the maintainer and the spam score if the maintainer has only zero or one word.
+ - `num_resources`, `no resource` stores the number of resources in the dataset and if there is no resource, add *no resource* score to the `spam_score`
+ - `longest words in notes + descriptions` stores the longest word in `ckan_object["notes"]` and `ckan_object["resource"]["description"]`, not necessarily spam 
+ - `longest words in notes + descriptions score`, for words longer than `max_word_length` which is *30* and not part of an url, add spam scores according to the length
+ - `spam words` is the total score from spam words
+ - `spam word score` stores the spam word and (the score for the word multiplied by the number of occurrence in `ckan_object["notes"]` and `ckan_object["resource"]["description"]`)  
 
 For information about `ckan_object` see `dataset mapping` below. 
 

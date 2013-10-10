@@ -180,7 +180,7 @@ http://datahub.io/api/3/action/related_list?id=ny-zipcodes-and-electricity-use
     }
 
 ## dataset mapping
-
+```python
     {                                                      
         "id": "9da16c4f-32a1-43ac-ae6b-c3378c6e7e9f",                
         "type": "dataset",              
@@ -310,3 +310,4 @@ http://datahub.io/api/3/action/related_list?id=ny-zipcodes-and-electricity-use
             }
         ], 
     }
+```

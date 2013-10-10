@@ -18,6 +18,7 @@ copied exameple datasets.json and formats.json to parsing_code directory b/c com
 Natural Language Processing doesn't work for spam filtering b/c of good adjectives like collaborative, statistical. 
 Datasets with zero resources are dropped from data/datasets.json automatically.
 
+
 *****
 
 Running the scripts
@@ -71,6 +72,7 @@ Default options
           'organizations':'../data/organizations.json'
           'scientists':'../data/scientists.json'}"
       
+      
 *****
 
 Extra files
@@ -84,8 +86,11 @@ saves the `ckan_object["name"]` of the datasets after processing the data relati
 
 ####parsing_code/spam_digest.json
 Generate by `spam_filter.py`. Information about dataset spam score. It is written as each dataset is passed through the spam filter.
+
 The scores are pretty arbitrary, but sort of works. A better way is to create an initial spam words list. Then recursively add words and weights from spam datasets to that list and sutract words from legitimate datasets from the list.
+
 `spam_filter.py` was modified a few times during the current run. The earlier spam digest may have less information.
+
  - `datahub_name` is the `ckan_object["names"]`
  - `spam_score` is the total spam score
  - `len(notes)`, `len(notes) score` stores the number of characters in `ckan_object["notes"]` and the spam score assigned according to the length
@@ -98,6 +103,7 @@ The scores are pretty arbitrary, but sort of works. A better way is to create an
  - `spam word score` stores the spam word and (the score for the word multiplied by the number of occurrence in `ckan_object["notes"]` and `ckan_object["resource"]["description"]`)  
 
 For information about `ckan_object` see `dataset mapping` below. 
+
 
 *****
 

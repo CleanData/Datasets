@@ -1,6 +1,6 @@
 data.cityofnewyork.us = nycopendata.socrata.com
 
-### has SiteMap, but no Crawler-Delay
+### has SiteMap, but no Crawl-Delay
 delay 3 seconds, just to be nice
 
 #list all dataset metadata

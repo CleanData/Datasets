@@ -144,7 +144,7 @@ Example url for getting datarelation
 
 ## related list mapping to datarelations
 http://datahub.io/api/3/action/related_list?id=ny-zipcodes-and-electricity-use
-
+```python
     {
         help: "Return a dataset's related items. Either the ``id`` or the ``dataset`` parameter must be given. :param id: id or name of the dataset (optional) :type id: string :param dataset: dataset dictionary of the dataset (optional) :type dataset: dictionary :param type_filter: the type of related item to show (optional, default: None, show all items) :type type_filter: string :param sort: the order to sort the related items in, possible values are 'view_count_asc', 'view_count_desc', 'created_asc' or 'created_desc' (optional) :type sort: string :param featured: whether or not to restrict the results to only featured related items (optional, default: False) :type featured: bool :rtype: list of dictionaries ",
         success: true,
@@ -178,6 +178,7 @@ http://datahub.io/api/3/action/related_list?id=ny-zipcodes-and-electricity-use
             }
         ]
     }
+```
 
 ## dataset mapping
 ```python

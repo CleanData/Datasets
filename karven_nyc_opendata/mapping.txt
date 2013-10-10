@@ -1,0 +1,113 @@
+    {
+        "pk": null,
+        "model": "data_connections.Dataset",
+        "data_format": [
+            "CSV"
+        ],
+        "fields": {
+            "description": "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+            "license": [
+                "Public"
+            ],
+            "date_published": "2013-09-05T16:32:41Z",
+            "url": "https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9",
+            "data_format": [],
+            "date_last_edited": "2013-09-05T16:32:41Z",
+            "manager": [
+                "NYC",
+                "OpenData",
+                "https://data.cityofnewyork.us/profile/NYC-OpenData/5fuc-pqz2"
+            ],
+            "managing_organization": [
+                "311"
+            ],
+            "data_catalog": null,
+            "name": "311 Service Requests from 2010 to Present"
+        }
+    },
+
+
+
+
+
+
+{
+    id: "erm2-nwe9", #dataset.url : https://nycopendata.socrata.com/resource/THIS.id 
+    # https://data.cityofnewyork.us/resource/erm2-nwe9 will redirect to the above url
+    # OR https://data.cityofnewyork.us/THIS.category/THIS.name/THIS.id
+    name: "311 Service Requests from 2010 to Present", #dataset.name
+    attribution: "311", #dataset.managing_organization
+    averageRating: 100,
+    category: "Social Services",
+    createdAt: 1318225937,
+    description: "All 311 Service Requests from 2010 to present. This information is automatically updated daily.", #dataset.description
+    displayType: "table", #dataset.data_format
+    downloadCount: 75069,
+    numberOfComments: 10,
+    oid: 3961164,
+    publicationAppendEnabled: false,
+    publicationDate: 1370807155, #dataset.date_published
+    publicationGroup: 244403,
+    publicationStage: "published",
+    rowClass: "",
+    rowIdentifierColumnId: 72435480,
+    rowsUpdatedAt: 1381176786,
+    rowsUpdatedBy: "5fuc-pqz2",
+    signed: false,
+    state: "normal",
+    tableId: 908693,
+    totalTimesRated: 1,
+    viewCount: 21136,
+    viewLastModified: 1381123356, #dataset.date_last_edited
+    viewType: "tabular",
+    columns: [],
+    grants: [
+        {
+            inherited: false,
+            type: "viewer",
+            flags: [
+                "public" #dataset.license
+            ]
+        }
+    ],
+    metadata: {},
+    owner: {
+        id: "5fuc-pqz2", #dataset.manager.url = https://data.cityofnewyork.us/profile/THIS.owner.id will redirect to above url
+        displayName: "NYC OpenData", #dataset.manager.firstname lastname
+        emailUnsubscribed: false,
+        privacyControl: "login",
+        profileLastModified: 1374467924,
+        roleName: "administrator",
+        screenName: "NYC OpenData", #OR dataset.manager.firstname lastname
+        rights: []
+    },
+    query: {},
+    ratings: {},
+    rights: [
+        "read"
+    ],
+    sortBys: [],
+    tableAuthor: {
+        id: "5fuc-pqz2",
+        displayName: "NYC OpenData",
+        emailUnsubscribed: false,
+        privacyControl: "login",
+        profileLastModified: 1374467924,
+        roleName: "administrator",
+        screenName: "NYC OpenData",
+        rights: []
+    },
+    tags: [
+        "311",
+        "311 service requests",
+        "2010",
+        "2011",
+        "2012",
+        "service request status",
+        "all service requests",
+        "clean web"
+    ],
+    flags: [
+        "default"
+    ]
+}

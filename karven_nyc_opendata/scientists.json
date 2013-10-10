@@ -1,0 +1,4682 @@
+[
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "OpenData", 
+            "firstname": "NYC", 
+            "profile_url": "https://data.cityofnewyork.us/profile/5fuc-pqz2"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "J.", 
+            "firstname": "Jorge", 
+            "profile_url": "https://data.cityofnewyork.us/profile/rnig-m3uj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Webber", 
+            "firstname": "Albert", 
+            "profile_url": "https://data.cityofnewyork.us/profile/txun-eb7e"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ksell", 
+            "profile_url": "https://data.cityofnewyork.us/profile/8xvz-5ja2"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Metcalf", 
+            "firstname": "Chris", 
+            "profile_url": "https://data.cityofnewyork.us/profile/i7d8-sc4w"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Pesner", 
+            "firstname": "Bob", 
+            "profile_url": "https://data.cityofnewyork.us/profile/7wp3-d9ar"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "bryantlau", 
+            "profile_url": "https://data.cityofnewyork.us/profile/nux4-azwn"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Girish", 
+            "profile_url": "https://data.cityofnewyork.us/profile/4f6h-73aa"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Nicklin", 
+            "firstname": "Andrew", 
+            "profile_url": "https://data.cityofnewyork.us/profile/x539-akqs"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "DanH", 
+            "profile_url": "https://data.cityofnewyork.us/profile/rnna-m2z3"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "aaron.m", 
+            "profile_url": "https://data.cityofnewyork.us/profile/4dkz-hnqj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Strauss", 
+            "firstname": "Ted", 
+            "profile_url": "https://data.cityofnewyork.us/profile/3dx6-ghr7"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "A", 
+            "firstname": "Gary", 
+            "profile_url": "https://data.cityofnewyork.us/profile/k2fz-tf56"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Stavish", 
+            "firstname": "Todd", 
+            "profile_url": "https://data.cityofnewyork.us/profile/b9n8-g9sn"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Susan", 
+            "profile_url": "https://data.cityofnewyork.us/profile/77an-4pzh"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Sacks", 
+            "firstname": "Ben H", 
+            "profile_url": "https://data.cityofnewyork.us/profile/xgni-s9pb"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "P", 
+            "firstname": "Larry", 
+            "profile_url": "https://data.cityofnewyork.us/profile/i7vc-7duj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Eric", 
+            "profile_url": "https://data.cityofnewyork.us/profile/f5m2-24xv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "K", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bivn-867q"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "cpbride", 
+            "profile_url": "https://data.cityofnewyork.us/profile/v4c9-bc9b"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Theresa", 
+            "profile_url": "https://data.cityofnewyork.us/profile/sbrh-e4gp"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Sally", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ijx4-c5ee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Levin", 
+            "firstname": "Brian", 
+            "profile_url": "https://data.cityofnewyork.us/profile/22tt-pts6"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Sarmstr", 
+            "profile_url": "https://data.cityofnewyork.us/profile/25tr-hzgv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "williamsww", 
+            "profile_url": "https://data.cityofnewyork.us/profile/gamg-bfip"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Lee", 
+            "firstname": "Sam S.", 
+            "profile_url": "https://data.cityofnewyork.us/profile/rek6-gcru"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "sunnydayz", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bvk4-z2wt"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "brandon", 
+            "profile_url": "https://data.cityofnewyork.us/profile/2a75-epcp"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ps", 
+            "profile_url": "https://data.cityofnewyork.us/profile/6bpt-ecdc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Chris", 
+            "profile_url": "https://data.cityofnewyork.us/profile/3c2b-rx7i"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "zevg", 
+            "profile_url": "https://data.cityofnewyork.us/profile/iekz-4qf5"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "zamansky", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bx77-7rj9"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "sorabji", 
+            "profile_url": "https://data.cityofnewyork.us/profile/d8v3-j4ez"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Pezeshki", 
+            "firstname": "Grant", 
+            "profile_url": "https://data.cityofnewyork.us/profile/mnqk-qsd2"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Sameer", 
+            "profile_url": "https://data.cityofnewyork.us/profile/5k56-8z24"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Whiting", 
+            "profile_url": "https://data.cityofnewyork.us/profile/2q5d-ybzi"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "lampman", 
+            "profile_url": "https://data.cityofnewyork.us/profile/eyca-tbuk"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Mike", 
+            "profile_url": "https://data.cityofnewyork.us/profile/7ukw-z2kb"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "cpersheff", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bn9x-3kk4"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "yono", 
+            "profile_url": "https://data.cityofnewyork.us/profile/muwy-z4di"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "DavidTheExpert", 
+            "profile_url": "https://data.cityofnewyork.us/profile/m2wu-q8pq"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "WQ", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ecw4-bvf5"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Louie", 
+            "profile_url": "https://data.cityofnewyork.us/profile/zdz4-j4py"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "lechal", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bkz6-txjw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "roz", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ydk3-eiha"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Sheri", 
+            "profile_url": "https://data.cityofnewyork.us/profile/je6b-7aen"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "coadaptive", 
+            "profile_url": "https://data.cityofnewyork.us/profile/g2be-vfqu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "S.", 
+            "firstname": "Ram", 
+            "profile_url": "https://data.cityofnewyork.us/profile/8b43-zkvh"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "D13", 
+            "profile_url": "https://data.cityofnewyork.us/profile/mgr6-e6rb"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Michael", 
+            "profile_url": "https://data.cityofnewyork.us/profile/tqgh-qb7j"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "agreenjay", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ked8-fmaa"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "shon", 
+            "profile_url": "https://data.cityofnewyork.us/profile/vyiz-7skf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Rizhou", 
+            "profile_url": "https://data.cityofnewyork.us/profile/hyqk-3yap"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Veronique", 
+            "profile_url": "https://data.cityofnewyork.us/profile/wt3r-tb9c"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "gcarranza", 
+            "profile_url": "https://data.cityofnewyork.us/profile/mnkr-jf3s"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "avocadolee", 
+            "profile_url": "https://data.cityofnewyork.us/profile/jagn-khyh"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Schwane", 
+            "firstname": "Jeff", 
+            "profile_url": "https://data.cityofnewyork.us/profile/yhfz-fxb8"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "McHugh", 
+            "firstname": "Dan", 
+            "profile_url": "https://data.cityofnewyork.us/profile/nxmk-pn5a"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ilikefood", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bdrt-y9aa"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Sarkissian", 
+            "firstname": "George", 
+            "profile_url": "https://data.cityofnewyork.us/profile/dm8i-rc6u"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Dubovsky", 
+            "firstname": "J", 
+            "profile_url": "https://data.cityofnewyork.us/profile/vu4s-cvq4"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "nolan", 
+            "firstname": "Alec", 
+            "profile_url": "https://data.cityofnewyork.us/profile/xyng-8krz"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "dianejeantet", 
+            "profile_url": "https://data.cityofnewyork.us/profile/x3v7-ithk"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "xborough", 
+            "profile_url": "https://data.cityofnewyork.us/profile/tazj-hvy6"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Velez", 
+            "firstname": "Samar", 
+            "profile_url": "https://data.cityofnewyork.us/profile/fk4i-25sz"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Elkin", 
+            "profile_url": "https://data.cityofnewyork.us/profile/3fqa-4a6j"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Dalwani", 
+            "firstname": "Aakash", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ya7g-926w"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Trafalgor", 
+            "profile_url": "https://data.cityofnewyork.us/profile/tm6a-hbew"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "cb9inator", 
+            "profile_url": "https://data.cityofnewyork.us/profile/rn4t-bkgk"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "rosieg", 
+            "profile_url": "https://data.cityofnewyork.us/profile/e859-fgdh"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "matthewguitar89", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ny4f-meec"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "mstearne", 
+            "profile_url": "https://data.cityofnewyork.us/profile/rnbh-gy7g"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "alazaro", 
+            "profile_url": "https://data.cityofnewyork.us/profile/avjd-nt4b"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Sarah.serpas", 
+            "profile_url": "https://data.cityofnewyork.us/profile/xemy-c3ad"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Vallp049", 
+            "profile_url": "https://data.cityofnewyork.us/profile/3w5f-gg42"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jason", 
+            "profile_url": "https://data.cityofnewyork.us/profile/mkzp-rhs9"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jchen85", 
+            "profile_url": "https://data.cityofnewyork.us/profile/wa7s-w2pp"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "WEEZY", 
+            "profile_url": "https://data.cityofnewyork.us/profile/8ivq-bngn"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Azi", 
+            "profile_url": "https://data.cityofnewyork.us/profile/cueb-gh5t"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "mightymike09", 
+            "profile_url": "https://data.cityofnewyork.us/profile/qtrb-yaqb"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "alexremington", 
+            "profile_url": "https://data.cityofnewyork.us/profile/uwnu-t439"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "nbayless", 
+            "profile_url": "https://data.cityofnewyork.us/profile/7cj8-sg9g"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ZitoMA", 
+            "profile_url": "https://data.cityofnewyork.us/profile/t43s-h4rz"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Jeff", 
+            "profile_url": "https://data.cityofnewyork.us/profile/8bwk-x9s7"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "R.", 
+            "firstname": "Eric", 
+            "profile_url": "https://data.cityofnewyork.us/profile/qsz9-qinv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Balcazar", 
+            "firstname": "Melissa", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ekuh-ti69"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "alexabreu", 
+            "profile_url": "https://data.cityofnewyork.us/profile/6j8w-wcbq"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jbgsapp", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bx8f-n9yx"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "cmarlow", 
+            "profile_url": "https://data.cityofnewyork.us/profile/8huc-jmpe"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "rfleming2175", 
+            "profile_url": "https://data.cityofnewyork.us/profile/yksr-nygx"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "tc420", 
+            "profile_url": "https://data.cityofnewyork.us/profile/caqs-juvx"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "mina", 
+            "profile_url": "https://data.cityofnewyork.us/profile/dhbk-4uzn"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "franj771", 
+            "profile_url": "https://data.cityofnewyork.us/profile/42up-ahhu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Belleri", 
+            "firstname": "Daniele", 
+            "profile_url": "https://data.cityofnewyork.us/profile/v69d-2uhm"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "contactlogan", 
+            "profile_url": "https://data.cityofnewyork.us/profile/2chp-kiu9"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "sbauch", 
+            "profile_url": "https://data.cityofnewyork.us/profile/exc5-8kjf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "grich", 
+            "profile_url": "https://data.cityofnewyork.us/profile/gyd5-aqgc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Tejas.Patel", 
+            "profile_url": "https://data.cityofnewyork.us/profile/iacr-duv5"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "polatalihan", 
+            "profile_url": "https://data.cityofnewyork.us/profile/rdxg-79me"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "WindyApps", 
+            "profile_url": "https://data.cityofnewyork.us/profile/7qqq-2dsp"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "wyc", 
+            "profile_url": "https://data.cityofnewyork.us/profile/hrak-h56t"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "philster41", 
+            "profile_url": "https://data.cityofnewyork.us/profile/378a-ieu2"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Joe", 
+            "profile_url": "https://data.cityofnewyork.us/profile/4evd-2pdm"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Bnovack", 
+            "profile_url": "https://data.cityofnewyork.us/profile/i359-ai5b"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "alixfellman", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ehhz-z8f9"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "spenser.gruenenfelder", 
+            "profile_url": "https://data.cityofnewyork.us/profile/nc3i-tv89"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ovenman", 
+            "profile_url": "https://data.cityofnewyork.us/profile/hatw-bf37"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "bitsplit", 
+            "profile_url": "https://data.cityofnewyork.us/profile/gamp-a8kp"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "eli1223", 
+            "profile_url": "https://data.cityofnewyork.us/profile/wa79-2x8j"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jmeyers79", 
+            "profile_url": "https://data.cityofnewyork.us/profile/cwzf-a5cy"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jollyburnz", 
+            "profile_url": "https://data.cityofnewyork.us/profile/fwxi-kgnj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Craine", 
+            "firstname": "Brian", 
+            "profile_url": "https://data.cityofnewyork.us/profile/y8pz-fawh"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "drlv", 
+            "profile_url": "https://data.cityofnewyork.us/profile/b4ih-zzr3"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "krissa_cavouras", 
+            "profile_url": "https://data.cityofnewyork.us/profile/b9nv-dp6t"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "sacshu", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bivb-n3ae"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Poznanski", 
+            "firstname": "Alex", 
+            "profile_url": "https://data.cityofnewyork.us/profile/92qk-u78v"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ReldresalWashington", 
+            "profile_url": "https://data.cityofnewyork.us/profile/kiar-i5gs"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Danny", 
+            "profile_url": "https://data.cityofnewyork.us/profile/jgud-etjs"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Bk", 
+            "profile_url": "https://data.cityofnewyork.us/profile/i24v-uxrx"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Nitin", 
+            "profile_url": "https://data.cityofnewyork.us/profile/k557-hc4e"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "aweathers", 
+            "profile_url": "https://data.cityofnewyork.us/profile/jua9-5hzr"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Panamoka", 
+            "profile_url": "https://data.cityofnewyork.us/profile/qx67-mv2j"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "CB2", 
+            "firstname": "Brooklyn", 
+            "profile_url": "https://data.cityofnewyork.us/profile/aggk-52tt"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jrainer", 
+            "profile_url": "https://data.cityofnewyork.us/profile/6uy2-sgih"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ShitalKothari", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ee3m-894x"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Pathria", 
+            "firstname": "Harish", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ci6y-i73t"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "tonyk", 
+            "profile_url": "https://data.cityofnewyork.us/profile/j8s3-8ddj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "dimroc", 
+            "profile_url": "https://data.cityofnewyork.us/profile/gqm6-3umj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "abg", 
+            "profile_url": "https://data.cityofnewyork.us/profile/mtgq-a8ud"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "CGTONN", 
+            "profile_url": "https://data.cityofnewyork.us/profile/s4iw-zaac"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "kristenp", 
+            "profile_url": "https://data.cityofnewyork.us/profile/mdvd-p4j9"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "NancyPhelps", 
+            "profile_url": "https://data.cityofnewyork.us/profile/q4y7-63zv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "P", 
+            "profile_url": "https://data.cityofnewyork.us/profile/hszz-sqew"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Emulbe", 
+            "profile_url": "https://data.cityofnewyork.us/profile/cs27-5iag"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Euphues", 
+            "profile_url": "https://data.cityofnewyork.us/profile/xwa8-cdvv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Vasudeva", 
+            "firstname": "Sudhir", 
+            "profile_url": "https://data.cityofnewyork.us/profile/syvn-4vgv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "nicool", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ykic-nj9r"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "nomadicpeng", 
+            "profile_url": "https://data.cityofnewyork.us/profile/uds7-76fj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Maria", 
+            "profile_url": "https://data.cityofnewyork.us/profile/cgpj-ifgt"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "iGiveMore", 
+            "profile_url": "https://data.cityofnewyork.us/profile/mni8-nid4"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "rfeather", 
+            "profile_url": "https://data.cityofnewyork.us/profile/w239-t4b3"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Garcia", 
+            "firstname": "Ramon", 
+            "profile_url": "https://data.cityofnewyork.us/profile/knfg-9vwa"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "nikkor", 
+            "profile_url": "https://data.cityofnewyork.us/profile/32wp-anz8"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Cindy", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ggmx-kdbx"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Carney", 
+            "firstname": "Caroline", 
+            "profile_url": "https://data.cityofnewyork.us/profile/3aeq-s5pw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "chewbaccadefense", 
+            "profile_url": "https://data.cityofnewyork.us/profile/7xm3-vp9m"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Six", 
+            "firstname": "Community Board", 
+            "profile_url": "https://data.cityofnewyork.us/profile/tec9-3ubv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "cpbride", 
+            "profile_url": "https://data.cityofnewyork.us/profile/c5ze-pii7"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "kanap008", 
+            "profile_url": "https://data.cityofnewyork.us/profile/era4-7j7a"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "schu1989", 
+            "profile_url": "https://data.cityofnewyork.us/profile/855x-2w2r"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "cidrams", 
+            "profile_url": "https://data.cityofnewyork.us/profile/vnb6-2euw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "travis.p.sheehan", 
+            "profile_url": "https://data.cityofnewyork.us/profile/gphe-7dx2"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "acd", 
+            "profile_url": "https://data.cityofnewyork.us/profile/n387-wamf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "SW", 
+            "profile_url": "https://data.cityofnewyork.us/profile/fy8w-tr5f"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "njdesantis", 
+            "profile_url": "https://data.cityofnewyork.us/profile/i43n-4kza"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "C", 
+            "firstname": "Phil", 
+            "profile_url": "https://data.cityofnewyork.us/profile/w87s-u9tf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Foote", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ijf7-p5ev"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Sami", 
+            "profile_url": "https://data.cityofnewyork.us/profile/uth7-wih3"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Kitaychik", 
+            "profile_url": "https://data.cityofnewyork.us/profile/pkmt-3q94"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Quercus", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bkam-kfkg"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "rnmehta5columbia", 
+            "profile_url": "https://data.cityofnewyork.us/profile/qtsn-856z"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Backof", 
+            "firstname": "Jay", 
+            "profile_url": "https://data.cityofnewyork.us/profile/9msj-frai"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ezwill625", 
+            "profile_url": "https://data.cityofnewyork.us/profile/iw97-cmx8"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "svelz", 
+            "profile_url": "https://data.cityofnewyork.us/profile/vigz-pjyi"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "bnyworld", 
+            "profile_url": "https://data.cityofnewyork.us/profile/3f6b-zdxp"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "sharma", 
+            "firstname": "vivek", 
+            "profile_url": "https://data.cityofnewyork.us/profile/cvaf-j2vw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "b", 
+            "firstname": "amanda", 
+            "profile_url": "https://data.cityofnewyork.us/profile/juiz-fiji"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Khesroh", 
+            "firstname": "Mohammed", 
+            "profile_url": "https://data.cityofnewyork.us/profile/kfsa-scji"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "hjl1011", 
+            "profile_url": "https://data.cityofnewyork.us/profile/kedk-qi3d"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Huff", 
+            "firstname": "Ben", 
+            "profile_url": "https://data.cityofnewyork.us/profile/fnvr-6fbc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jpbData", 
+            "profile_url": "https://data.cityofnewyork.us/profile/6sye-8pzu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "o'hara", 
+            "firstname": "mary", 
+            "profile_url": "https://data.cityofnewyork.us/profile/jpbn-p94w"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "MJ48", 
+            "profile_url": "https://data.cityofnewyork.us/profile/mtfb-37bg"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Scott", 
+            "firstname": "Kristin", 
+            "profile_url": "https://data.cityofnewyork.us/profile/52vf-ecev"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Green", 
+            "firstname": "Gordon", 
+            "profile_url": "https://data.cityofnewyork.us/profile/meqq-9fwr"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jgk61", 
+            "profile_url": "https://data.cityofnewyork.us/profile/655h-d75c"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "kturnstina", 
+            "profile_url": "https://data.cityofnewyork.us/profile/fnz8-fbsk"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "s9paul", 
+            "profile_url": "https://data.cityofnewyork.us/profile/wnht-2byh"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "alstein35", 
+            "profile_url": "https://data.cityofnewyork.us/profile/33tg-wjfw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Jane", 
+            "profile_url": "https://data.cityofnewyork.us/profile/gkb6-in7z"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Jacqueline", 
+            "profile_url": "https://data.cityofnewyork.us/profile/hcha-569t"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "webzec@yahoo.com", 
+            "profile_url": "https://data.cityofnewyork.us/profile/hibe-2hyt"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "OlafSHA", 
+            "profile_url": "https://data.cityofnewyork.us/profile/cxmk-9pqw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "JuliaKHayes", 
+            "profile_url": "https://data.cityofnewyork.us/profile/tyiv-smkv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ezkl", 
+            "profile_url": "https://data.cityofnewyork.us/profile/dfxb-r5vc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "KRC", 
+            "profile_url": "https://data.cityofnewyork.us/profile/h5as-tpdt"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "alcatraz", 
+            "profile_url": "https://data.cityofnewyork.us/profile/6cgd-pi7g"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "susan", 
+            "profile_url": "https://data.cityofnewyork.us/profile/qzmc-xjv3"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Eric", 
+            "profile_url": "https://data.cityofnewyork.us/profile/sfg6-shfk"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "CITYWIDE", 
+            "profile_url": "https://data.cityofnewyork.us/profile/jinh-kntj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "dlanders", 
+            "profile_url": "https://data.cityofnewyork.us/profile/3tzm-9h2a"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Natasha_Dwyer", 
+            "profile_url": "https://data.cityofnewyork.us/profile/un3j-eycx"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ahsanul", 
+            "profile_url": "https://data.cityofnewyork.us/profile/fwnr-x3bw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Gdeards", 
+            "profile_url": "https://data.cityofnewyork.us/profile/sq3q-v8hy"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Opera", 
+            "profile_url": "https://data.cityofnewyork.us/profile/8mf8-7vik"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "pdrew", 
+            "profile_url": "https://data.cityofnewyork.us/profile/9j8w-xdqp"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "bpolania", 
+            "profile_url": "https://data.cityofnewyork.us/profile/3579-fye6"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "lqian", 
+            "profile_url": "https://data.cityofnewyork.us/profile/6sx4-yhih"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Isaac", 
+            "firstname": "Amital", 
+            "profile_url": "https://data.cityofnewyork.us/profile/58ce-7f6b"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Bailey", 
+            "firstname": "Peter", 
+            "profile_url": "https://data.cityofnewyork.us/profile/cqai-7jye"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Ed", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ya5e-te7j"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Stankard", 
+            "firstname": "Patrick", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bstj-wizn"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Nipan", 
+            "profile_url": "https://data.cityofnewyork.us/profile/yr82-fkqq"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "lindenchariot", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ytz9-9ks2"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Ronda", 
+            "firstname": "Michelle", 
+            "profile_url": "https://data.cityofnewyork.us/profile/rvc4-f6mg"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "salazar1", 
+            "profile_url": "https://data.cityofnewyork.us/profile/dv3m-af4x"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "JPeter", 
+            "profile_url": "https://data.cityofnewyork.us/profile/yjbc-sst7"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "guoduoguoduo", 
+            "profile_url": "https://data.cityofnewyork.us/profile/pfqn-72i8"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "AJanos", 
+            "profile_url": "https://data.cityofnewyork.us/profile/giwm-xa7w"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Holmes", 
+            "firstname": "Chris", 
+            "profile_url": "https://data.cityofnewyork.us/profile/3g9k-p2fz"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "K", 
+            "firstname": "David", 
+            "profile_url": "https://data.cityofnewyork.us/profile/r3i4-dcfm"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "herrera.tim", 
+            "profile_url": "https://data.cityofnewyork.us/profile/79te-xnb3"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "zoli", 
+            "profile_url": "https://data.cityofnewyork.us/profile/wcun-jyj5"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "JZ", 
+            "profile_url": "https://data.cityofnewyork.us/profile/8sev-g438"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "realguess", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ear3-tan9"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Spier", 
+            "firstname": "Ezra", 
+            "profile_url": "https://data.cityofnewyork.us/profile/itjt-7uzb"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jlashley", 
+            "profile_url": "https://data.cityofnewyork.us/profile/43m7-2qc2"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ntaub", 
+            "profile_url": "https://data.cityofnewyork.us/profile/w5s3-ms2u"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "cc3526", 
+            "profile_url": "https://data.cityofnewyork.us/profile/d6vd-at6n"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Jameson", 
+            "profile_url": "https://data.cityofnewyork.us/profile/89n6-2m2e"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "SigmaMonster", 
+            "profile_url": "https://data.cityofnewyork.us/profile/7k5m-iwqn"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Arnold", 
+            "profile_url": "https://data.cityofnewyork.us/profile/cazy-nmew"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "SJGraboski", 
+            "profile_url": "https://data.cityofnewyork.us/profile/b6c3-gnce"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Marik", 
+            "profile_url": "https://data.cityofnewyork.us/profile/v8sh-itdd"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Sleiman", 
+            "firstname": "M", 
+            "profile_url": "https://data.cityofnewyork.us/profile/e5qc-ue88"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Samson", 
+            "firstname": "Robert J", 
+            "profile_url": "https://data.cityofnewyork.us/profile/rp9m-5dfa"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jeff", 
+            "profile_url": "https://data.cityofnewyork.us/profile/5ts4-ya4q"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "lhealthier", 
+            "profile_url": "https://data.cityofnewyork.us/profile/v74r-tspt"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jonkeegan", 
+            "profile_url": "https://data.cityofnewyork.us/profile/trgj-vxwz"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "david", 
+            "profile_url": "https://data.cityofnewyork.us/profile/3cs4-uw38"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "bitar", 
+            "firstname": "michael", 
+            "profile_url": "https://data.cityofnewyork.us/profile/fxpc-r5t8"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "hhwhcpo", 
+            "profile_url": "https://data.cityofnewyork.us/profile/kqhx-hird"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "li", 
+            "profile_url": "https://data.cityofnewyork.us/profile/cf94-i5g9"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "rob", 
+            "profile_url": "https://data.cityofnewyork.us/profile/85j9-6kpa"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Swanson", 
+            "firstname": "Tom", 
+            "profile_url": "https://data.cityofnewyork.us/profile/pcjr-ru5m"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Pinto", 
+            "firstname": "Johnny", 
+            "profile_url": "https://data.cityofnewyork.us/profile/fekr-776v"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "brooklynhubris", 
+            "profile_url": "https://data.cityofnewyork.us/profile/aizh-77mv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Jayreen", 
+            "profile_url": "https://data.cityofnewyork.us/profile/x5t2-sgmt"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Michelle", 
+            "profile_url": "https://data.cityofnewyork.us/profile/wf89-vwij"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "queensrentco", 
+            "profile_url": "https://data.cityofnewyork.us/profile/vimi-ausc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Geoff", 
+            "profile_url": "https://data.cityofnewyork.us/profile/byhk-5qmm"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Selena", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ynpk-kyvh"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Chung", 
+            "firstname": "Hae Rang", 
+            "profile_url": "https://data.cityofnewyork.us/profile/g5ji-ffbx"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Andy", 
+            "profile_url": "https://data.cityofnewyork.us/profile/dw72-se6u"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "bigpalooka", 
+            "profile_url": "https://data.cityofnewyork.us/profile/mhpe-5iuz"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Rennison", 
+            "firstname": "Billy", 
+            "profile_url": "https://data.cityofnewyork.us/profile/6sp6-s2av"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Johnson", 
+            "firstname": "Andrea", 
+            "profile_url": "https://data.cityofnewyork.us/profile/a6ax-6u5f"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "manimota", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bpr3-mjyw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Sherif", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bw4a-ip54"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "JoeM", 
+            "profile_url": "https://data.cityofnewyork.us/profile/a75s-ww67"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "tmacdonald", 
+            "profile_url": "https://data.cityofnewyork.us/profile/nsgc-ydz4"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "dietoff", 
+            "profile_url": "https://data.cityofnewyork.us/profile/csy8-sg8f"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "menalek", 
+            "profile_url": "https://data.cityofnewyork.us/profile/8n39-p6hz"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Mora", 
+            "firstname": "Julio", 
+            "profile_url": "https://data.cityofnewyork.us/profile/esyy-qynf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Marks", 
+            "firstname": "Aaron", 
+            "profile_url": "https://data.cityofnewyork.us/profile/2u6a-x7tm"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Javi", 
+            "profile_url": "https://data.cityofnewyork.us/profile/5x7q-zjxb"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "chrismv48", 
+            "profile_url": "https://data.cityofnewyork.us/profile/r8j9-w697"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Roni", 
+            "profile_url": "https://data.cityofnewyork.us/profile/jrd8-9ppw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "yip", 
+            "profile_url": "https://data.cityofnewyork.us/profile/qv4t-sb9d"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "almasri", 
+            "firstname": "isa", 
+            "profile_url": "https://data.cityofnewyork.us/profile/5gek-rbnu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Droth", 
+            "profile_url": "https://data.cityofnewyork.us/profile/d7xh-xc6y"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "castroco", 
+            "profile_url": "https://data.cityofnewyork.us/profile/jscg-v68d"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "mtwalsh", 
+            "profile_url": "https://data.cityofnewyork.us/profile/7ixx-p72e"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "McGahan", 
+            "firstname": "Jason", 
+            "profile_url": "https://data.cityofnewyork.us/profile/m337-c7ae"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jvans", 
+            "profile_url": "https://data.cityofnewyork.us/profile/sz6w-dbqu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "matthew482", 
+            "profile_url": "https://data.cityofnewyork.us/profile/sizy-scsv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Batiabet", 
+            "profile_url": "https://data.cityofnewyork.us/profile/wjqq-r6y6"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "KWeill", 
+            "profile_url": "https://data.cityofnewyork.us/profile/57yq-ycv3"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "lililyking", 
+            "profile_url": "https://data.cityofnewyork.us/profile/m2yz-i3gy"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "bas", 
+            "profile_url": "https://data.cityofnewyork.us/profile/mndz-isey"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "AsaWilks", 
+            "profile_url": "https://data.cityofnewyork.us/profile/vb96-6c2r"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "leila", 
+            "profile_url": "https://data.cityofnewyork.us/profile/mgkb-nmx7"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Quinn", 
+            "firstname": "Brian", 
+            "profile_url": "https://data.cityofnewyork.us/profile/amy2-a8qg"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Lozina", 
+            "firstname": "Mark", 
+            "profile_url": "https://data.cityofnewyork.us/profile/uix5-pibd"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "narcoleptico", 
+            "profile_url": "https://data.cityofnewyork.us/profile/a46u-z3jf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "WEM", 
+            "profile_url": "https://data.cityofnewyork.us/profile/j9vx-8f4n"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "sanhita", 
+            "profile_url": "https://data.cityofnewyork.us/profile/qaui-aknc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jacoby", 
+            "profile_url": "https://data.cityofnewyork.us/profile/qs2y-h7rf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Harry", 
+            "profile_url": "https://data.cityofnewyork.us/profile/wji9-naxi"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "rogerbix", 
+            "profile_url": "https://data.cityofnewyork.us/profile/2v55-zh4u"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ronaldchavez", 
+            "profile_url": "https://data.cityofnewyork.us/profile/u9vp-xekd"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Nilsim", 
+            "profile_url": "https://data.cityofnewyork.us/profile/376i-b2vs"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "PWS", 
+            "profile_url": "https://data.cityofnewyork.us/profile/us4w-9xzc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ltorvi", 
+            "profile_url": "https://data.cityofnewyork.us/profile/guwq-4b37"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Irina", 
+            "profile_url": "https://data.cityofnewyork.us/profile/hxcg-4enw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Aesha", 
+            "profile_url": "https://data.cityofnewyork.us/profile/9cej-9qe7"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "J", 
+            "profile_url": "https://data.cityofnewyork.us/profile/3ejm-2gh4"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "sophiee", 
+            "profile_url": "https://data.cityofnewyork.us/profile/uwg8-drqe"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Merritt", 
+            "firstname": "Jeff", 
+            "profile_url": "https://data.cityofnewyork.us/profile/gj6v-f6hn"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "KRC", 
+            "profile_url": "https://data.cityofnewyork.us/profile/93ae-e8da"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jamiller", 
+            "profile_url": "https://data.cityofnewyork.us/profile/b8p3-fjx7"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Deniz", 
+            "profile_url": "https://data.cityofnewyork.us/profile/mv85-e7yd"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "diegobota", 
+            "profile_url": "https://data.cityofnewyork.us/profile/wx7t-s332"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "adambomb", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bhcy-pkm7"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "drew", 
+            "profile_url": "https://data.cityofnewyork.us/profile/26dv-hxmq"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Gordon", 
+            "firstname": "Roger", 
+            "profile_url": "https://data.cityofnewyork.us/profile/9enw-ztp4"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "mawarner07", 
+            "profile_url": "https://data.cityofnewyork.us/profile/wu8u-ke97"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ROSALISBEL30", 
+            "profile_url": "https://data.cityofnewyork.us/profile/c6ma-kmia"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "amused", 
+            "profile_url": "https://data.cityofnewyork.us/profile/xsjd-4g5i"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ulysseous", 
+            "profile_url": "https://data.cityofnewyork.us/profile/yp92-g7te"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "BlazingFaith", 
+            "profile_url": "https://data.cityofnewyork.us/profile/acwz-ptbc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Dylan", 
+            "profile_url": "https://data.cityofnewyork.us/profile/6fzs-fhur"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "carolyn", 
+            "profile_url": "https://data.cityofnewyork.us/profile/7f7h-sz46"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Berge", 
+            "firstname": "Larry", 
+            "profile_url": "https://data.cityofnewyork.us/profile/nymj-jzk2"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "wave", 
+            "profile_url": "https://data.cityofnewyork.us/profile/9re3-4vxy"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "alexg", 
+            "profile_url": "https://data.cityofnewyork.us/profile/kuxm-86k6"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Lepage", 
+            "firstname": "LP", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ajhw-eagu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Teichman", 
+            "firstname": "Joseph", 
+            "profile_url": "https://data.cityofnewyork.us/profile/4msh-igcy"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "ARQUITECTURA", 
+            "firstname": "PASAJES", 
+            "profile_url": "https://data.cityofnewyork.us/profile/pva9-3m3y"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Mia", 
+            "profile_url": "https://data.cityofnewyork.us/profile/kw9t-m3yv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "kmischik", 
+            "profile_url": "https://data.cityofnewyork.us/profile/58fw-ajfu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "mariana", 
+            "profile_url": "https://data.cityofnewyork.us/profile/v4se-9anj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "John", 
+            "profile_url": "https://data.cityofnewyork.us/profile/x7my-s5n9"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "CB6", 
+            "profile_url": "https://data.cityofnewyork.us/profile/7295-xyj2"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "CfeM", 
+            "profile_url": "https://data.cityofnewyork.us/profile/9cz6-57nh"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "boettcher", 
+            "firstname": "travis", 
+            "profile_url": "https://data.cityofnewyork.us/profile/9ngq-kdsv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Maria", 
+            "profile_url": "https://data.cityofnewyork.us/profile/3ax2-hh4f"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "B", 
+            "firstname": "Marc", 
+            "profile_url": "https://data.cityofnewyork.us/profile/m3e5-i8qw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "petero", 
+            "profile_url": "https://data.cityofnewyork.us/profile/v6wx-kzwu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "DenishaB", 
+            "profile_url": "https://data.cityofnewyork.us/profile/hb6a-t3r2"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "frank0051", 
+            "profile_url": "https://data.cityofnewyork.us/profile/6pef-hjp8"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "JeapesCode", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bsh3-9hfw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jeichen", 
+            "profile_url": "https://data.cityofnewyork.us/profile/64mk-wbmz"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "mdiscenza", 
+            "profile_url": "https://data.cityofnewyork.us/profile/javh-dxyw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "DeWan", 
+            "firstname": "Jim", 
+            "profile_url": "https://data.cityofnewyork.us/profile/5cdd-z699"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Julia", 
+            "profile_url": "https://data.cityofnewyork.us/profile/b97r-5cwg"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "bea", 
+            "firstname": "jaye", 
+            "profile_url": "https://data.cityofnewyork.us/profile/s4a4-xxv6"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "felipe.melo", 
+            "profile_url": "https://data.cityofnewyork.us/profile/4fer-tffp"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "SouthVillageNeighbors", 
+            "profile_url": "https://data.cityofnewyork.us/profile/35ed-33in"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Masin", 
+            "firstname": "A", 
+            "profile_url": "https://data.cityofnewyork.us/profile/kbxi-4fvy"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "JC", 
+            "profile_url": "https://data.cityofnewyork.us/profile/pja3-vpef"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Staci", 
+            "profile_url": "https://data.cityofnewyork.us/profile/24ge-4vgu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "drew", 
+            "profile_url": "https://data.cityofnewyork.us/profile/jkd2-79cj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Hughes", 
+            "firstname": "Tom", 
+            "profile_url": "https://data.cityofnewyork.us/profile/9ri5-khpa"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "forpublic3", 
+            "profile_url": "https://data.cityofnewyork.us/profile/tzmm-ia34"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "nycopendata", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bbxu-jgx3"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Charles", 
+            "profile_url": "https://data.cityofnewyork.us/profile/i6db-6xcp"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "mikexcite", 
+            "profile_url": "https://data.cityofnewyork.us/profile/9aax-snwf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Natividad", 
+            "firstname": "Joel", 
+            "profile_url": "https://data.cityofnewyork.us/profile/mkvj-vxjf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Tom.Gee", 
+            "profile_url": "https://data.cityofnewyork.us/profile/4q64-8esf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Ramos", 
+            "firstname": "Alexis", 
+            "profile_url": "https://data.cityofnewyork.us/profile/g7mv-7xs4"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Salama", 
+            "firstname": "Paul", 
+            "profile_url": "https://data.cityofnewyork.us/profile/3rii-qmuu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Nipan", 
+            "profile_url": "https://data.cityofnewyork.us/profile/i2nu-5tik"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "John.catrona", 
+            "profile_url": "https://data.cityofnewyork.us/profile/tw8e-srqw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ksell2", 
+            "profile_url": "https://data.cityofnewyork.us/profile/wsdu-r3gv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Livia", 
+            "profile_url": "https://data.cityofnewyork.us/profile/x7i2-b4xh"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "acacia", 
+            "profile_url": "https://data.cityofnewyork.us/profile/dpy2-kaii"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "sroud", 
+            "profile_url": "https://data.cityofnewyork.us/profile/iw8r-sgfh"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "annm324", 
+            "profile_url": "https://data.cityofnewyork.us/profile/29fw-4fnx"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Marcy", 
+            "firstname": "Wayne", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ktii-qq2i"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "noa", 
+            "profile_url": "https://data.cityofnewyork.us/profile/pkzr-bmcu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "shah", 
+            "firstname": "Mohit", 
+            "profile_url": "https://data.cityofnewyork.us/profile/fgu5-9mxs"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Chen", 
+            "firstname": "Mariah", 
+            "profile_url": "https://data.cityofnewyork.us/profile/27yx-dprk"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "robmillis", 
+            "profile_url": "https://data.cityofnewyork.us/profile/funx-njj9"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "syrettp", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ysfu-kap4"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Polka", 
+            "firstname": "Michael", 
+            "profile_url": "https://data.cityofnewyork.us/profile/s873-hwju"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Lin", 
+            "profile_url": "https://data.cityofnewyork.us/profile/fqfn-dbzc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "futuraprime", 
+            "profile_url": "https://data.cityofnewyork.us/profile/9zue-5cfj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "victorhh", 
+            "profile_url": "https://data.cityofnewyork.us/profile/kmng-djpd"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "mselender", 
+            "profile_url": "https://data.cityofnewyork.us/profile/8dh2-g4sh"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "soum", 
+            "profile_url": "https://data.cityofnewyork.us/profile/xic2-d3ga"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "enemydodo", 
+            "profile_url": "https://data.cityofnewyork.us/profile/gp6d-vdg9"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Melo", 
+            "firstname": "Felipe", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bzj2-jkgb"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "JABBER2142", 
+            "profile_url": "https://data.cityofnewyork.us/profile/p3pn-9y57"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jw", 
+            "profile_url": "https://data.cityofnewyork.us/profile/78nk-pieu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "phogan", 
+            "profile_url": "https://data.cityofnewyork.us/profile/6g6q-tssx"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "blueshirt", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ewaa-usg8"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Cong", 
+            "firstname": "Yan", 
+            "profile_url": "https://data.cityofnewyork.us/profile/kkmf-duuq"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "avilez", 
+            "firstname": "marvin", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ruif-4ask"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Shih", 
+            "firstname": "Kelly", 
+            "profile_url": "https://data.cityofnewyork.us/profile/m9xi-cgfk"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "O'Brien", 
+            "firstname": "Nick", 
+            "profile_url": "https://data.cityofnewyork.us/profile/vfvd-4fts"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ikang", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bahw-3czi"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "e10haus", 
+            "profile_url": "https://data.cityofnewyork.us/profile/yw9f-wjhj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ivan", 
+            "profile_url": "https://data.cityofnewyork.us/profile/73mj-s3cy"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "LavDav", 
+            "profile_url": "https://data.cityofnewyork.us/profile/aw2c-yczp"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "rmitchell@xsysgroup.com", 
+            "profile_url": "https://data.cityofnewyork.us/profile/qkpu-4aw3"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "maxxcolson", 
+            "profile_url": "https://data.cityofnewyork.us/profile/wwhx-enyc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Cohen", 
+            "firstname": "Zachary", 
+            "profile_url": "https://data.cityofnewyork.us/profile/fgzu-dwdc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Whong", 
+            "firstname": "Chris", 
+            "profile_url": "https://data.cityofnewyork.us/profile/xpic-k57b"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Marnee", 
+            "profile_url": "https://data.cityofnewyork.us/profile/c35z-g8wd"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Josh", 
+            "profile_url": "https://data.cityofnewyork.us/profile/6cp7-x9d6"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "MJ2013", 
+            "profile_url": "https://data.cityofnewyork.us/profile/g2w5-i3xj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Clare", 
+            "profile_url": "https://data.cityofnewyork.us/profile/rqdg-xj2v"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "btheartist", 
+            "profile_url": "https://data.cityofnewyork.us/profile/adi2-nury"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "rconto", 
+            "profile_url": "https://data.cityofnewyork.us/profile/az9u-5u2n"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Callaway", 
+            "firstname": "Bryan", 
+            "profile_url": "https://data.cityofnewyork.us/profile/328f-vg2u"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "aleks", 
+            "profile_url": "https://data.cityofnewyork.us/profile/pfnf-uzww"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "tdawson", 
+            "profile_url": "https://data.cityofnewyork.us/profile/8xhw-rm7x"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "carrie", 
+            "profile_url": "https://data.cityofnewyork.us/profile/irra-ffx5"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "khan", 
+            "firstname": "tariq", 
+            "profile_url": "https://data.cityofnewyork.us/profile/2hrc-y4rd"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "medallion", 
+            "firstname": "queens", 
+            "profile_url": "https://data.cityofnewyork.us/profile/xpc8-x54b"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Jackson", 
+            "profile_url": "https://data.cityofnewyork.us/profile/p48h-txf9"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "m&p", 
+            "profile_url": "https://data.cityofnewyork.us/profile/utv4-tjv7"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Jeremy", 
+            "profile_url": "https://data.cityofnewyork.us/profile/pffs-izjj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jose", 
+            "profile_url": "https://data.cityofnewyork.us/profile/2qpk-dked"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "sravan", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ttbf-tsjx"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jaredaucourant", 
+            "profile_url": "https://data.cityofnewyork.us/profile/5k9p-ufiv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "stu", 
+            "profile_url": "https://data.cityofnewyork.us/profile/dhif-yqtc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "kdaniels", 
+            "profile_url": "https://data.cityofnewyork.us/profile/2uuf-j27z"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ledy", 
+            "profile_url": "https://data.cityofnewyork.us/profile/kte6-77ve"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "neely", 
+            "profile_url": "https://data.cityofnewyork.us/profile/8ra8-t6s2"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "J", 
+            "firstname": "Victoria", 
+            "profile_url": "https://data.cityofnewyork.us/profile/uap7-4s9x"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "cl121", 
+            "profile_url": "https://data.cityofnewyork.us/profile/dbe4-zyj7"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "reid.offringa", 
+            "profile_url": "https://data.cityofnewyork.us/profile/kzim-jvuj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "otsweeney", 
+            "profile_url": "https://data.cityofnewyork.us/profile/wec9-yis6"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "titliladki", 
+            "profile_url": "https://data.cityofnewyork.us/profile/dfd4-e4gb"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "dragonflyskipper", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ezws-xt43"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "melissa", 
+            "profile_url": "https://data.cityofnewyork.us/profile/a9cd-szz7"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "wulssnoopy", 
+            "profile_url": "https://data.cityofnewyork.us/profile/adyc-wrac"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Sites", 
+            "firstname": "Open Data", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bt5h-hhzd"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "parishad", 
+            "profile_url": "https://data.cityofnewyork.us/profile/3j7w-hdy7"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jeatroff", 
+            "profile_url": "https://data.cityofnewyork.us/profile/54dp-gupq"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "CMHG", 
+            "profile_url": "https://data.cityofnewyork.us/profile/jkwa-is53"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "DemiMay1996", 
+            "profile_url": "https://data.cityofnewyork.us/profile/xtyi-4tvr"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "cesar", 
+            "profile_url": "https://data.cityofnewyork.us/profile/r7j4-2s4y"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "DataGuru", 
+            "profile_url": "https://data.cityofnewyork.us/profile/pgdh-hbiw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "manderson", 
+            "profile_url": "https://data.cityofnewyork.us/profile/gesf-75u5"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "carinamc", 
+            "profile_url": "https://data.cityofnewyork.us/profile/2apb-rgf3"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "diana1", 
+            "profile_url": "https://data.cityofnewyork.us/profile/uddg-vqe2"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Priyanka", 
+            "profile_url": "https://data.cityofnewyork.us/profile/e8vz-maxz"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ThisIsDumb", 
+            "profile_url": "https://data.cityofnewyork.us/profile/qnwp-ku3w"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "khalil", 
+            "profile_url": "https://data.cityofnewyork.us/profile/teh6-h4hn"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jjbykowski", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ui88-redg"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "District", 
+            "profile_url": "https://data.cityofnewyork.us/profile/s9kc-4dww"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Westani", 
+            "firstname": "Azad", 
+            "profile_url": "https://data.cityofnewyork.us/profile/yty5-3x9d"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "plmomlp", 
+            "profile_url": "https://data.cityofnewyork.us/profile/m32i-msex"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "brito", 
+            "firstname": "odalis", 
+            "profile_url": "https://data.cityofnewyork.us/profile/brw7-m79s"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "yamate", 
+            "firstname": "carolina", 
+            "profile_url": "https://data.cityofnewyork.us/profile/dri4-arzd"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "twisig", 
+            "profile_url": "https://data.cityofnewyork.us/profile/7sza-h69a"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "adittakavi", 
+            "profile_url": "https://data.cityofnewyork.us/profile/49rm-y2ks"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "edgwx", 
+            "profile_url": "https://data.cityofnewyork.us/profile/k3c6-zq4i"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "nilme", 
+            "profile_url": "https://data.cityofnewyork.us/profile/fhs4-q2ur"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Administrator", 
+            "firstname": "Open Data", 
+            "profile_url": "https://data.cityofnewyork.us/profile/dhgx-s4x9"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "arch292", 
+            "profile_url": "https://data.cityofnewyork.us/profile/9a98-j8xr"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "pjarolimova", 
+            "profile_url": "https://data.cityofnewyork.us/profile/szym-xap7"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Machado", 
+            "firstname": "Joseph", 
+            "profile_url": "https://data.cityofnewyork.us/profile/5g49-mq6j"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "kiollowei", 
+            "profile_url": "https://data.cityofnewyork.us/profile/4s7j-96qk"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "nchelko", 
+            "profile_url": "https://data.cityofnewyork.us/profile/4qet-h7yb"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Rodriguez", 
+            "firstname": "Diego", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ek3a-wigx"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "xgracyx", 
+            "profile_url": "https://data.cityofnewyork.us/profile/mr4d-b2ie"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "mcleland", 
+            "profile_url": "https://data.cityofnewyork.us/profile/9ee2-kekf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ack2133", 
+            "profile_url": "https://data.cityofnewyork.us/profile/hikz-afa4"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "James", 
+            "profile_url": "https://data.cityofnewyork.us/profile/e6bf-i4rc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "shahaullah", 
+            "profile_url": "https://data.cityofnewyork.us/profile/u57r-spbq"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "sfresh287", 
+            "profile_url": "https://data.cityofnewyork.us/profile/57ht-mwbz"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "BenK91", 
+            "profile_url": "https://data.cityofnewyork.us/profile/udt4-m9yd"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "acostav", 
+            "profile_url": "https://data.cityofnewyork.us/profile/nvgi-5drr"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ianjkalin", 
+            "profile_url": "https://data.cityofnewyork.us/profile/i5tb-6zru"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "mgooden", 
+            "profile_url": "https://data.cityofnewyork.us/profile/epsr-rfp2"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Daniel", 
+            "profile_url": "https://data.cityofnewyork.us/profile/q2im-avgu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Syed", 
+            "firstname": "Tahir", 
+            "profile_url": "https://data.cityofnewyork.us/profile/yde8-y8mn"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Debbie", 
+            "profile_url": "https://data.cityofnewyork.us/profile/fify-geji"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "emptysquare", 
+            "profile_url": "https://data.cityofnewyork.us/profile/pf6b-fidy"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ken222", 
+            "profile_url": "https://data.cityofnewyork.us/profile/q84g-v3gt"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "D", 
+            "firstname": "Nicole", 
+            "profile_url": "https://data.cityofnewyork.us/profile/6bkh-zki8"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "js", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ijze-dvsc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "C.", 
+            "firstname": "Erica", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ncac-vexf"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "clydefitch", 
+            "profile_url": "https://data.cityofnewyork.us/profile/gzvr-5zyn"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Olivial325", 
+            "profile_url": "https://data.cityofnewyork.us/profile/7w2f-2ux3"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "it", 
+            "profile_url": "https://data.cityofnewyork.us/profile/s3ci-mwnw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "nuschus", 
+            "profile_url": "https://data.cityofnewyork.us/profile/gkk5-edtc"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "mameres", 
+            "profile_url": "https://data.cityofnewyork.us/profile/j8h2-r8hj"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "tboyland", 
+            "profile_url": "https://data.cityofnewyork.us/profile/3vi2-z7zb"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "MBrady", 
+            "profile_url": "https://data.cityofnewyork.us/profile/x3u6-6n7z"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "JSuchoff", 
+            "profile_url": "https://data.cityofnewyork.us/profile/fyx9-qgar"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Rachel", 
+            "profile_url": "https://data.cityofnewyork.us/profile/38tj-q747"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "alicia", 
+            "profile_url": "https://data.cityofnewyork.us/profile/xjgf-5ghu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Arthur", 
+            "profile_url": "https://data.cityofnewyork.us/profile/w74v-fm94"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "christinamedia", 
+            "profile_url": "https://data.cityofnewyork.us/profile/d9me-s7dh"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Brooklyn", 
+            "firstname": "Best of", 
+            "profile_url": "https://data.cityofnewyork.us/profile/mz4w-jztu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Yuna", 
+            "profile_url": "https://data.cityofnewyork.us/profile/hqx6-ugbr"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Alice", 
+            "profile_url": "https://data.cityofnewyork.us/profile/kzqt-aw47"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Cutler", 
+            "firstname": "Zachary", 
+            "profile_url": "https://data.cityofnewyork.us/profile/k2zq-ymcu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "DC", 
+            "profile_url": "https://data.cityofnewyork.us/profile/qmez-8aba"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Brooke", 
+            "profile_url": "https://data.cityofnewyork.us/profile/8s5d-xyrr"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "bdodd", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ku9e-2i5v"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "mcole", 
+            "profile_url": "https://data.cityofnewyork.us/profile/im36-6jis"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "rstilson", 
+            "profile_url": "https://data.cityofnewyork.us/profile/at6t-6b5v"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Studer", 
+            "firstname": "Meg", 
+            "profile_url": "https://data.cityofnewyork.us/profile/u672-j76p"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "weiyeh", 
+            "profile_url": "https://data.cityofnewyork.us/profile/aqpp-r9fi"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Services", 
+            "firstname": "Climate Change & Environmental", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ig2r-dxjs"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "T", 
+            "firstname": "Nigel", 
+            "profile_url": "https://data.cityofnewyork.us/profile/3jz8-wxa5"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "bdfox325", 
+            "profile_url": "https://data.cityofnewyork.us/profile/xgn8-gf2q"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Howell", 
+            "firstname": "Cecil", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ss8u-n2sz"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "lt", 
+            "profile_url": "https://data.cityofnewyork.us/profile/iwji-g2j6"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Emilie", 
+            "profile_url": "https://data.cityofnewyork.us/profile/szzq-s2a4"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "vich", 
+            "profile_url": "https://data.cityofnewyork.us/profile/s65a-fgmp"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "GregPC", 
+            "profile_url": "https://data.cityofnewyork.us/profile/svhd-nxxu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "centralparker", 
+            "profile_url": "https://data.cityofnewyork.us/profile/f7ak-iunx"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "dupontp", 
+            "profile_url": "https://data.cityofnewyork.us/profile/pkpd-6qnp"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Canarsie", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ypfj-sd4c"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "DJacome", 
+            "profile_url": "https://data.cityofnewyork.us/profile/cfjg-gmqv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Brotherton", 
+            "firstname": "Michael", 
+            "profile_url": "https://data.cityofnewyork.us/profile/8zxq-x8ms"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Williamson", 
+            "firstname": "Michael", 
+            "profile_url": "https://data.cityofnewyork.us/profile/57m7-s6vm"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "info_wonderful", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ttn3-8i8u"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "eveline", 
+            "profile_url": "https://data.cityofnewyork.us/profile/nnft-f6kx"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Kat", 
+            "profile_url": "https://data.cityofnewyork.us/profile/6tbn-qbn7"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ErikSax", 
+            "profile_url": "https://data.cityofnewyork.us/profile/9m4i-xesi"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Amar", 
+            "profile_url": "https://data.cityofnewyork.us/profile/xfiu-wejd"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "subwayfornyc", 
+            "profile_url": "https://data.cityofnewyork.us/profile/67je-ajpw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "sme02", 
+            "profile_url": "https://data.cityofnewyork.us/profile/4vas-ef9q"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Ayat", 
+            "profile_url": "https://data.cityofnewyork.us/profile/ikby-etwu"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ashleysassouni", 
+            "profile_url": "https://data.cityofnewyork.us/profile/dqus-6rh8"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Jesse", 
+            "profile_url": "https://data.cityofnewyork.us/profile/7zcr-bnjy"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "pccjamie", 
+            "profile_url": "https://data.cityofnewyork.us/profile/4xzi-bs9z"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "htk", 
+            "profile_url": "https://data.cityofnewyork.us/profile/83ya-9cv6"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "ympondaven", 
+            "profile_url": "https://data.cityofnewyork.us/profile/jbwc-ghii"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "akmal", 
+            "profile_url": "https://data.cityofnewyork.us/profile/g29d-hf6g"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Medina", 
+            "firstname": "Eric", 
+            "profile_url": "https://data.cityofnewyork.us/profile/bfrf-dt7k"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Tseng", 
+            "firstname": "Clint", 
+            "profile_url": "https://data.cityofnewyork.us/profile/hmzy-ctip"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Cooper", 
+            "firstname": "Jullinnar", 
+            "profile_url": "https://data.cityofnewyork.us/profile/nnw8-j5we"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Jay", 
+            "profile_url": "https://data.cityofnewyork.us/profile/yr8t-caxw"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "chitang", 
+            "profile_url": "https://data.cityofnewyork.us/profile/g4md-3inp"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "880.ltd", 
+            "profile_url": "https://data.cityofnewyork.us/profile/f7bg-vgwz"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Alienrage", 
+            "profile_url": "https://data.cityofnewyork.us/profile/a5ck-fn3p"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "bkbuscher", 
+            "profile_url": "https://data.cityofnewyork.us/profile/34mg-qhmv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "chengchangyu", 
+            "profile_url": "https://data.cityofnewyork.us/profile/h9mh-5e6x"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "jeffscottward", 
+            "profile_url": "https://data.cityofnewyork.us/profile/55fe-qnqv"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "", 
+            "firstname": "Kate", 
+            "profile_url": "https://data.cityofnewyork.us/profile/8r54-avnr"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.Scientist", 
+        "fields": {
+            "lastname": "Naito", 
+            "firstname": "Hiko", 
+            "profile_url": "https://data.cityofnewyork.us/profile/x5jh-tg6w"
+        }
+    }
+]

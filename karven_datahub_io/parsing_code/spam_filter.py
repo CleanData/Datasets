@@ -45,8 +45,8 @@ def add_spam_score(ckan_package, spam_digest) :
     spam_score = float(0) 
     if ckan_package['author'] == None or len(ckan_package['author'].split()) <= 1 :
         spam_score = spam_score + spam_def["len(author)==0 or 1"]
-        digest["one word author"] = ckan_package['author']
-        digest["author"] = spam_def["len(author)==0 or 1"] 
+        digest["one word author"] = spam_def["len(author)==0 or 1"]
+        digest["author"] = ckan_package['author'] 
     if ckan_package['maintainer'] == None or len(ckan_package['maintainer'].split()) <= 1 :
         spam_score = spam_score + spam_def["len(maintainer)==0 or 1"]
         digest["one word maintainer"] = spam_def["len(maintainer)==0 or 1"] 

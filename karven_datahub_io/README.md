@@ -1,12 +1,16 @@
-will clean this up later
+## Issues 
 
+###  Datahub
+When datahub returns internal server error, the script sleeps for 50 seconds and retry. 
+
+###  Code
 The current code should work for all ckan implementing sites.
 Codes in testing stages should run only from files to minimize datahub accesses.
 
 copied exameple datasets.json and formats.json to parsing_code directory b/c comments on first line cannot be parsed
 
 Natural Language Processing doesn't work for spam filtering b/c of good adjectives like collaborative, statistical. 
-Datasets with zero resources are dropped from data/datasets.json
+Datasets with zero resources are dropped from data/datasets.json automatically.
 
 ## Running the scripts
 ### To run through the entire site 
@@ -16,8 +20,16 @@ This process can be interrupted by user. The script will save state after interr
 ### To continue from a previous run   
 #### python ckan_main.py continue "{options}"
 
+    python ckan_main.py continue
+    
+Continue running from last session with default options.
+
 ### For debugging
-#### python ckan_main.py debug debug_items options
+#### python ckan_main.py debug debug_items "{options}"
+
+    python ckan_main.py debug relations
+    
+This command retrieves data relations for datasets in data/datasets.json
 
 ### debug_items
 #### robots
@@ -33,7 +45,13 @@ Read the ckan packages and save it unchanged to ckan_datasets.json
 add a spam score to the datasets in ckan_datasets.json and saved the data to scored_datasets.json
 #### convert
 convert scored_datasets.json to proper Datasets formats.
+#### relations
+just retrieve data relations for alread read datasets
+#### relations_continue
+continue retrieving from previously unfinished data relations
 
+### "{options}"
+Default options
 
     options = "{'site':'http://datahub.io/',
           'datasets':'../data/datasets.json'
@@ -46,19 +64,11 @@ convert scored_datasets.json to proper Datasets formats.
       
 
 
-### TO DO LIST
-*Need to work on appending to json files instead of rewriting with json.dumps everytime
-//can only be done if we remove duplicate formats, scientitst and organizations afterwards
-*Add error checking
-*Adjust spam filtering curve
-*Add datarelations
-*add a print_debug in shared_functions and replace all print 
-
-###datahub information
+##datahub information
 Crawl-Delay : 10 seconds. 
 Needs one request to pull package, and one more for non-spam to get relations
 
-### ckan library reference
+## ckan library reference
 http://docs.ckan.org/en/ckan-2.0.2/api.html
 sample dataset ny-zipcodes-and-electricity-use
 
@@ -69,11 +79,28 @@ sample dataset ny-zipcodes-and-electricity-use
     tag_list_path = ckan_action_get + 'tag_list'
     related_list_path = ckan_action_get + 'related_list?id='
 
-example url for requesting dataset
-http://datahub.io/api/3/action/package_show?id=ny-zipcodes-and-electricity-use
+Retrieve the identifiers for all the datasets
+    
+    http://datahub.io/api/3/action/package_list
+
+Retrieve all the licenses                     
+    
+    http://datahub.io/api/3/action/licence_list
+
+Retrieve a list of all the tags               
+    
+    http://datahub.io/api/3/action/tag_list
+    
+Example url for retrieving dataset
+
+    http://datahub.io/api/3/action/package_show?id=ny-zipcodes-and-electricity-use
+
+Example url for getting datarelation                   
+            
+    http://datahub.io/api/3/action/related_list?id=ny-zipcodes-and-electricity-use
 
 
-### related list mapping
+## related list mapping to datarelations
 http://datahub.io/api/3/action/related_list?id=ny-zipcodes-and-electricity-use
 
     {
@@ -110,7 +137,7 @@ http://datahub.io/api/3/action/related_list?id=ny-zipcodes-and-electricity-use
         ]
     }
 
-### data field mapping
+## dataset mapping
 
     {                                                      
         "id": "9da16c4f-32a1-43ac-ae6b-c3378c6e7e9f",                

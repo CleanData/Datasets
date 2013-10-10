@@ -45,7 +45,7 @@ def read_url(url, delay=10, values={}): #read url and return the content
             return f.read()
     return ""
     
-# read file tp json
+# read file to json
 def read_json(file_path) :          
     f = open(file_path)     
     if f :

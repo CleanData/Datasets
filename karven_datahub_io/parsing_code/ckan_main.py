@@ -80,11 +80,13 @@ def ckan_spider(site_root = 'http://datahub.io/', max_spam = default_max_spam, s
         organizations = read_json(default_organizations_path)
         scientists = read_json(default_scientists_path)
         processed_packages = read_json(temp_saved_state)
-        ckan_licenses = read_json(temp_ckan_licenses)
+        ckan_licenses = read_json(temp_ckan_licenses)   
+        ckan_package_list = list(set(ckan_package_list) - set(processed_packages))
         
     #for each package in package list
     #read package_show
     try:
+                        
         for package_name in ckan_package_list :
             if run_state == 'continue' :
                 if package_name in processed_packages :
@@ -131,8 +133,10 @@ def ckan_spider(site_root = 'http://datahub.io/', max_spam = default_max_spam, s
                     a_scientist['fields']['firstname'] = temp[0]           
                     a_scientist['fields']['lastname'] = x['maintainer']           
                     a_scientist['fields']['profile_url'] = ""                   
-                    a_manager = [ temp[0], x['maintainer'], "" ] 
-                scientists.append(a_scientist)          
+                    a_manager = [ temp[0], x['maintainer'], "" ]
+# added condition here                          
+                if [a_scientist['fields']['firstname'],a_scientist['fields']['lastname']] not in [ [s['fields']['firstname'],s['fields']['lastname']] for s in scientists ] :
+                    scientists.append(a_scientist)          
             else :
                 a_manager = None         
             #end scientists
@@ -405,7 +409,10 @@ def ckan_test_convert_package(ckan_datasets_path, max_spam_score = 3000, dataset
                 a_scientist['fields']['firstname'] = temp[0]           
                 a_scientist['fields']['lastname'] = x['maintainer']           
                 a_scientist['fields']['profile_url'] = ""                   
-                a_manager = [ temp[0], x['maintainer'], "" ] 
+                a_manager = [ temp[0], x['maintainer'], "" ]
+# added condition here                          
+            if [a_scientist['fields']['firstname'],a_scientist['fields']['lastname']] not in [ [s['fields']['firstname'],s['fields']['lastname']] for s in scientists ] :
+                scientists.append(a_scientist)                 
             scientists.append(a_scientist)          
         else :
             a_manager = None    

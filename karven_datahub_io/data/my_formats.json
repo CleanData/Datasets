@@ -92,7 +92,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "XLS"
+            "name": "meta/void"
         }
     }, 
     {
@@ -100,7 +100,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "meta/void"
+            "name": "api/sparql"
         }
     }, 
     {
@@ -108,7 +108,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "api/sparql"
+            "name": "application/octet-stream"
         }
     }, 
     {
@@ -116,7 +116,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/octet-stream"
+            "name": "ZIP"
         }
     }, 
     {
@@ -124,7 +124,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "ZIP"
+            "name": "HTML"
         }
     }, 
     {
@@ -132,7 +132,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "HTML"
+            "name": "RDF"
         }
     }, 
     {
@@ -140,7 +140,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "RDF"
+            "name": "text/ascii"
         }
     }, 
     {
@@ -148,7 +148,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "text/ascii"
+            "name": "example/rdfa"
         }
     }, 
     {
@@ -156,7 +156,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/rdfa"
+            "name": "data file in excel"
         }
     }, 
     {
@@ -164,7 +164,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "data file in excel"
+            "name": "meta/sitemap"
         }
     }, 
     {
@@ -172,7 +172,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "meta/sitemap"
+            "name": "application/x-ntriples"
         }
     }, 
     {
@@ -180,7 +180,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/x-ntriples"
+            "name": "application/x-bzip"
         }
     }, 
     {
@@ -188,7 +188,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/x-bzip"
+            "name": "data file in stata"
         }
     }, 
     {
@@ -196,7 +196,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "data file in stata"
+            "name": "rdf/xml, html, json"
         }
     }, 
     {
@@ -204,7 +204,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "rdf/xml, html, json"
+            "name": "example/turtle"
         }
     }, 
     {
@@ -212,7 +212,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/turtle"
+            "name": "meta/rdf-schema"
         }
     }, 
     {
@@ -220,7 +220,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "meta/rdf-schema"
+            "name": "mapping/owl"
         }
     }, 
     {
@@ -228,7 +228,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "mapping/owl"
+            "name": "text/sql"
         }
     }, 
     {
@@ -236,7 +236,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "text/sql"
+            "name": "ms access"
         }
     }, 
     {
@@ -244,7 +244,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "ms access"
+            "name": "xml, rdf+xml, turtle and json"
         }
     }, 
     {
@@ -252,7 +252,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xml, rdf+xml, turtle and json"
+            "name": "webservices"
         }
     }, 
     {
@@ -260,7 +260,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "webservices"
+            "name": "png"
         }
     }, 
     {
@@ -268,7 +268,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "png"
+            "name": "text/n3"
         }
     }, 
     {
@@ -276,7 +276,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "text/n3"
+            "name": "example/*"
         }
     }, 
     {
@@ -284,7 +284,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/*"
+            "name": "aleph sequentials"
         }
     }, 
     {
@@ -292,7 +292,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "aleph sequentials"
+            "name": "spreadsheet"
         }
     }, 
     {
@@ -300,7 +300,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "spreadsheet"
+            "name": "asp"
         }
     }, 
     {
@@ -308,7 +308,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "asp"
+            "name": "kml "
         }
     }, 
     {
@@ -316,7 +316,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "kml "
+            "name": "mietbuergschaft"
         }
     }, 
     {
@@ -324,7 +324,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "mietbuergschaft"
+            "name": "plettac"
         }
     }, 
     {
@@ -332,7 +332,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "plettac"
+            "name": "application/gzip"
         }
     }, 
     {
@@ -340,7 +340,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/gzip"
+            "name": "owl"
         }
     }, 
     {
@@ -348,7 +348,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "owl"
+            "name": "application/vnd.oasis.opendocument.spreadsheet"
         }
     }, 
     {
@@ -356,7 +356,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/vnd.oasis.opendocument.spreadsheet"
+            "name": "gz:txt"
         }
     }, 
     {
@@ -364,7 +364,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gz:txt"
+            "name": "text/turtle"
         }
     }, 
     {
@@ -372,7 +372,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "text/turtle"
+            "name": "application/vnd.google-earth.kml+xml"
         }
     }, 
     {
@@ -380,7 +380,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/vnd.google-earth.kml+xml"
+            "name": "esri shapefiles"
         }
     }, 
     {
@@ -388,7 +388,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "esri shapefiles"
+            "name": "mapping/twc-conversion"
         }
     }, 
     {
@@ -396,7 +396,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "mapping/twc-conversion"
+            "name": "html, xml, xml+xslt"
         }
     }, 
     {
@@ -404,7 +404,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "html, xml, xml+xslt"
+            "name": "ol"
         }
     }, 
     {
@@ -412,7 +412,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "ol"
+            "name": "iso-timeml"
         }
     }, 
     {
@@ -420,7 +420,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "iso-timeml"
+            "name": "esri shapefile"
         }
     }, 
     {
@@ -428,7 +428,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "esri shapefile"
+            "name": "sdf"
         }
     }, 
     {
@@ -436,7 +436,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "sdf"
+            "name": "mol"
         }
     }, 
     {
@@ -444,7 +444,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "mol"
+            "name": "web form"
         }
     }, 
     {
@@ -452,7 +452,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "web form"
+            "name": "rss"
         }
     }, 
     {
@@ -460,7 +460,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "rss"
+            "name": "georss"
         }
     }, 
     {
@@ -468,7 +468,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "georss"
+            "name": "iso2709"
         }
     }, 
     {
@@ -476,7 +476,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "tsv"
+            "name": "marcxml"
         }
     }, 
     {
@@ -484,7 +484,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "iso2709"
+            "name": "wfs/gml"
         }
     }, 
     {
@@ -492,7 +492,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "marcxml"
+            "name": "text/plain"
         }
     }, 
     {
@@ -500,7 +500,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "wfs/gml"
+            "name": "application/rdf xml"
         }
     }, 
     {
@@ -508,7 +508,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "text/plain"
+            "name": "bz2"
         }
     }, 
     {
@@ -516,7 +516,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/rdf xml"
+            "name": "example/ntriples"
         }
     }, 
     {
@@ -524,7 +524,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "sqlite"
+            "name": "api/search"
         }
     }, 
     {
@@ -532,7 +532,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "bz2"
+            "name": "example/rdf+ttl"
         }
     }, 
     {
@@ -540,7 +540,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/ntriples"
+            "name": "example/rdf+json"
         }
     }, 
     {
@@ -548,7 +548,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "api/search"
+            "name": "example"
         }
     }, 
     {
@@ -556,7 +556,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/rdf+ttl"
+            "name": "html | pdf"
         }
     }, 
     {
@@ -564,7 +564,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/rdf+json"
+            "name": "nt"
         }
     }, 
     {
@@ -572,7 +572,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example"
+            "name": "ttl"
         }
     }, 
     {
@@ -580,7 +580,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "html | pdf"
+            "name": "api/linked-data"
         }
     }, 
     {
@@ -588,7 +588,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "nt"
+            "name": "data file in spss"
         }
     }, 
     {
@@ -596,7 +596,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "ttl"
+            "name": "wsdl"
         }
     }, 
     {
@@ -604,7 +604,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "api/linked-data"
+            "name": "plain text"
         }
     }, 
     {
@@ -612,7 +612,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "data file in spss"
+            "name": "wsf/gml"
         }
     }, 
     {
@@ -620,7 +620,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "wsdl"
+            "name": "text/tab-separated-values"
         }
     }, 
     {
@@ -628,7 +628,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "plain text"
+            "name": "jsp"
         }
     }, 
     {
@@ -636,7 +636,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "wsf/gml"
+            "name": "text/x-sql"
         }
     }, 
     {
@@ -644,7 +644,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "text/tab-separated-values"
+            "name": "uri"
         }
     }, 
     {
@@ -652,7 +652,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "jsp"
+            "name": "xsd"
         }
     }, 
     {
@@ -660,7 +660,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "text/x-sql"
+            "name": "SHAPE"
         }
     }, 
     {
@@ -668,7 +668,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "uri"
+            "name": "esri arc export"
         }
     }, 
     {
@@ -676,7 +676,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xsd"
+            "name": "ms excel csv"
         }
     }, 
     {
@@ -684,7 +684,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "SHAPE"
+            "name": "ms acess mdb"
         }
     }, 
     {
@@ -692,7 +692,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "esri arc export"
+            "name": "gz:xml"
         }
     }, 
     {
@@ -700,7 +700,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "ms excel csv"
+            "name": "dtd"
         }
     }, 
     {
@@ -708,7 +708,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "ms acess mdb"
+            "name": "linked data"
         }
     }, 
     {
@@ -716,7 +716,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gz:xml"
+            "name": "fixed width"
         }
     }, 
     {
@@ -724,7 +724,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "dtd"
+            "name": "tab"
         }
     }, 
     {
@@ -732,7 +732,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "linked data"
+            "name": "meta/owl"
         }
     }, 
     {
@@ -740,7 +740,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "fixed width"
+            "name": "service/gdocs/spreadsheet"
         }
     }, 
     {
@@ -748,7 +748,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "tab"
+            "name": "csv | mdb"
         }
     }, 
     {
@@ -756,7 +756,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "meta/owl"
+            "name": "microsoft excel"
         }
     }, 
     {
@@ -764,7 +764,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "service/gdocs/spreadsheet"
+            "name": "example/n3"
         }
     }, 
     {
@@ -772,7 +772,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "csv | mdb"
+            "name": "application/x-zip-compressed"
         }
     }, 
     {
@@ -780,7 +780,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "microsoft excel"
+            "name": "beacon"
         }
     }, 
     {
@@ -788,7 +788,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/n3"
+            "name": "google spreadsheet"
         }
     }, 
     {
@@ -796,7 +796,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/x-zip-compressed"
+            "name": "application/x-protobuf"
         }
     }, 
     {
@@ -804,7 +804,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "beacon"
+            "name": "n3"
         }
     }, 
     {
@@ -812,7 +812,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "google spreadsheet"
+            "name": "xml (current)"
         }
     }, 
     {
@@ -820,7 +820,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/x-protobuf"
+            "name": "xml (tomorrow)"
         }
     }, 
     {
@@ -828,7 +828,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "n3"
+            "name": "xml (tomorrow country)"
         }
     }, 
     {
@@ -836,7 +836,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xml (current)"
+            "name": "xml (tomorrow metro)"
         }
     }, 
     {
@@ -844,7 +844,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xml (tomorrow)"
+            "name": "xml (current country)"
         }
     }, 
     {
@@ -852,7 +852,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xml (tomorrow country)"
+            "name": "xml (current metro)"
         }
     }, 
     {
@@ -860,7 +860,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xml (tomorrow metro)"
+            "name": "application/msword"
         }
     }, 
     {
@@ -868,7 +868,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xml (current country)"
+            "name": "text/comma-separated-values"
         }
     }, 
     {
@@ -876,7 +876,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xml (current metro)"
+            "name": "pdf:0_documentation"
         }
     }, 
     {
@@ -884,7 +884,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/msword"
+            "name": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         }
     }, 
     {
@@ -892,7 +892,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "text/comma-separated-values"
+            "name": ".shp"
         }
     }, 
     {
@@ -900,7 +900,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "pdf:0_documentation"
+            "name": ".tab"
         }
     }, 
     {
@@ -908,7 +908,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            "name": "data file in stata and excel"
         }
     }, 
     {
@@ -916,7 +916,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "shapefile"
+            "name": "gzip::nquads"
         }
     }, 
     {
@@ -924,7 +924,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": ".shp"
+            "name": "do"
         }
     }, 
     {
@@ -932,7 +932,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": ".tab"
+            "name": "application/rss+xml"
         }
     }, 
     {
@@ -940,7 +940,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "data file in stata and excel"
+            "name": "zip:csv"
         }
     }, 
     {
@@ -948,7 +948,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gzip::nquads"
+            "name": "python"
         }
     }, 
     {
@@ -956,7 +956,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "do"
+            "name": "TXT"
         }
     }, 
     {
@@ -964,7 +964,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/rss+xml"
+            "name": "sicherungsautomat"
         }
     }, 
     {
@@ -972,7 +972,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "zip:csv"
+            "name": "python source code"
         }
     }, 
     {
@@ -980,7 +980,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "python"
+            "name": "application/xml+atom"
         }
     }, 
     {
@@ -988,7 +988,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "TXT"
+            "name": "dbase"
         }
     }, 
     {
@@ -996,7 +996,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "sicherungsautomat"
+            "name": "gdocs/spreadsheet"
         }
     }, 
     {
@@ -1004,7 +1004,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "python source code"
+            "name": "esri shape files"
         }
     }, 
     {
@@ -1012,7 +1012,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/xml+atom"
+            "name": "xml/atom/rss"
         }
     }, 
     {
@@ -1020,7 +1020,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "dbase"
+            "name": "csv,json"
         }
     }, 
     {
@@ -1028,7 +1028,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gdocs/spreadsheet"
+            "name": "ods"
         }
     }, 
     {
@@ -1036,7 +1036,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "esri shape files"
+            "name": "xml:txt"
         }
     }, 
     {
@@ -1044,7 +1044,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xml/atom/rss"
+            "name": "void"
         }
     }, 
     {
@@ -1052,7 +1052,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "csv,json"
+            "name": "sparql"
         }
     }, 
     {
@@ -1060,7 +1060,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "ods"
+            "name": "mapping/d2r"
         }
     }, 
     {
@@ -1068,7 +1068,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xml:txt"
+            "name": "excel"
         }
     }, 
     {
@@ -1076,7 +1076,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "void"
+            "name": "spss"
         }
     }, 
     {
@@ -1084,7 +1084,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "sparql"
+            "name": "stata"
         }
     }, 
     {
@@ -1092,7 +1092,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "mapping/d2r"
+            "name": "zip, csv, shp"
         }
     }, 
     {
@@ -1100,7 +1100,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "excel"
+            "name": "uv fits"
         }
     }, 
     {
@@ -1108,7 +1108,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "spss"
+            "name": "application/atom+xml"
         }
     }, 
     {
@@ -1116,7 +1116,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "stata"
+            "name": "application/x-nquads"
         }
     }, 
     {
@@ -1124,7 +1124,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "zip, csv, shp"
+            "name": "xhtml"
         }
     }, 
     {
@@ -1132,7 +1132,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "uv fits"
+            "name": "atom"
         }
     }, 
     {
@@ -1140,7 +1140,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/atom+xml"
+            "name": "text/x-osmapping-csv"
         }
     }, 
     {
@@ -1148,7 +1148,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/x-nquads"
+            "name": "netcdf"
         }
     }, 
     {
@@ -1156,7 +1156,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xhtml"
+            "name": "api/hg"
         }
     }, 
     {
@@ -1164,7 +1164,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "atom"
+            "name": "google doc"
         }
     }, 
     {
@@ -1172,7 +1172,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "text/x-osmapping-csv"
+            "name": "eps"
         }
     }, 
     {
@@ -1180,7 +1180,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "netcdf"
+            "name": "gif"
         }
     }, 
     {
@@ -1188,7 +1188,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "api/hg"
+            "name": "tiff"
         }
     }, 
     {
@@ -1196,7 +1196,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "google doc"
+            "name": "-"
         }
     }, 
     {
@@ -1204,7 +1204,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "eps"
+            "name": "marc21"
         }
     }, 
     {
@@ -1212,7 +1212,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gif"
+            "name": "application/vnd.oasis.opendocument.text"
         }
     }, 
     {
@@ -1220,7 +1220,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "tiff"
+            "name": "fusion tables"
         }
     }, 
     {
@@ -1228,7 +1228,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "-"
+            "name": "doc"
         }
     }, 
     {
@@ -1236,7 +1236,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "marc21"
+            "name": "git"
         }
     }, 
     {
@@ -1244,7 +1244,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/vnd.oasis.opendocument.text"
+            "name": "image/jpeg"
         }
     }, 
     {
@@ -1252,7 +1252,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "fusion tables"
+            "name": "example/html+rdfa"
         }
     }, 
     {
@@ -1260,7 +1260,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "doc"
+            "name": "html+rdfa"
         }
     }, 
     {
@@ -1268,7 +1268,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "git"
+            "name": "csv (zipped)"
         }
     }, 
     {
@@ -1276,7 +1276,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "image/jpeg"
+            "name": "gzip:sql"
         }
     }, 
     {
@@ -1284,7 +1284,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/html+rdfa"
+            "name": "autocad dxf"
         }
     }, 
     {
@@ -1292,7 +1292,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "geojson"
+            "name": "text/x-osdata-csv"
         }
     }, 
     {
@@ -1300,7 +1300,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "html+rdfa"
+            "name": "gzip:ntriples"
         }
     }, 
     {
@@ -1308,7 +1308,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "csv (zipped)"
+            "name": "datapkg/hg"
         }
     }, 
     {
@@ -1316,7 +1316,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gzip:sql"
+            "name": "datapkg/git"
         }
     }, 
     {
@@ -1324,7 +1324,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "autocad dxf"
+            "name": "php"
         }
     }, 
     {
@@ -1332,7 +1332,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "text/x-osdata-csv"
+            "name": ".e00"
         }
     }, 
     {
@@ -1340,7 +1340,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gzip:ntriples"
+            "name": ".mif .mid"
         }
     }, 
     {
@@ -1348,7 +1348,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "datapkg/hg"
+            "name": ".gml"
         }
     }, 
     {
@@ -1356,7 +1356,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "datapkg/git"
+            "name": "api"
         }
     }, 
     {
@@ -1364,7 +1364,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "php"
+            "name": "googledoc"
         }
     }, 
     {
@@ -1372,7 +1372,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": ".e00"
+            "name": "ttl.bzip2"
         }
     }, 
     {
@@ -1380,7 +1380,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": ".mif .mid"
+            "name": "rdf/turtle"
         }
     }, 
     {
@@ -1388,7 +1388,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": ".gml"
+            "name": "html page"
         }
     }, 
     {
@@ -1396,7 +1396,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "api"
+            "name": "phpbb"
         }
     }, 
     {
@@ -1404,7 +1404,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "googledoc"
+            "name": "csv and xls"
         }
     }, 
     {
@@ -1412,7 +1412,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "ttl.bzip2"
+            "name": "bz2:csv"
         }
     }, 
     {
@@ -1420,7 +1420,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "rdf/turtle"
+            "name": "kml/shp"
         }
     }, 
     {
@@ -1428,7 +1428,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "html page"
+            "name": "application/ods"
         }
     }, 
     {
@@ -1436,7 +1436,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "phpbb"
+            "name": "image/png"
         }
     }, 
     {
@@ -1444,7 +1444,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "csv and xls"
+            "name": "rdf:products:org:openfoodfacts"
         }
     }, 
     {
@@ -1452,7 +1452,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "bz2:csv"
+            "name": "esri grid"
         }
     }, 
     {
@@ -1460,7 +1460,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "kml/shp"
+            "name": "rdf/n3"
         }
     }, 
     {
@@ -1468,7 +1468,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/ods"
+            "name": "turtle"
         }
     }, 
     {
@@ -1476,7 +1476,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "image/png"
+            "name": "example/warc"
         }
     }, 
     {
@@ -1484,7 +1484,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "rdf:products:org:openfoodfacts"
+            "name": "api/opensearch"
         }
     }, 
     {
@@ -1492,7 +1492,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "esri grid"
+            "name": "application/marc"
         }
     }, 
     {
@@ -1500,7 +1500,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "rdf/n3"
+            "name": "tar.gz"
         }
     }, 
     {
@@ -1508,7 +1508,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "turtle"
+            "name": "scraper"
         }
     }, 
     {
@@ -1516,7 +1516,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/warc"
+            "name": "csv, xml"
         }
     }, 
     {
@@ -1524,7 +1524,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "api/opensearch"
+            "name": "index/list"
         }
     }, 
     {
@@ -1532,7 +1532,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/marc"
+            "name": "rdfa"
         }
     }, 
     {
@@ -1540,7 +1540,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "tar.gz"
+            "name": "gzip"
         }
     }, 
     {
@@ -1548,7 +1548,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "scraper"
+            "name": "sql"
         }
     }, 
     {
@@ -1556,7 +1556,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "csv, xml"
+            "name": "xml (zipped)"
         }
     }, 
     {
@@ -1564,7 +1564,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "index/list"
+            "name": "dxf"
         }
     }, 
     {
@@ -1572,7 +1572,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "rdfa"
+            "name": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
         }
     }, 
     {
@@ -1580,7 +1580,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gzip"
+            "name": "oai-pmh"
         }
     }, 
     {
@@ -1588,7 +1588,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "sql"
+            "name": "website"
         }
     }, 
     {
@@ -1596,7 +1596,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xml (zipped)"
+            "name": "ontology"
         }
     }, 
     {
@@ -1604,7 +1604,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "dxf"
+            "name": "mapping"
         }
     }, 
     {
@@ -1612,7 +1612,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            "name": "web services"
         }
     }, 
     {
@@ -1620,7 +1620,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "oai-pmh"
+            "name": "bzip2:text/sql"
         }
     }, 
     {
@@ -1628,7 +1628,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "website"
+            "name": "gz:ttl"
         }
     }, 
     {
@@ -1636,7 +1636,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "ontology"
+            "name": "gz:ttl:owl"
         }
     }, 
     {
@@ -1644,7 +1644,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "mapping"
+            "name": "json or xml"
         }
     }, 
     {
@@ -1652,7 +1652,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "web services"
+            "name": "src-hg/python"
         }
     }, 
     {
@@ -1660,7 +1660,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "bzip2:text/sql"
+            "name": "kmz"
         }
     }, 
     {
@@ -1668,7 +1668,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gz:ttl"
+            "name": "zip:xls"
         }
     }, 
     {
@@ -1676,7 +1676,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gz:ttl:owl"
+            "name": "gdocs/ccc"
         }
     }, 
     {
@@ -1684,7 +1684,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "json or xml"
+            "name": "bz2:xml"
         }
     }, 
     {
@@ -1692,7 +1692,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "src-hg/python"
+            "name": "marc"
         }
     }, 
     {
@@ -1700,7 +1700,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "kmz"
+            "name": "registry of datasets"
         }
     }, 
     {
@@ -1708,7 +1708,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "zip:xls"
+            "name": "shared code"
         }
     }, 
     {
@@ -1716,7 +1716,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gdocs/ccc"
+            "name": "application/x-excel"
         }
     }, 
     {
@@ -1724,7 +1724,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "bz2:xml"
+            "name": "data file in spss and stata"
         }
     }, 
     {
@@ -1732,7 +1732,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "marc"
+            "name": "wordnet"
         }
     }, 
     {
@@ -1740,7 +1740,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "registry of datasets"
+            "name": "gdocs"
         }
     }, 
     {
@@ -1748,7 +1748,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "shared code"
+            "name": "html-search"
         }
     }, 
     {
@@ -1756,7 +1756,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/x-excel"
+            "name": "gclub"
         }
     }, 
     {
@@ -1764,7 +1764,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "data file in spss and stata"
+            "name": "m88"
         }
     }, 
     {
@@ -1772,7 +1772,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "wordnet"
+            "name": "sbobet"
         }
     }, 
     {
@@ -1780,7 +1780,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gdocs"
+            "name": "sbo"
         }
     }, 
     {
@@ -1788,7 +1788,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "html-search"
+            "name": "ibcbet"
         }
     }, 
     {
@@ -1796,7 +1796,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gclub"
+            "name": "ibc"
         }
     }, 
     {
@@ -1804,7 +1804,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "m88"
+            "name": "12bet"
         }
     }, 
     {
@@ -1812,7 +1812,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "sbobet"
+            "name": "html, pc-axis, other formats for downloading"
         }
     }, 
     {
@@ -1820,7 +1820,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "sbo"
+            "name": "index"
         }
     }, 
     {
@@ -1828,7 +1828,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "ibcbet"
+            "name": "services/gdocs/spreadsheet"
         }
     }, 
     {
@@ -1836,7 +1836,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "ibc"
+            "name": "html, rdf"
         }
     }, 
     {
@@ -1844,7 +1844,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "12bet"
+            "name": "http://affari-tuoi-gioco.it/"
         }
     }, 
     {
@@ -1852,7 +1852,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "html, pc-axis, other formats for downloading"
+            "name": "meta/rdf-schema "
         }
     }, 
     {
@@ -1860,7 +1860,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "index"
+            "name": "jpeg"
         }
     }, 
     {
@@ -1868,7 +1868,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "services/gdocs/spreadsheet"
+            "name": "data file in excel and stata"
         }
     }, 
     {
@@ -1876,7 +1876,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "html, rdf"
+            "name": "kml/kmz"
         }
     }, 
     {
@@ -1884,7 +1884,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "http://affari-tuoi-gioco.it/"
+            "name": "data file in .shp"
         }
     }, 
     {
@@ -1892,7 +1892,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "meta/rdf-schema "
+            "name": "gdocs/table"
         }
     }, 
     {
@@ -1900,7 +1900,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "jpeg"
+            "name": "torrent"
         }
     }, 
     {
@@ -1908,7 +1908,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "data file in excel and stata"
+            "name": "n-triples"
         }
     }, 
     {
@@ -1916,7 +1916,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "kml/kmz"
+            "name": "TEXT"
         }
     }, 
     {
@@ -1924,7 +1924,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "data file in .shp"
+            "name": "zip archive"
         }
     }, 
     {
@@ -1932,7 +1932,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gdocs/table"
+            "name": "list"
         }
     }, 
     {
@@ -1940,7 +1940,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "torrent"
+            "name": "gz:nq"
         }
     }, 
     {
@@ -1948,7 +1948,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "n-triples"
+            "name": "rdf+xml"
         }
     }, 
     {
@@ -1956,7 +1956,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "TEXT"
+            "name": "marc 21"
         }
     }, 
     {
@@ -1964,7 +1964,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "zip archive"
+            "name": ".tar.gz"
         }
     }, 
     {
@@ -1972,7 +1972,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "list"
+            "name": "api/ontowiki"
         }
     }, 
     {
@@ -1980,7 +1980,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gz:nq"
+            "name": "rdf+xml "
         }
     }, 
     {
@@ -1988,7 +1988,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "rdf+xml"
+            "name": "bittorrent|zip|tsv"
         }
     }, 
     {
@@ -1996,7 +1996,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "marc 21"
+            "name": "tgz|tsv"
         }
     }, 
     {
@@ -2004,7 +2004,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": ".tar.gz"
+            "name": "application/xhtml+xml"
         }
     }, 
     {
@@ -2012,7 +2012,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "api/ontowiki"
+            "name": "mysql,csv"
         }
     }, 
     {
@@ -2020,7 +2020,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "rdf+xml "
+            "name": "xml, json"
         }
     }, 
     {
@@ -2028,7 +2028,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "bittorrent|zip|tsv"
+            "name": "shp "
         }
     }, 
     {
@@ -2036,7 +2036,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "tgz|tsv"
+            "name": ".doc"
         }
     }, 
     {
@@ -2044,7 +2044,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/xhtml+xml"
+            "name": "tgz"
         }
     }, 
     {
@@ -2052,7 +2052,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "mysql,csv"
+            "name": "mapinfo tab"
         }
     }, 
     {
@@ -2060,7 +2060,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xml, json"
+            "name": "coffee"
         }
     }, 
     {
@@ -2068,7 +2068,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "shp "
+            "name": "application/rdfs"
         }
     }, 
     {
@@ -2076,7 +2076,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": ".doc"
+            "name": "nc:55"
         }
     }, 
     {
@@ -2084,7 +2084,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "tgz"
+            "name": "api/dcat"
         }
     }, 
     {
@@ -2092,7 +2092,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "mapinfo tab"
+            "name": "auto"
         }
     }, 
     {
@@ -2100,7 +2100,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "coffee"
+            "name": "meta/dcat"
         }
     }, 
     {
@@ -2108,7 +2108,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/rdfs"
+            "name": "json-ld"
         }
     }, 
     {
@@ -2116,7 +2116,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "nc:55"
+            "name": "xtm"
         }
     }, 
     {
@@ -2124,7 +2124,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "api/dcat"
+            "name": "license-metadata"
         }
     }, 
     {
@@ -2132,7 +2132,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "auto"
+            "name": "esri shape"
         }
     }, 
     {
@@ -2140,7 +2140,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "meta/dcat"
+            "name": "jar"
         }
     }, 
     {
@@ -2148,7 +2148,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "json-ld"
+            "name": "doc:04"
         }
     }, 
     {
@@ -2156,7 +2156,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xtm"
+            "name": "binary"
         }
     }, 
     {
@@ -2164,7 +2164,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "license-metadata"
+            "name": "api/search "
         }
     }, 
     {
@@ -2172,7 +2172,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "esri shape"
+            "name": "example/n3 "
         }
     }, 
     {
@@ -2180,7 +2180,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "jar"
+            "name": "example/rdf+json "
         }
     }, 
     {
@@ -2188,7 +2188,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "doc:04"
+            "name": ".png"
         }
     }, 
     {
@@ -2196,7 +2196,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "binary"
+            "name": "plain text "
         }
     }, 
     {
@@ -2204,7 +2204,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "api/search "
+            "name": "application/turtle"
         }
     }, 
     {
@@ -2212,7 +2212,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/n3 "
+            "name": "bz2:nt"
         }
     }, 
     {
@@ -2220,7 +2220,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/rdf+json "
+            "name": "text/ttl"
         }
     }, 
     {
@@ -2228,7 +2228,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": ".png"
+            "name": "html+rdfa "
         }
     }, 
     {
@@ -2236,7 +2236,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "plain text "
+            "name": "mapping/<owl>"
         }
     }, 
     {
@@ -2244,7 +2244,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/turtle"
+            "name": "zip:bib"
         }
     }, 
     {
@@ -2252,7 +2252,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "bz2:nt"
+            "name": "python shell script"
         }
     }, 
     {
@@ -2260,7 +2260,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "text/ttl"
+            "name": "appliation/x-trig"
         }
     }, 
     {
@@ -2268,7 +2268,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "html+rdfa "
+            "name": "gz:sql"
         }
     }, 
     {
@@ -2276,7 +2276,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "mapping/<owl>"
+            "name": "xlm"
         }
     }, 
     {
@@ -2284,7 +2284,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "zip:bib"
+            "name": "htm"
         }
     }, 
     {
@@ -2292,7 +2292,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "python shell script"
+            "name": "xhtml, rdf/xml, turtle"
         }
     }, 
     {
@@ -2300,7 +2300,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "appliation/x-trig"
+            "name": "application/tgz|text/jsondir"
         }
     }, 
     {
@@ -2308,7 +2308,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gz:sql"
+            "name": "csv:1"
         }
     }, 
     {
@@ -2316,7 +2316,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xlm"
+            "name": "application/x-gzip"
         }
     }, 
     {
@@ -2324,7 +2324,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "htm"
+            "name": "application/vnd.ms-excel "
         }
     }, 
     {
@@ -2332,7 +2332,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xhtml, rdf/xml, turtle"
+            "name": ".xlxs"
         }
     }, 
     {
@@ -2340,7 +2340,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/tgz|text/jsondir"
+            "name": "zip:8c"
         }
     }, 
     {
@@ -2348,7 +2348,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "csv:1"
+            "name": "application/octect-stream"
         }
     }, 
     {
@@ -2356,7 +2356,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/x-gzip"
+            "name": "mdb"
         }
     }, 
     {
@@ -2364,7 +2364,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/vnd.ms-excel "
+            "name": "service/gdocs/ccc"
         }
     }, 
     {
@@ -2372,7 +2372,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": ".xlxs"
+            "name": "rdf endpoint"
         }
     }, 
     {
@@ -2380,7 +2380,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "zip:8c"
+            "name": "pdf / xls"
         }
     }, 
     {
@@ -2388,7 +2388,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/octect-stream"
+            "name": "format-xls"
         }
     }, 
     {
@@ -2396,7 +2396,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "mdb"
+            "name": "gml "
         }
     }, 
     {
@@ -2404,7 +2404,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "service/gdocs/ccc"
+            "name": "googleclone"
         }
     }, 
     {
@@ -2412,7 +2412,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "rdf endpoint"
+            "name": "search"
         }
     }, 
     {
@@ -2420,7 +2420,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "pdf / xls"
+            "name": "api/git"
         }
     }, 
     {
@@ -2428,7 +2428,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "format-xls"
+            "name": "microsoft access database"
         }
     }, 
     {
@@ -2436,7 +2436,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gml "
+            "name": "grafika"
         }
     }, 
     {
@@ -2444,7 +2444,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "googleclone"
+            "name": "gz:nt"
         }
     }, 
     {
@@ -2452,7 +2452,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "search"
+            "name": "gis"
         }
     }, 
     {
@@ -2460,7 +2460,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "api/git"
+            "name": "url"
         }
     }, 
     {
@@ -2468,7 +2468,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "microsoft access database"
+            "name": "rdf/xml, turtle, html"
         }
     }, 
     {
@@ -2476,7 +2476,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "grafika"
+            "name": "text/x-csv"
         }
     }, 
     {
@@ -2484,7 +2484,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gz:nt"
+            "name": "json in zip"
         }
     }, 
     {
@@ -2492,7 +2492,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "gis"
+            "name": "data file in access and spss"
         }
     }, 
     {
@@ -2500,7 +2500,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "url"
+            "name": "mb"
         }
     }, 
     {
@@ -2508,7 +2508,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "rdf/xml, turtle, html"
+            "name": "info"
         }
     }, 
     {
@@ -2516,7 +2516,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "text/x-csv"
+            "name": "html, rdf, dcif"
         }
     }, 
     {
@@ -2524,7 +2524,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "json in zip"
+            "name": "example/rdf xml"
         }
     }, 
     {
@@ -2532,7 +2532,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "data file in access and spss"
+            "name": "openoffice calc"
         }
     }, 
     {
@@ -2540,7 +2540,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "mb"
+            "name": "python script"
         }
     }, 
     {
@@ -2548,7 +2548,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "info"
+            "name": "python script on wiki"
         }
     }, 
     {
@@ -2556,7 +2556,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "html, rdf, dcif"
+            "name": "index/ftp"
         }
     }, 
     {
@@ -2564,7 +2564,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/rdf xml"
+            "name": "text/javascript"
         }
     }, 
     {
@@ -2572,7 +2572,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "openoffice calc"
+            "name": "nt:meta"
         }
     }, 
     {
@@ -2580,7 +2580,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "python script"
+            "name": "nt:transparency-international-corruption-perceptions-index"
         }
     }, 
     {
@@ -2588,7 +2588,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "python script on wiki"
+            "name": "txt:r"
         }
     }, 
     {
@@ -2596,7 +2596,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "index/ftp"
+            "name": "wms"
         }
     }, 
     {
@@ -2604,7 +2604,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "text/javascript"
+            "name": "application/x-tgz"
         }
     }, 
     {
@@ -2612,7 +2612,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "nt:meta"
+            "name": "image (nifti)"
         }
     }, 
     {
@@ -2620,7 +2620,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "nt:transparency-international-corruption-perceptions-index"
+            "name": "atco-cif"
         }
     }, 
     {
@@ -2628,7 +2628,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "txt:r"
+            "name": "rdf/nt"
         }
     }, 
     {
@@ -2636,7 +2636,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "wms"
+            "name": "weblog"
         }
     }, 
     {
@@ -2644,7 +2644,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/x-tgz"
+            "name": "rdf, owl"
         }
     }, 
     {
@@ -2652,7 +2652,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "image (nifti)"
+            "name": "xml /  jpg"
         }
     }, 
     {
@@ -2660,7 +2660,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "atco-cif"
+            "name": "application/x-pdf"
         }
     }, 
     {
@@ -2668,7 +2668,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "rdf/nt"
+            "name": "dta"
         }
     }, 
     {
@@ -2676,7 +2676,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "weblog"
+            "name": "example/x-turtle"
         }
     }, 
     {
@@ -2684,7 +2684,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "rdf, owl"
+            "name": "example/xhtml+xml"
         }
     }, 
     {
@@ -2692,7 +2692,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "xml /  jpg"
+            "name": "ttl:e1:csv"
         }
     }, 
     {
@@ -2700,7 +2700,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "application/x-pdf"
+            "name": "json / csv / html / rss"
         }
     }, 
     {
@@ -2708,7 +2708,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "dta"
+            "name": " application/atom+xml"
         }
     }, 
     {
@@ -2716,7 +2716,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/x-turtle"
+            "name": "application/rdf+xml "
         }
     }, 
     {
@@ -2724,7 +2724,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "example/xhtml+xml"
+            "name": "pbf"
         }
     }, 
     {
@@ -2732,7 +2732,7 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "ttl:e1:csv"
+            "name": "xml+gzip"
         }
     }, 
     {
@@ -2740,51 +2740,11 @@
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 
-            "name": "json / csv / html / rss"
-        }
-    }, 
-    {
-        "pk": 344, 
-        "model": "data_connections.Format", 
-        "fields": {
-            "url": "", 
-            "name": " application/atom+xml"
-        }
-    }, 
-    {
-        "pk": 345, 
-        "model": "data_connections.Format", 
-        "fields": {
-            "url": "", 
-            "name": "application/rdf+xml "
-        }
-    }, 
-    {
-        "pk": 346, 
-        "model": "data_connections.Format", 
-        "fields": {
-            "url": "", 
-            "name": "pbf"
-        }
-    }, 
-    {
-        "pk": 347, 
-        "model": "data_connections.Format", 
-        "fields": {
-            "url": "", 
-            "name": "xml+gzip"
-        }
-    }, 
-    {
-        "pk": 348, 
-        "model": "data_connections.Format", 
-        "fields": {
-            "url": "", 
             "name": "tar.bz2"
         }
     }, 
     {
-        "pk": 349, 
+        "pk": 344, 
         "model": "data_connections.Format", 
         "fields": {
             "url": "", 

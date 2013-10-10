@@ -14480,5 +14480,15 @@
             "name": "R\u00e5data n\u00e5! ", 
             "datahub_name": "radatana"
         }
+    }, 
+    {
+        "pk": null, 
+        "model": "data_connections.DataCatalog", 
+        "fields": {
+            "manager": null, 
+            "managing_organization": "linkedopendata-gr", 
+            "name": "Corine Land Cover", 
+            "datahub_name": "corine-land-cover"
+        }
     }
 ]

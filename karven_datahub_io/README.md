@@ -16,7 +16,7 @@ Codes in testing stages should run only from files to minimize datahub accesses.
 copied exameple datasets.json and formats.json to parsing_code directory b/c comments on first line cannot be parsed
 
 Natural Language Processing doesn't work for spam filtering b/c of good adjectives like collaborative, statistical. 
-Datasets with zero resources are dropped from data/datasets.json automatically.
+Datasets with zero resources are dropped from `data/datasets.json` automatically.
 
 
 *****
@@ -24,7 +24,10 @@ Datasets with zero resources are dropped from data/datasets.json automatically.
 Running the scripts
 ===================
 ### To run through the entire site 
-##### python ckan_main.py scrape "{options}"
+##### python ckan_main.py scrape "{options}"        
+
+    python ckan_main.py scrape 
+    
 This process can be interrupted by user. The script will save state after interrupt.   
    
 ### To continue from a previous run   

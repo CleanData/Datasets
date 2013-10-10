@@ -1,7 +1,13 @@
-## Issues 
+Issues 
+======
 
 ###  Datahub
-When datahub returns internal server error, the script sleeps for 50 seconds and retry. 
+When datahub returns internal server error, the script sleeps for 50 seconds and retry.
+ 
+And there are a lot of spam. May need to filter again.      
+
+Crawl-Delay : 10 seconds. 
+Needs one request to pull package, and one more for non-spam to get relations
 
 ###  Code
 The current code should work for all ckan implementing sites.
@@ -12,39 +18,42 @@ copied exameple datasets.json and formats.json to parsing_code directory b/c com
 Natural Language Processing doesn't work for spam filtering b/c of good adjectives like collaborative, statistical. 
 Datasets with zero resources are dropped from data/datasets.json automatically.
 
-## Running the scripts
+*****
+
+Running the scripts
+===================
 ### To run through the entire site 
-#### python ckan_main.py scrape "{options}"
+##### python ckan_main.py scrape "{options}"
 This process can be interrupted by user. The script will save state after interrupt.   
    
 ### To continue from a previous run   
-#### python ckan_main.py continue "{options}"
+##### python ckan_main.py continue "{options}"
 
     python ckan_main.py continue
-    
+   
 Continue running from last session with default options.
 
 ### For debugging
-#### python ckan_main.py debug debug_items "{options}"
+##### python ckan_main.py debug debug_items "{options}"
 
     python ckan_main.py debug relations
-    
-This command retrieves data relations for datasets in data/datasets.json
+   
+This command retrieves data relations for datasets in `data/datasets.json`
 
 ### debug_items
 #### robots
 read the robots.txt and print the crawl-delay for the website    
 #### licenses
-Read the licenses used by the ckan site and output to my_licenses.json. 
+Read the licenses used by the ckan site and output to `my_licenses.json`. 
 There may be other licenses used by the datasets though.
 #### package_list
-Read the list of packages available on the site and write to ckan_package_list.json
+Read the list of packages available on the site and write to `ckan_package_list.json`
 #### package_read
-Read the ckan packages and save it unchanged to ckan_datasets.json
+Read the ckan packages and save it unchanged to `ckan_datasets.json`
 #### spam
-add a spam score to the datasets in ckan_datasets.json and saved the data to scored_datasets.json
+add a spam score to the datasets in `ckan_datasets.json` and saved the data to `scored_datasets.json`
 #### convert
-convert scored_datasets.json to proper Datasets formats.
+convert `scored_datasets.json` to proper Datasets formats.
 #### relations
 just retrieve data relations for alread read datasets
 #### relations_continue
@@ -62,11 +71,29 @@ Default options
           'organizations':'../data/organizations.json'
           'scientists':'../data/scientists.json'}"
       
+*****
 
+Extra files
+===========
 
-##datahub information
-Crawl-Delay : 10 seconds. 
-Needs one request to pull package, and one more for non-spam to get relations
+####parsing_code/saved_state.json
+saves the `ckan_object["name"]` and the last modified time of the already processed datasets        
+
+####parsing_code/processed_relations.json
+saves the `ckan_object["name"]` of the datasets after processing the data relation  
+
+####parsing_code/spam_digest.json
+Generate by `spam_filter.py`. Information about dataset spam score. It is written as each dataset is passed through the spam filter.
+`spam_filter.py` was modified a few times during the current run. The earlier spam digest may have less information.
+ - `len(notes)` number of characters in `ckan_object["notes"]`
+ - `one word author`, `author` stores the author and the spam scoring if the author has zero or one word. (mistakenly reversed the printout, al) 
+
+For information about `ckan_object` see `dataset mapping` below. 
+
+*****
+
+References
+==========
 
 ## ckan library reference
 http://docs.ckan.org/en/ckan-2.0.2/api.html
